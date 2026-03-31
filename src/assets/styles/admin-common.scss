@@ -1,0 +1,35 @@
+// ============================================
+// 管理后台通用样式
+// ============================================
+// 主入口文件，导入所有管理后台样式模块
+
+@import './admin-variables.scss';
+@import './admin-layout.scss';
+@import './admin-components.scss';
+
+// 兼容旧类名（向后兼容）
+.app-container {
+  @extend .admin-page-container;
+}
+
+.search-form {
+  @extend .admin-search-form;
+}
+
+.toolbar-row,
+.mb8 {
+  @extend .admin-toolbar;
+}
+
+.table-wrapper {
+  @extend .admin-table-wrapper;
+}
+
+.data-table {
+  @extend .admin-table;
+}
+
+.pagination-wrapper {
+  @extend .admin-pagination-wrapper;
+}
+

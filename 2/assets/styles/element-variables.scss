@@ -1,0 +1,39 @@
+/**
+* 主题色基于 Logo 蓝绿渐变色系
+* Primary: #2196F3 (蓝色)
+* Secondary: #26C6DA (青色)
+**/
+
+/* theme color */
+$--color-primary: #2196F3;
+$--color-success: #26C6DA;
+$--color-warning: #FFB300;
+$--color-danger: #F44336;
+$--color-info: #90CAF9;
+
+$--button-font-weight: 500;
+$--button-border-radius: 6px;
+
+$--border-radius-base: 6px;
+$--border-radius-small: 4px;
+
+$--color-text-primary: #303133;
+$--color-text-regular: #545c64;
+
+$--border-color-base: #e4e7ed;
+$--border-color-light: #ebeef5;
+$--border-color-lighter: #f2f6fc;
+
+$--table-border: 1px solid #ebeef5;
+$--table-header-background-color: #f8fafc;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  theme: $--color-primary;
+}

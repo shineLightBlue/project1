@@ -1,0 +1,228 @@
+// ============================================
+// 管理后台布局样式
+// ============================================
+@import './admin-variables.scss';
+
+// 页面容器
+.admin-page-container {
+  padding: $admin-spacing-xl;
+  background: $admin-bg-elevated;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 99px);
+  max-height: calc(100vh - 84px);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+// 搜索表单
+.admin-search-form {
+  background: $admin-bg-base;
+  padding: $admin-spacing-lg $admin-spacing-xl;
+  border-radius: $admin-radius-md;
+  box-shadow: $admin-shadow-sm;
+  margin-bottom: $admin-spacing-md;
+  transition: box-shadow $admin-transition-slow;
+  flex-shrink: 0;
+
+  &:hover {
+    box-shadow: $admin-shadow-md;
+  }
+
+  &.compact {
+    padding: $admin-spacing-md $admin-spacing-lg;
+    margin-bottom: 10px;
+
+    ::v-deep .el-form-item {
+      margin-bottom: 10px;
+    }
+  }
+
+  ::v-deep .el-form-item {
+    margin-bottom: $admin-spacing-lg;
+
+    .el-form-item__label {
+      font-weight: $admin-font-medium;
+      color: $admin-text-secondary;
+      font-size: $admin-font-md;
+    }
+
+    .el-input__inner,
+    .el-select .el-input__inner {
+      border-radius: $admin-radius-sm;
+      border-color: $admin-border-color;
+      transition: $admin-transition;
+
+      &:focus {
+        border-color: $admin-primary;
+        box-shadow: 0 0 0 2px rgba($admin-primary, 0.1);
+      }
+    }
+  }
+
+  ::v-deep .el-button {
+    border-radius: $admin-radius-sm;
+    font-weight: $admin-font-medium;
+    transition: $admin-transition;
+
+    &.el-button--primary {
+      box-shadow: 0 2px 4px rgba($admin-primary, 0.2);
+
+      &:hover {
+        box-shadow: 0 4px 8px rgba($admin-primary, 0.3);
+        transform: translateY(-1px);
+      }
+    }
+
+    &:not(.el-button--primary) {
+      &:hover {
+        border-color: $admin-primary;
+        color: $admin-primary;
+        background: rgba($admin-primary, 0.05);
+      }
+    }
+  }
+}
+
+// 工具栏
+.admin-toolbar {
+  margin-bottom: $admin-spacing-md;
+  flex-shrink: 0;
+
+  ::v-deep .el-button {
+    border-radius: $admin-radius-sm;
+    font-weight: $admin-font-medium;
+    transition: $admin-transition;
+    box-shadow: $admin-shadow-sm;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: $admin-shadow-md;
+    }
+
+    &.el-button--warning.is-plain {
+      &:hover {
+        background: $admin-warning;
+        border-color: $admin-warning;
+        color: #fff;
+      }
+    }
+  }
+}
+
+// 表格容器
+.admin-table-wrapper {
+  flex: 0 1 auto; // 不撑满，根据内容自适应
+  min-height: 0;
+  margin-bottom: 12px; // 统一的表格与分页间距
+  position: relative;
+  overflow: visible; // 确保内容不被裁剪
+}
+
+// 表格样式
+.admin-table {
+  background: $admin-bg-base;
+  border-radius: $admin-radius-md;
+  box-shadow: $admin-shadow-sm;
+  transition: box-shadow $admin-transition-slow;
+  width: 100%;
+
+  &:hover {
+    box-shadow: $admin-shadow-md;
+  }
+
+  ::v-deep .el-table__header-wrapper {
+    .el-table__header {
+      th {
+        background: linear-gradient(135deg, #f8f9fa 0%, #f5f7fa 100%) !important;
+        border-bottom: 2px solid $admin-border-color;
+        color: $admin-text-secondary;
+        font-weight: $admin-font-semibold;
+        font-size: $admin-font-md;
+        padding: $admin-spacing-lg 0;
+        text-align: center;
+
+        .cell {
+          font-weight: $admin-font-semibold;
+        }
+      }
+    }
+  }
+
+  ::v-deep .el-table__body-wrapper {
+    // 确保最后一行完整显示，添加底部 padding
+    padding-bottom: 8px; // 确保最后一行完整显示
+    margin-bottom: 0; // 移除 margin-bottom，由容器控制间距
+
+    .el-table__body {
+      tr {
+        transition: $admin-transition;
+
+        &:hover {
+          background: rgba($admin-primary, 0.04) !important;
+          transform: scale(1.001);
+        }
+
+        td {
+          border-bottom: 1px solid #F5F7FA;
+          padding: 14px 0;
+          color: $admin-text-primary;
+          font-size: $admin-font-md;
+
+          .cell {
+            color: $admin-text-primary;
+          }
+        }
+      }
+
+      tr.el-table__row--striped {
+        background: rgba($admin-bg-elevated, 0.5);
+
+        &:hover {
+          background: rgba($admin-primary, 0.04) !important;
+        }
+      }
+    }
+  }
+
+  &.el-table--border {
+    border: 1px solid $admin-border-color;
+
+    &::after,
+    &::before {
+      background-color: $admin-border-color;
+    }
+
+    th,
+    td {
+      border-right: 1px solid #F5F7FA;
+    }
+  }
+}
+
+// 分页容器
+.admin-pagination-wrapper {
+  flex-shrink: 0;
+  margin-top: 0; // 表格容器已有 margin-bottom，这里不需要 margin-top
+  padding: 0;
+  background: transparent;
+
+  ::v-deep .pagination-container {
+    padding: $admin-spacing-md $admin-spacing-lg;
+    background: $admin-bg-base;
+    border-radius: $admin-radius-md;
+    box-shadow: $admin-shadow-sm;
+    margin: 0;
+    min-height: 60px; // 确保分页组件有最小高度
+    display: flex;
+    align-items: center;
+  }
+}
+
+// 响应式
+@media (max-width: 768px) {
+  .admin-page-container {
+    padding: $admin-spacing-md;
+  }
+}
+

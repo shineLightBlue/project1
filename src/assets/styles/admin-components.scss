@@ -1,0 +1,272 @@
+// ============================================
+// 管理后台组件样式
+// ============================================
+@import './admin-variables.scss';
+
+// 标签美化
+::v-deep .admin-tag,
+::v-deep .el-tag {
+  border-radius: $admin-radius-sm;
+  font-weight: $admin-font-medium;
+  padding: 2px 10px;
+  border: none;
+  box-shadow: $admin-shadow-sm;
+  transition: $admin-transition;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: $admin-shadow-md;
+  }
+
+  &.el-tag--primary {
+    background: rgba($admin-primary, 0.1);
+    color: $admin-primary;
+  }
+
+  &.el-tag--success {
+    background: rgba($admin-success, 0.1);
+    color: $admin-success;
+  }
+
+  &.el-tag--warning {
+    background: rgba($admin-warning, 0.1);
+    color: $admin-warning;
+  }
+
+  &.el-tag--danger {
+    background: rgba($admin-danger, 0.1);
+    color: $admin-danger;
+  }
+
+  &.el-tag--info {
+    background: rgba($admin-info, 0.1);
+    color: $admin-info;
+  }
+}
+
+// 操作按钮
+.admin-action-btn,
+::v-deep .el-button--text {
+  padding: 6px 12px;
+  border-radius: $admin-radius-sm;
+  font-weight: $admin-font-medium;
+  transition: $admin-transition;
+  margin: 0 $admin-spacing-xs;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba($admin-primary, 0.1);
+    color: $admin-primary;
+    transform: translateY(-1px);
+  }
+
+  i {
+    margin-right: $admin-spacing-xs;
+  }
+}
+
+// 对话框美化
+::v-deep .admin-dialog,
+::v-deep .el-dialog {
+  border-radius: $admin-radius-lg;
+  box-shadow: $admin-shadow-lg;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+
+  .el-dialog__header {
+    padding: $admin-spacing-xl $admin-spacing-xxl;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-bottom: 1px solid $admin-border-color;
+    flex-shrink: 0;
+
+    .el-dialog__title {
+      font-size: $admin-font-xl;
+      font-weight: $admin-font-semibold;
+      color: $admin-text-primary;
+    }
+
+    .el-dialog__headerbtn {
+      top: $admin-spacing-xl;
+      right: $admin-spacing-xxl;
+
+      .el-dialog__close {
+        font-size: $admin-font-xl;
+        color: $admin-text-tertiary;
+        transition: $admin-transition;
+
+        &:hover {
+          color: $admin-text-primary;
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+
+  .el-dialog__body {
+    padding: $admin-spacing-xxl;
+    background: $admin-bg-elevated;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+// 标签页美化
+::v-deep .admin-tabs,
+::v-deep .el-tabs {
+  .el-tabs__header {
+    margin: 0 0 $admin-spacing-xl 0;
+    background: $admin-bg-base;
+    padding: $admin-spacing-sm;
+    border-radius: $admin-radius-md;
+    box-shadow: $admin-shadow-sm;
+
+    .el-tabs__nav-wrap {
+      &::after {
+        display: none;
+      }
+    }
+
+    .el-tabs__item {
+      padding: 0 $admin-spacing-xxl;
+      height: 44px;
+      line-height: 44px;
+      font-size: $admin-font-base;
+      font-weight: $admin-font-medium;
+      color: $admin-text-secondary;
+      border-radius: $admin-radius-sm;
+      margin-right: $admin-spacing-sm;
+      transition: $admin-transition-slow;
+      cursor: pointer;
+
+      &:hover {
+        color: $admin-primary;
+        background: rgba($admin-primary, 0.05);
+      }
+
+      &.is-active {
+        color: $admin-primary;
+        background: rgba($admin-primary, 0.1);
+        font-weight: $admin-font-semibold;
+      }
+    }
+
+    .el-tabs__active-bar {
+      display: none;
+    }
+  }
+
+  .el-tabs__content {
+    .el-tab-pane {
+      animation: fadeIn 0.3s ease;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// 卡片美化
+::v-deep .admin-card,
+::v-deep .el-card {
+  border-radius: $admin-radius-md;
+  border: 1px solid $admin-border-color;
+  box-shadow: $admin-shadow-sm;
+  transition: $admin-transition-slow;
+  overflow: hidden;
+
+  &:hover {
+    box-shadow: $admin-shadow-md;
+    transform: translateY(-2px);
+  }
+
+  .el-card__header {
+    padding: $admin-spacing-lg $admin-spacing-xl;
+    border-bottom: 1px solid $admin-border-color;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  }
+
+  .el-card__body {
+    padding: $admin-spacing-xl;
+  }
+}
+
+// 空状态
+.admin-empty-state {
+  text-align: center;
+  color: $admin-text-tertiary;
+  padding: 60px $admin-spacing-xl;
+  background: $admin-bg-base;
+  border-radius: $admin-radius-md;
+  border: 2px dashed $admin-border-color;
+  transition: $admin-transition-slow;
+
+  &:hover {
+    border-color: $admin-primary;
+    background: rgba($admin-primary, 0.02);
+  }
+
+  i {
+    font-size: 64px;
+    color: #DCDFE6;
+    margin-bottom: $admin-spacing-lg;
+    display: block;
+    opacity: 0.6;
+  }
+
+  p {
+    margin: 0;
+    font-size: $admin-font-base;
+    color: $admin-text-secondary;
+    font-weight: $admin-font-medium;
+  }
+}
+
+// 加载动画
+::v-deep .el-loading-mask {
+  border-radius: $admin-radius-md;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(2px);
+}
+
+// 滚动条美化
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $admin-bg-elevated;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $admin-border-color;
+  border-radius: 4px;
+  transition: background $admin-transition;
+
+  &:hover {
+    background: $admin-text-tertiary;
+  }
+}
+
+// 响应式对话框
+@media (max-width: 768px) {
+  ::v-deep .admin-dialog,
+  ::v-deep .el-dialog {
+    width: 95% !important;
+    margin: 5vh auto !important;
+  }
+}
+

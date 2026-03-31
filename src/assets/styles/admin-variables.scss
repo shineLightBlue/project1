@@ -1,0 +1,72 @@
+// ============================================
+// 管理后台设计系统变量
+// ============================================
+// 用于所有后台页面的统一设计变量
+
+// 颜色系统
+$admin-primary: #409EFF;
+$admin-success: #67C23A;
+$admin-warning: #E6A23C;
+$admin-danger: #F56C6C;
+$admin-info: #909399;
+
+// 文本颜色
+$admin-text-primary: #303133;
+$admin-text-secondary: #606266;
+$admin-text-tertiary: #909399;
+
+// 背景颜色
+$admin-bg-base: #FFFFFF;
+$admin-bg-elevated: #F5F7FA;
+$admin-bg-hover: #F0F2F5;
+$admin-bg-page: #F5F7FA;
+
+// 边框颜色
+$admin-border-color: #EBEEF5;
+
+// 阴影系统
+$admin-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+$admin-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+$admin-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+// 圆角系统
+$admin-radius-sm: 6px;
+$admin-radius-md: 8px;
+$admin-radius-lg: 12px;
+
+// 过渡动画
+$admin-transition: all 0.2s ease;
+$admin-transition-slow: all 0.3s ease;
+
+// 间距系统
+$admin-spacing-xs: 4px;
+$admin-spacing-sm: 8px;
+$admin-spacing-md: 12px;
+$admin-spacing-lg: 16px;
+$admin-spacing-xl: 20px;
+$admin-spacing-xxl: 24px;
+
+// 字体大小
+$admin-font-xs: 11px;
+$admin-font-sm: 12px;
+$admin-font-md: 13px;
+$admin-font-base: 14px;
+$admin-font-lg: 16px;
+$admin-font-xl: 18px;
+
+// 字体粗细
+$admin-font-normal: 400;
+$admin-font-medium: 500;
+$admin-font-semibold: 600;
+$admin-font-bold: 700;
+
+// Z-index 层级
+$admin-z-base: 1;
+$admin-z-dropdown: 1000;
+$admin-z-sticky: 1020;
+$admin-z-fixed: 1030;
+$admin-z-modal-backdrop: 1040;
+$admin-z-modal: 1050;
+$admin-z-popover: 1060;
+$admin-z-tooltip: 1070;
+
