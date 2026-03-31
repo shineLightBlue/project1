@@ -1,0 +1,26 @@
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.000000" height="22.000000" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_0">
+			<effect visibility="visible" effectType="backgroundBlur" saturation="0" stdDeviation="4.71988535" />
+		</g>
+		<filter id="filter_0" width="22.000000" height="22.000000" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_0)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+		</filter>
+		<clipPath id="outline_mask_0" transform="matrix(1,0,0,1,-0,-0)">
+			<path d="M11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11C0 4.92487 4.92487 0 11 0Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		</clipPath>
+	</defs>
+	<g id="组合 463">
+		<g data-pixso-skip-parse="true">
+			<foreignObject width="22.000000" height="22.000000" x="0.000000" y="0.000000">
+				<div xmlns="http://www.w3.org/1999/xhtml" style="clip-path:url(#outline_mask_0);height:100%;backdrop-filter:blur(2.359943px);width:100%;-webkit-backdrop-filter:blur(2.359943px);" />
+			</foreignObject>
+		</g>
+		<g filter="url(#filter_0)">
+			<circle id="椭圆形" cx="11" cy="11" r="11" fill="rgb(102,102,102)" fill-opacity="0.400000006" />
+			<circle id="椭圆形" cx="11" cy="11" r="10.6778574" stroke="rgb(255,255,255)" stroke-opacity="0" stroke-width="0.644286" />
+		</g>
+		<path id="矢量 322" d="M5.61206 16.4121L16.3876 16.4121M6.80934 14.0068L8.99958 14.0068L15.1903 7.78544L13.0039 5.58813L6.80934 11.8179L6.80934 14.0068Z" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-linecap="square" stroke-width="1.178571" />
+	</g>
+</svg>

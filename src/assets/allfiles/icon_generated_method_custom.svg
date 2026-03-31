@@ -1,0 +1,12 @@
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.000000" height="20.000000" fill="none" customFrame="#000000">
+	<defs>
+		<linearGradient id="paint_linear_1" x1="-0.156969786" x2="20.5876675" y1="13.8249989" y2="10.1854868" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(0,116,255)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(7,178.5,248)" offset="0.308016866" stop-opacity="1" />
+			<stop stop-color="rgb(14,241,241)" offset="0.777536929" stop-opacity="1" />
+			<stop stop-color="rgb(88,255,0)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<rect id="容器 368" width="20.000000" height="20.000000" x="0.000000" y="0.000000" fill="rgb(196,196,196)" fill-opacity="0" />
+	<path id="矢量 635" d="M14.519 1.5L10.538 5.58442L14.519 9.66883L18.5 5.58442L14.519 1.5ZM8.17091 2.16234L1.5 2.16234L1.5 9.00649L8.17091 9.00649L8.17091 2.16234ZM8.17091 11.6558L1.5 11.6558L1.5 18.5L8.17091 18.5L8.17091 11.6558ZM11.1836 11.6558L17.8545 11.6558L17.8545 18.5L11.1836 18.5L11.1836 11.6558Z" fill="url(#paint_linear_1)" fill-rule="evenodd" />
+</svg>

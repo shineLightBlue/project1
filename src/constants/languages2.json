@@ -1,0 +1,581 @@
+[{
+    "code": "af-ZA",
+    "name": "南非荷兰语",
+    "nameEn": "Afrikaans (South Africa)"
+}, {
+    "code": "am-ET",
+    "name": "阿姆哈拉语",
+    "nameEn": "Amharic (Ethiopia)"
+}, {
+    "code": "ar-AE",
+    "name": "阿拉伯语 (阿联酋)",
+    "nameEn": "Arabic (United Arab Emirates)"
+}, {
+    "code": "ar-BH",
+    "name": "阿拉伯语 (巴林)",
+    "nameEn": "Arabic (Bahrain)"
+}, {
+    "code": "ar-DZ",
+    "name": "阿拉伯语 (阿尔及利亚)",
+    "nameEn": "Arabic (Algeria)"
+}, {
+    "code": "ar-EG",
+    "name": "阿拉伯语 (埃及)",
+    "nameEn": "Arabic (Egypt)"
+}, {
+    "code": "ar-IL",
+    "name": "阿拉伯语 (以色列)",
+    "nameEn": "Arabic (Israel)"
+}, {
+    "code": "ar-IQ",
+    "name": "阿拉伯语 (伊拉克)",
+    "nameEn": "Arabic (Iraq)"
+}, {
+    "code": "ar-JO",
+    "name": "阿拉伯语 (约旦)",
+    "nameEn": "Arabic (Jordan)"
+}, {
+    "code": "ar-KW",
+    "name": "阿拉伯语 (科威特)",
+    "nameEn": "Arabic (Kuwait)"
+}, {
+    "code": "ar-LB",
+    "name": "阿拉伯语 (黎巴嫩)",
+    "nameEn": "Arabic (Lebanon)"
+}, {
+    "code": "ar-LY",
+    "name": "阿拉伯语 (利比亚)",
+    "nameEn": "Arabic (Libya)"
+}, {
+    "code": "ar-MA",
+    "name": "阿拉伯语 (摩洛哥)",
+    "nameEn": "Arabic (Morocco)"
+}, {
+    "code": "ar-OM",
+    "name": "阿拉伯语 (阿曼)",
+    "nameEn": "Arabic (Oman)"
+}, {
+    "code": "ar-PS",
+    "name": "阿拉伯语 (巴勒斯坦)",
+    "nameEn": "Arabic (Palestine)"
+}, {
+    "code": "ar-QA",
+    "name": "阿拉伯语 (卡塔尔)",
+    "nameEn": "Arabic (Qatar)"
+}, {
+    "code": "ar-SA",
+    "name": "阿拉伯语 (沙特阿拉伯)",
+    "nameEn": "Arabic (Saudi Arabia)"
+}, {
+    "code": "ar-SY",
+    "name": "阿拉伯语 (叙利亚)",
+    "nameEn": "Arabic (Syria)"
+}, {
+    "code": "ar-TN",
+    "name": "阿拉伯语 (突尼斯)",
+    "nameEn": "Arabic (Tunisia)"
+}, {
+    "code": "ar-YE",
+    "name": "阿拉伯语 (也门)",
+    "nameEn": "Arabic (Yemen)"
+}, {
+    "code": "as-IN",
+    "name": "阿萨姆语",
+    "nameEn": "Assamese (India)"
+}, {
+    "code": "az-AZ",
+    "name": "阿塞拜疆语",
+    "nameEn": "Azerbaijani (Azerbaijan)"
+}, {
+    "code": "bg-BG",
+    "name": "保加利亚语",
+    "nameEn": "Bulgarian (Bulgaria)"
+}, {
+    "code": "bn-IN",
+    "name": "孟加拉语",
+    "nameEn": "Bengali (India)"
+}, {
+    "code": "bs-BA",
+    "name": "波斯尼亚语",
+    "nameEn": "Bosnian (Bosnia and Herzegovina)"
+}, {
+    "code": "ca-ES",
+    "name": "加泰罗尼亚语",
+    "nameEn": "Catalan (Spain)"
+}, {
+    "code": "cs-CZ",
+    "name": "捷克语",
+    "nameEn": "Czech (Czech Republic)"
+}, {
+    "code": "cy-GB",
+    "name": "威尔士语",
+    "nameEn": "Welsh (United Kingdom)"
+}, {
+    "code": "da-DK",
+    "name": "丹麦语",
+    "nameEn": "Danish (Denmark)"
+}, {
+    "code": "de-AT",
+    "name": "德语 (奥地利)",
+    "nameEn": "German (Austria)"
+}, {
+    "code": "de-CH",
+    "name": "德语 (瑞士)",
+    "nameEn": "German (Switzerland)"
+}, {
+    "code": "de-DE",
+    "name": "德语 (德国)",
+    "nameEn": "German (Germany)"
+}, {
+    "code": "el-GR",
+    "name": "希腊语",
+    "nameEn": "Greek (Greece)"
+}, {
+    "code": "en-AU",
+    "name": "英语 (澳大利亚)",
+    "nameEn": "English (Australia)"
+}, {
+    "code": "en-CA",
+    "name": "英语 (加拿大)",
+    "nameEn": "English (Canada)"
+}, {
+    "code": "en-GB",
+    "name": "英语 (英国)",
+    "nameEn": "English (United Kingdom)"
+}, {
+    "code": "en-GH",
+    "name": "英语 (加纳)",
+    "nameEn": "English (Ghana)"
+}, {
+    "code": "en-HK",
+    "name": "英语 (香港)",
+    "nameEn": "English (Hong Kong)"
+}, {
+    "code": "en-IE",
+    "name": "英语 (爱尔兰)",
+    "nameEn": "English (Ireland)"
+}, {
+    "code": "en-IN",
+    "name": "英语 (印度)",
+    "nameEn": "English (India)"
+}, {
+    "code": "en-KE",
+    "name": "英语 (肯尼亚)",
+    "nameEn": "English (Kenya)"
+}, {
+    "code": "en-NG",
+    "name": "英语 (尼日利亚)",
+    "nameEn": "English (Nigeria)"
+}, {
+    "code": "en-NZ",
+    "name": "英语 (新西兰)",
+    "nameEn": "English (New Zealand)"
+}, {
+    "code": "en-PH",
+    "name": "英语 (菲律宾)",
+    "nameEn": "English (Philippines)"
+}, {
+    "code": "en-SG",
+    "name": "英语 (新加坡)",
+    "nameEn": "English (Singapore)"
+}, {
+    "code": "en-TZ",
+    "name": "英语 (坦桑尼亚)",
+    "nameEn": "English (Tanzania)"
+}, {
+    "code": "en-US",
+    "name": "英语 (美国)",
+    "nameEn": "English (United States)"
+}, {
+    "code": "en-ZA",
+    "name": "英语 (南非)",
+    "nameEn": "English (South Africa)"
+}, {
+    "code": "es-AR",
+    "name": "西班牙语 (阿根廷)",
+    "nameEn": "Spanish (Argentina)"
+}, {
+    "code": "es-BO",
+    "name": "西班牙语 (玻利维亚)",
+    "nameEn": "Spanish (Bolivia)"
+}, {
+    "code": "es-CL",
+    "name": "西班牙语 (智利)",
+    "nameEn": "Spanish (Chile)"
+}, {
+    "code": "es-CO",
+    "name": "西班牙语 (哥伦比亚)",
+    "nameEn": "Spanish (Colombia)"
+}, {
+    "code": "es-CR",
+    "name": "西班牙语 (哥斯达黎加)",
+    "nameEn": "Spanish (Costa Rica)"
+}, {
+    "code": "es-CU",
+    "name": "西班牙语 (古巴)",
+    "nameEn": "Spanish (Cuba)"
+}, {
+    "code": "es-DO",
+    "name": "西班牙语 (多米尼加)",
+    "nameEn": "Spanish (Dominican Republic)"
+}, {
+    "code": "es-EC",
+    "name": "西班牙语 (厄瓜多尔)",
+    "nameEn": "Spanish (Ecuador)"
+}, {
+    "code": "es-ES",
+    "name": "西班牙语 (西班牙)",
+    "nameEn": "Spanish (Spain)"
+}, {
+    "code": "es-GQ",
+    "name": "西班牙语 (赤道几内亚)",
+    "nameEn": "Spanish (Equatorial Guinea)"
+}, {
+    "code": "es-GT",
+    "name": "西班牙语 (危地马拉)",
+    "nameEn": "Spanish (Guatemala)"
+}, {
+    "code": "es-HN",
+    "name": "西班牙语 (洪都拉斯)",
+    "nameEn": "Spanish (Honduras)"
+}, {
+    "code": "es-MX",
+    "name": "西班牙语 (墨西哥)",
+    "nameEn": "Spanish (Mexico)"
+}, {
+    "code": "es-NI",
+    "name": "西班牙语 (尼加拉瓜)",
+    "nameEn": "Spanish (Nicaragua)"
+}, {
+    "code": "es-PA",
+    "name": "西班牙语 (巴拿马)",
+    "nameEn": "Spanish (Panama)"
+}, {
+    "code": "es-PE",
+    "name": "西班牙语 (秘鲁)",
+    "nameEn": "Spanish (Peru)"
+}, {
+    "code": "es-PR",
+    "name": "西班牙语 (波多黎各)",
+    "nameEn": "Spanish (Puerto Rico)"
+}, {
+    "code": "es-PY",
+    "name": "西班牙语 (巴拉圭)",
+    "nameEn": "Spanish (Paraguay)"
+}, {
+    "code": "es-SV",
+    "name": "西班牙语 (萨尔瓦多)",
+    "nameEn": "Spanish (El Salvador)"
+}, {
+    "code": "es-US",
+    "name": "西班牙语 (美国)",
+    "nameEn": "Spanish (United States)"
+}, {
+    "code": "es-UY",
+    "name": "西班牙语 (乌拉圭)",
+    "nameEn": "Spanish (Uruguay)"
+}, {
+    "code": "es-VE",
+    "name": "西班牙语 (委内瑞拉)",
+    "nameEn": "Spanish (Venezuela)"
+}, {
+    "code": "et-EE",
+    "name": "爱沙尼亚语",
+    "nameEn": "Estonian (Estonia)"
+}, {
+    "code": "eu-ES",
+    "name": "巴斯克语",
+    "nameEn": "Basque (Spain)"
+}, {
+    "code": "fa-IR",
+    "name": "波斯语",
+    "nameEn": "Persian (Iran)"
+}, {
+    "code": "fi-FI",
+    "name": "芬兰语",
+    "nameEn": "Finnish (Finland)"
+}, {
+    "code": "fil-PH",
+    "name": "菲律宾语",
+    "nameEn": "Filipino (Philippines)"
+}, {
+    "code": "fr-BE",
+    "name": "法语 (比利时)",
+    "nameEn": "French (Belgium)"
+}, {
+    "code": "fr-CA",
+    "name": "法语 (加拿大)",
+    "nameEn": "French (Canada)"
+}, {
+    "code": "fr-CH",
+    "name": "法语 (瑞士)",
+    "nameEn": "French (Switzerland)"
+}, {
+    "code": "fr-FR",
+    "name": "法语 (法国)",
+    "nameEn": "French (France)"
+}, {
+    "code": "ga-IE",
+    "name": "爱尔兰语",
+    "nameEn": "Irish (Ireland)"
+}, {
+    "code": "gl-ES",
+    "name": "加利西亚语",
+    "nameEn": "Galician (Spain)"
+}, {
+    "code": "gu-IN",
+    "name": "古吉拉特语",
+    "nameEn": "Gujarati (India)"
+}, {
+    "code": "he-IL",
+    "name": "希伯来语",
+    "nameEn": "Hebrew (Israel)"
+}, {
+    "code": "hi-IN",
+    "name": "印地语",
+    "nameEn": "Hindi (India)"
+}, {
+    "code": "hr-HR",
+    "name": "克罗地亚语",
+    "nameEn": "Croatian (Croatia)"
+}, {
+    "code": "hu-HU",
+    "name": "匈牙利语",
+    "nameEn": "Hungarian (Hungary)"
+}, {
+    "code": "hy-AM",
+    "name": "亚美尼亚语",
+    "nameEn": "Armenian (Armenia)"
+}, {
+    "code": "id-ID",
+    "name": "印尼语",
+    "nameEn": "Indonesian (Indonesia)"
+}, {
+    "code": "is-IS",
+    "name": "冰岛语",
+    "nameEn": "Icelandic (Iceland)"
+}, {
+    "code": "it-CH",
+    "name": "意大利语 (瑞士)",
+    "nameEn": "Italian (Switzerland)"
+}, {
+    "code": "it-IT",
+    "name": "意大利语 (意大利)",
+    "nameEn": "Italian (Italy)"
+}, {
+    "code": "ja-JP",
+    "name": "日语",
+    "nameEn": "Japanese (Japan)"
+}, {
+    "code": "jv-ID",
+    "name": "爪哇语",
+    "nameEn": "Javanese (Indonesia)"
+}, {
+    "code": "ka-GE",
+    "name": "格鲁吉亚语",
+    "nameEn": "Georgian (Georgia)"
+}, {
+    "code": "kk-KZ",
+    "name": "哈萨克语",
+    "nameEn": "Kazakh (Kazakhstan)"
+}, {
+    "code": "km-KH",
+    "name": "高棉语",
+    "nameEn": "Khmer (Cambodia)"
+}, {
+    "code": "kn-IN",
+    "name": "卡纳达语",
+    "nameEn": "Kannada (India)"
+}, {
+    "code": "ko-KR",
+    "name": "韩语",
+    "nameEn": "Korean (South Korea)"
+}, {
+    "code": "lo-LA",
+    "name": "老挝语",
+    "nameEn": "Lao (Laos)"
+}, {
+    "code": "lt-LT",
+    "name": "立陶宛语",
+    "nameEn": "Lithuanian (Lithuania)"
+}, {
+    "code": "lv-LV",
+    "name": "拉脱维亚语",
+    "nameEn": "Latvian (Latvia)"
+}, {
+    "code": "mk-MK",
+    "name": "马其顿语",
+    "nameEn": "Macedonian (North Macedonia)"
+}, {
+    "code": "ml-IN",
+    "name": "马拉雅拉姆语",
+    "nameEn": "Malayalam (India)"
+}, {
+    "code": "mn-MN",
+    "name": "蒙古语",
+    "nameEn": "Mongolian (Mongolia)"
+}, {
+    "code": "mr-IN",
+    "name": "马拉地语",
+    "nameEn": "Marathi (India)"
+}, {
+    "code": "ms-MY",
+    "name": "马来语",
+    "nameEn": "Malay (Malaysia)"
+}, {
+    "code": "mt-MT",
+    "name": "马耳他语",
+    "nameEn": "Maltese (Malta)"
+}, {
+    "code": "my-MM",
+    "name": "缅甸语",
+    "nameEn": "Myanmar (Burmese) (Myanmar)"
+}, {
+    "code": "nb-NO",
+    "name": "挪威语",
+    "nameEn": "Norwegian Bokmål (Norway)"
+}, {
+    "code": "ne-NP",
+    "name": "尼泊尔语",
+    "nameEn": "Nepali (Nepal)"
+}, {
+    "code": "nl-BE",
+    "name": "荷兰语 (比利时)",
+    "nameEn": "Dutch (Belgium)"
+}, {
+    "code": "nl-NL",
+    "name": "荷兰语 (荷兰)",
+    "nameEn": "Dutch (Netherlands)"
+}, {
+    "code": "or-IN",
+    "name": "奥里亚语",
+    "nameEn": "Odia (India)"
+}, {
+    "code": "pa-IN",
+    "name": "旁遮普语",
+    "nameEn": "Punjabi (India)"
+}, {
+    "code": "pl-PL",
+    "name": "波兰语",
+    "nameEn": "Polish (Poland)"
+}, {
+    "code": "ps-AF",
+    "name": "普什图语",
+    "nameEn": "Pashto (Afghanistan)"
+}, {
+    "code": "pt-BR",
+    "name": "葡萄牙语 (巴西)",
+    "nameEn": "Portuguese (Brazil)"
+}, {
+    "code": "pt-PT",
+    "name": "葡萄牙语 (葡萄牙)",
+    "nameEn": "Portuguese (Portugal)"
+}, {
+    "code": "ro-RO",
+    "name": "罗马尼亚语",
+    "nameEn": "Romanian (Romania)"
+}, {
+    "code": "ru-RU",
+    "name": "俄语",
+    "nameEn": "Russian (Russia)"
+}, {
+    "code": "si-LK",
+    "name": "僧伽罗语",
+    "nameEn": "Sinhala (Sri Lanka)"
+}, {
+    "code": "sk-SK",
+    "name": "斯洛伐克语",
+    "nameEn": "Slovak (Slovakia)"
+}, {
+    "code": "sl-SI",
+    "name": "斯洛文尼亚语",
+    "nameEn": "Slovenian (Slovenia)"
+}, {
+    "code": "so-SO",
+    "name": "索马里语",
+    "nameEn": "Somali (Somalia)"
+}, {
+    "code": "sq-AL",
+    "name": "阿尔巴尼亚语",
+    "nameEn": "Albanian (Albania)"
+}, {
+    "code": "sr-RS",
+    "name": "塞尔维亚语",
+    "nameEn": "Serbian (Serbia)"
+}, {
+    "code": "sv-SE",
+    "name": "瑞典语",
+    "nameEn": "Swedish (Sweden)"
+}, {
+    "code": "sw-KE",
+    "name": "斯瓦希里语 (肯尼亚)",
+    "nameEn": "Swahili (Kenya)"
+}, {
+    "code": "sw-TZ",
+    "name": "斯瓦希里语 (坦桑尼亚)",
+    "nameEn": "Swahili (Tanzania)"
+}, {
+    "code": "ta-IN",
+    "name": "泰米尔语",
+    "nameEn": "Tamil (India)"
+}, {
+    "code": "te-IN",
+    "name": "泰卢固语",
+    "nameEn": "Telugu (India)"
+}, {
+    "code": "th-TH",
+    "name": "泰语",
+    "nameEn": "Thai (Thailand)"
+}, {
+    "code": "tr-TR",
+    "name": "土耳其语",
+    "nameEn": "Turkish (Turkey)"
+}, {
+    "code": "uk-UA",
+    "name": "乌克兰语",
+    "nameEn": "Ukrainian (Ukraine)"
+}, {
+    "code": "ur-IN",
+    "name": "乌尔都语",
+    "nameEn": "Urdu (India)"
+}, {
+    "code": "uz-UZ",
+    "name": "乌兹别克语",
+    "nameEn": "Uzbek (Uzbekistan)"
+}, {
+    "code": "vi-VN",
+    "name": "越南语",
+    "nameEn": "Vietnamese (Vietnam)"
+}, {
+    "code": "wuu-CN",
+    "name": "吴语",
+    "nameEn": "Wu Chinese (China)"
+}, {
+    "code": "yue-CN",
+    "name": "粤语",
+    "nameEn": "Cantonese (China)"
+}, {
+    "code": "zh-CN",
+    "name": "中文 (简体)",
+    "nameEn": "Chinese (Simplified)"
+}, {
+    "code": "zh-CN-shandong",
+    "name": "中文 (山东话)",
+    "nameEn": "Chinese (Shandong Dialect)"
+}, {
+    "code": "zh-CN-sichuan",
+    "name": "中文 (四川话)",
+    "nameEn": "Chinese (Sichuan Dialect)"
+}, {
+    "code": "zh-HK",
+    "name": "中文 (香港)",
+    "nameEn": "Chinese (Hong Kong)"
+}, {
+    "code": "zh-TW",
+    "name": "中文 (繁体-台湾)",
+    "nameEn": "Chinese (Traditional-Taiwan)"
+}, {
+    "code": "zu-ZA",
+    "name": "祖鲁语",
+    "nameEn": "Zulu (South Africa)"
+}]

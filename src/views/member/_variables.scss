@@ -1,0 +1,60 @@
+// ============================================================
+// 会员中心设计变量（来源：dist/assets/index-CILsVWea.css）
+// ============================================================
+
+// 字体
+$font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-family-price: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+// 文字颜色
+$text-primary: #1a1a1a;
+$text-secondary: #666666;
+$text-tertiary: #9A9A9A;
+$text-price-secondary: #7F7F7F;
+
+// 主色
+$primary: #0075FF;
+$primary-hover: #0056b3;
+
+// 渐变（蓝→青）
+$gradient-start: #0051FF;
+$gradient-mid1:  #0075FF;
+$gradient-mid2:  #12ACFF;
+$gradient-end:   #24E3FF;
+$gradient: linear-gradient(to right, $gradient-start, $gradient-mid1, $gradient-mid2, $gradient-end);
+
+// 徽章渐变（青→浅青）
+$badge-gradient-start: #14B4FF;
+$badge-gradient-end:   #1FD5FF;
+$badge-gradient: linear-gradient(to right, $badge-gradient-start, $badge-gradient-end);
+
+// 主打方案卡片背景渐变（底部蓝→白）
+$popular-bg-gradient: linear-gradient(
+  to top,
+  #BCEEFD,
+  #F5FAFE 15%,
+  #FFFFFF 45%
+);
+
+// 边框 / 分割线
+$divider: #E8E8E8;
+$card-border: #F2F2F2;
+
+// 卡片背景
+$card-bg: #FCFCFD;
+$bg-primary: #FFFFFF;
+$bg-secondary: #F8F8F8;
+$billing-toggle-bg: #ECEBEB;
+
+// 进度条
+$progress-bg: #E6EAEE;
+
+// 按钮禁用文字色
+$button-disabled-text: #B3B3B3;
+
+// 过渡
+$transition-fast: 0.15s;
+$transition-normal: 0.3s;
+
+// Tick 图标（SVG data URI，蓝色 #0075FF）
+$tick-icon: url("data:image/svg+xml,%3Csvg viewBox='0 0 17.8286 12.8286' xmlns='http://www.w3.org/2000/svg' fill='none'%3E%3Cpath d='M1.41431 6.41431L6.41431 11.4143L16.4143 1.41431' stroke='%230075FF' stroke-linecap='square' stroke-width='2'/%3E%3C/svg%3E");

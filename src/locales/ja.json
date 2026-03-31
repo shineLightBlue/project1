@@ -1,0 +1,1477 @@
+{
+  "file": {
+    "fileNameNotEmpty": "ファイル名は空にできません",
+    "askAIDelete": "正常にクリアされました"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "noData": "データがありません",
+    "copySuccess": "クリップボードにコピーしました",
+    "copyFailed": "コピーに失敗しました",
+    "close": "閉じる",
+    "select": "選択してください",
+    "aiReply": "AI返信",
+    "aiReplyFile": "AI返信.txt",
+    "showDirectory": "ディレクトリを表示",
+    "hideDirectory": "ディレクトリを非表示",
+    "deleteImage": "画像を削除",
+    "closePreview": "プレビューを閉じる",
+    "audioLoadError": "音声の読み込みに失敗しました",
+    "audioLoadAborted": "音声の読み込みが中止されました",
+    "audioNetworkError": "ネットワークエラーにより音声を読み込めません",
+    "audioDecodeError": "音声のデコードに失敗しました",
+    "audioFormatError": "対応していない音声形式",
+    "audioLoadErrorWithCode": "音声の読み込みに失敗しました（エラーコード: {code}）",
+    "crop": "切り抜き",
+    "moreActions": "その他の操作",
+    "cancel": "キャンセル",
+    "saveAs": "名前を付けて保存",
+    "delete": "削除",
+    "play": "再生",
+    "pause": "一時停止",
+    "zoom": "ズーム",
+    "zoomIn": "拡大",
+    "zoomOut": "縮小",
+    "confirm": "確認",
+    "save": "保存",
+    "edit": "編集",
+    "copy": "コピー",
+    "praise": "褒める",
+    "criticize": "批判"
+  },
+  "layout": {
+    "header": {
+      "showSidebar": "メインナビゲーションを表示",
+      "hideSidebar": "メインナビゲーションを非表示",
+      "showSecondaryNav": "ファイル一覧を表示",
+      "hideSecondaryNav": "ファイル一覧を非表示",
+      "allFiles": "すべてのファイル",
+      "updateTime": "更新日時",
+      "sortOptions": {
+        "creationTime": "作成日時",
+        "updateTime": "更新日時",
+        "recentlyOpened": "最近開いた項目"
+      }
+    },
+    "sidebar": {
+      "search": "検索",
+      "allFiles": "すべてのファイル",
+      "uncategorized": "未分類",
+      "recycleBin": "ごみ箱",
+      "folders": "フォルダー",
+      "folderName": "フォルダー名",
+      "addFolder": "新しいフォルダー",
+      "createFolder": {
+        "title": "新規フォルダーを作成",
+        "nameLabel": "名前",
+        "namePlaceholder": "入力してください",
+        "colorLabel": "カラー",
+        "iconLabel": "アイコン",
+        "iconSelectorTitle": "アイコンを選択",
+        "createButton": "作成",
+        "success": "フォルダーの作成に成功しました",
+        "error": "フォルダーの作成に失敗しました",
+        "nameRequired": "フォルダ名をご入力ください",
+        "nameTooLong": "ファイル名が長すぎます",
+        "userNotLoggedIn": "ユーザーがログインしていません。先にログインしてください"
+      },
+      "editFolder": {
+        "title": "フォルダーを編集",
+        "nameLabel": "名前",
+        "namePlaceholder": "入力してください",
+        "colorLabel": "カラー",
+        "iconLabel": "アイコン",
+        "saveButton": "保存",
+        "deleteButton": "削除",
+        "saveSuccess": "フォルダーが更新されました",
+        "saveError": "フォルダーの更新に失敗しました",
+        "nameTooLong": "ファイル名が長すぎます",
+        "deleteSuccess": "フォルダーが削除されました",
+        "deleteError": "フォルダーの削除に失敗しました",
+        "deleteConfirm": {
+          "title": "フォルダーを削除",
+          "message": "フォルダーを削除すると、その中のすべてのファイルも削除されます。",
+          "question": "削除を確認しますか？",
+          "confirmButton": "削除",
+          "cancelButton": "キャンセル"
+        }
+      },
+      "sources": "ソース",
+      "import": "インポート",
+      "callRecording": "電話録音",
+      "envRecording": "対面録音",
+      "headphoneRecording": "Bluetooth録音",
+      "help": "ヘルプセンター",
+      "settings": "設定",
+      "importAudio": "音声をインポート",
+      "searchModal": {
+        "inputPlaceholder": "入力してください",
+        "searchHistory": "検索履歴",
+        "recentBrowsing": "最近の閲覧",
+        "noResults": "検索結果がありません",
+        "deleteHistory": "検索履歴を削除",
+        "deleteHistoryTitle": "検索履歴を削除",
+        "deleteHistoryMessage": "すべての検索履歴を削除しますか？",
+        "historyDeleted": "検索履歴が削除されました",
+        "clear": "クリア",
+        "cancel": "キャンセル",
+        "delete": "削除",
+        "close": "閉じる",
+        "searching": "検索中...",
+        "searchFailed": "検索に失敗しました",
+        "matchSource": {
+          "transcription": "書き起こしテキスト",
+          "title": "タイトル",
+          "summary": "要約",
+          "mindmap": "マインドマップ"
+        }
+      },
+      "importAudioModal": {
+        "title": "音声をインポート",
+        "clickToUpload": "クリックしてファイルをアップロード",
+        "or": "または",
+        "dragFiles": "ファイルをドラッグ＆ドロップ",
+        "supportedFormats": "MP3、AAC、PCM、WAV、MP4、M4V、MOV、OGG、M4A 形式に対応",
+        "status": {
+          "uploading": "アップロード中",
+          "transcoding": "トランスコード中",
+          "success": "インポートに成功しました",
+          "error": "インポートに失敗しました"
+        },
+        "errors": {
+          "maxFilesExceeded": "同時にアップロードできるのは最大 5 ファイルまでです",
+          "unsupportedFormat": "未対応のファイル形式です",
+          "durationExceeded": "5 時間未満の音声ファイルをアップロードしてください",
+          "networkError": "ネットワーク異常",
+          "fileSizeExceeded": "ファイルサイズが制限を超えています",
+          "uploadFailed": "アップロード失敗",
+          "serverError": "サーバーエラーです。しばらくしてから再試行してください"
+        }
+      },
+      "askAI": "AI に質問",
+      "professional": "Pro",
+      "usage": "使用済み {used}/{total} 分",
+      "usageUnlimited": "使用済み{used}分/無制限"
+    },
+    "mainContent": {
+      "welcome": "BOYA Notra Web へようこそ",
+      "tabs": {
+        "transcription": "文字起こし",
+        "summary": "要約",
+        "mindMap": "マインドマップ"
+      },
+      "transcription": {
+        "noTranscription": "文字起こしはありません",
+        "willShowAfterGeneration": "生成後、ここに文字起こしが表示されます",
+        "noTranscribableContent": "書き起こし可能な内容が検出されませんでした",
+        "checkAudioFile": "音声ファイルを確認してください",
+        "noAudioFile": "このファイルには音声がありません",
+        "noAudioFileDesc": "音声を再生できないか、書き起こしを生成できません",
+        "play": "再生",
+        "pause": "一時停止",
+        "playSegment": "クリップを再生",
+        "rewind15s": "15秒巻き戻し",
+        "forward15s": "15秒早送り",
+        "playbackRate": "再生速度",
+        "crop": "トリミング",
+        "generate": "生成する",
+        "generating": "生成中...",
+        "generateNow": "すぐに生成",
+        "generateFailed": "書き起こしの生成に失敗しました。再試行してください",
+        "generatingView": {
+          "loading": "生成中...",
+          "hint": "お待ちください。コンテンツを生成中です"
+        },
+        "errors": {
+          "userNotLoggedIn": "ユーザーがログインしていません",
+          "fileUrlEmpty": "ファイルURLは空にできません",
+          "fileFetchFailed": "ファイルの取得に失敗しました",
+          "languageCodeEmpty": "言語コードは空にできません",
+          "fileDurationInvalid": "ファイルの長さが無効です: {duration}秒。音声ファイルが正しく読み込まれていることを確認してください",
+          "modelConfigInvalid": "モデル設定が無効です: platform={platform}, model={model}",
+          "modelNotFound": "該当するモデルが見つかりません",
+          "downloadUrlMissing": "ファイルに有効なダウンロードURLがなく、バッチ書き起こしできません。ファイルが正しくアップロードされていることを確認してください。",
+          "pollingFailed": "書き起こしタスクに失敗しました。後でもう一度お試しください",
+          "saveFailed": "保存に失敗しました。再試行してください"
+        },
+        "saveSuccess": "保存に成功しました",
+        "paragraphEmpty": "段落の内容は空にできません",
+        "selectGenerateMethod": "生成方法を選択",
+        "generateMethod": {
+          "auto": "自動生成",
+          "autoDescription": "最適な書き起こしと要約を自動生成し、手動設定は不要です",
+          "custom": "カスタム生成",
+          "summaryTemplate": "テンプレート",
+          "aiModel": "AIモデル",
+          "transcriptionLanguage": "文字起こし言語",
+          "differentiateSpeakers": "話者を分離",
+          "recordingDesensitization": "録音のマスキング",
+          "meetingSummary": "会議ノート",
+          "automatic": "自動",
+          "chineseSimplifiedMandarin": "中国語簡体—普通話",
+          "modelDisplayName": {
+            "Auto": "自動"
+          },
+          "aiModelOptions": {
+            "auto": "自動",
+            "gpt5": "GPT-5",
+            "gpt41": "GPT-4.1",
+            "grok4": "Grok 4",
+            "claudeSonnet4": "Claude Sonnet 4",
+            "deepseekChat": "Deepseek chat",
+            "doubao": "Doubao"
+          }
+        },
+        "summaryTemplate": {
+          "categories": {
+            "custom": "カスタム",
+            "recentlyUsed": "最近使用",
+            "general": "一般",
+            "meeting": "会議",
+            "speech": "スピーチ",
+            "call": "通話",
+            "interview": "面接/インタビュー",
+            "medical": "医療",
+            "sales": "営業",
+            "consultation": "相談",
+            "education": "教育",
+            "architecture": "建築",
+            "it": "IT業界"
+          },
+          "templates": {
+            "meetingMinutes": "会議ノート",
+            "classNotes": "授業ノート"
+          },
+          "create": "作成",
+          "lastUsed": "前回使用",
+          "loading": "読み込み中...",
+          "loadError": "テンプレートカテゴリの読み込みに失敗しました",
+          "noTemplates": "このカテゴリにはテンプレートがありません",
+          "customTemplate": {
+            "title": "カスタムテンプレート",
+            "templateName": "テンプレート名",
+            "templateNamePlaceholder": "テンプレート名を入力してください",
+            "prompt": "プロンプト",
+            "promptPlaceholder": "プロンプトを入力してください",
+            "save": "保存",
+            "saveSuccess": "テンプレートの保存に成功しました",
+            "saveFailed": "テンプレートの保存に失敗しました",
+            "userInfoMissing": "ユーザー情報が存在しないため、テンプレートを保存できません"
+          },
+          "preview": {
+            "overview": "概要",
+            "taskLabel": "アシスタントのタスクを定義する",
+            "elementsLabel": "会議議事録の構成要素には以下が含まれます",
+            "constraintsLabel": "議事録作成の制約条件には以下が含まれます",
+            "meeting_minutes": {
+              "title": "会議ノート",
+              "task": "会議音声の書き起こしから指定の要素を抽出し、制約条件に従って簡潔な議事録を生成します。",
+              "elements[0]": "会議名と日時",
+              "elements[1]": "出席者",
+              "elements[2]": "議題",
+              "elements[3]": "議論内容",
+              "elements[4]": "決議事項",
+              "elements[5]": "未決事項",
+              "elements[6]": "そして、責任者・内容・期限を明記した次のアクションとその他の特記事項。",
+              "constraints[0]": "明確な箇条書きを使用",
+              "constraints[1]": "全文は800字以内",
+              "constraints[2]": "敬体を使用",
+              "constraints[3]": "重要なポイントに焦点を当てる",
+              "constraints[4]": "感情的な表現を避ける",
+              "constraints[5]": "客観的事実のみを記録する。"
+            }
+          }
+        },
+        "markdownViewer": {
+          "feedbackModal": {
+            "title": "もっと教えて",
+            "subtitle": "ご意見は非常に貴重です。ご提案に基づき改善と反復を続けます。",
+            "feedback": {
+              "submitSuccess": "フィードバックの送信に成功しました",
+              "submitFailed": "フィードバックの送信に失敗しました。後でもう一度お試しください"
+            },
+            "categories": {
+              "missingKeyInfo": "キー情報を紛失した",
+              "properNouns": "固有名詞は翻訳しないでください",
+              "paragraphTooLong": "各段落が長すぎます",
+              "redundantContent": "内容が冗長です"
+            },
+            "otherPlaceholder": "その他: 改善すべき点は？",
+            "agreeToShare": "私の書き起こしをBOYA Notraチームと共有することに同意します",
+            "send": "送信"
+          },
+          "summaryVersionConflict": {
+            "title": "要約の編集競合",
+            "message": "バージョン競合が検出され、バックエンドの内容が他の操作で更新されました。保存方法を選択してください：",
+            "localVersion": "ローカル版",
+            "serverVersion": "バックエンド版",
+            "saveLocal": "ローカルに保存",
+            "saveServer": "バックエンドに保存"
+          }
+        },
+        "audioLoading": "音声を読み込み中...({progress}%)",
+        "cropHint": "トリミングと削除を使って音声を編集できます",
+        "audioCropProcessing": "トリミング中...",
+        "audioDeleteProcessing": "削除中...",
+        "audioDeleteFailed": "音声クリップの削除に失敗しました。再試行してください",
+        "audioCropFailed": "音声のトリミングに失敗しました。再試行してください",
+        "saveAsNewFile": "新しいファイルとして保存",
+        "audioEdited": "音声は編集されました。新しいファイルとして保存しますか？",
+        "unsavedChanges": "未保存の変更は失われます。",
+        "fileName": "ファイル名",
+        "save": "保存",
+        "saveAsSuccess": "ファイルはローカルに保存されました",
+        "saveAsFailed": "ファイルの保存に失敗しました。再試行してください",
+        "uploading": "アップロード中",
+        "uploadSuccess": "ファイルのアップロードに成功しました",
+        "uploadError": {
+          "userNotLoggedIn": "ユーザーがログインしていません。先にログインしてください",
+          "failed": "ファイルのアップロードに失敗しました"
+        }
+      },
+      "summary": {
+        "noSummary": "要約はありません",
+        "willShowAfterGeneration": "要約は生成後にここに表示されます"
+      },
+      "mindMap": {
+        "noMindmap": "マインドマップはありません",
+        "willShowAfterGeneration": "マインドマップは生成後にここに表示されます"
+      }
+    },
+    "headerRight": {
+      "shareMenu": {
+        "shareLink": "リンクを共有",
+        "copyTranscribe": "文字起こしをコピー",
+        "copySummary": "要約をコピー",
+        "copying": "コピー中...",
+        "copySuccess": "クリップボードにコピーされました",
+        "copyFailed": "コピーに失敗しました。再試行してください",
+        "exportAudio": "音声をエクスポート",
+        "exportTranscribe": "文字起こしをエクスポート",
+        "exportSummary": "要約をエクスポート",
+        "exportMindMap": "マインドマップをエクスポート",
+        "speaker": "発言者",
+        "keywords": "キーワード",
+        "errors": {
+          "fileObjectRequired": "ファイルオブジェクトは空にできません",
+          "fileIdRequired": "ファイルIDは空にできません",
+          "transcriptionDataEmpty": "書き起こしデータが空です",
+          "summaryDataEmpty": "要約データが空です",
+          "transcriptionTextEmpty": "書き起こしテキストが空です",
+          "summaryTextEmpty": "要約テキストが空です",
+          "mindMapDataEmpty": "マインドマップデータが空です",
+          "mindMapDataInvalid": "マインドマップデータの形式が無効です",
+          "mindMapElementNotFound": "マインドマップの要素が見つかりません",
+          "mindMapTextEmpty": "マインドマップのテキストが空です",
+          "mindMapTabNotActive": "まず「マインドマップ」タブに切り替えてください",
+          "imageConversionFailed": "画像の変換に失敗しました",
+          "fileNotGenerated": "ファイルが生成されていません"
+        }
+      },
+      "shareLinkModal": {
+        "title": "リンクを共有",
+        "audio": "音声を録音中",
+        "summary": "要約",
+        "mindMap": "マインドマップ",
+        "transcribe": "文字起こし",
+        "copyLink": "リンクをコピー",
+        "info": "リンクの共有は 7 日間有効です。有効期限内であれば、リンクを取得した人は誰でもアクセスできます。",
+        "copySuccess": "クリップボードにコピーされました",
+        "copyFailed": "コピーに失敗しました。再試行してください",
+        "atLeastOneRequired": "共有リンクは少なくとも1項目を選択してください"
+      },
+      "moreMenu": {
+        "moveToFolder": "フォルダーへ移動",
+        "regenerate": "再生成",
+        "translate": "翻訳",
+        "findAndReplace": "検索と置換",
+        "moveToRecycleBin": "ごみ箱へ移動",
+        "nameSpeaker": "発言者に名前を付ける"
+      },
+      "share": "共有",
+      "more": "もっと",
+      "exportModal": {
+        "title": "エクスポート",
+        "exportAs": "次の形式でエクスポート",
+        "include": "含める",
+        "export": "エクスポート",
+        "exporting": "エクスポート中...",
+        "audio": {
+          "title": "音声をエクスポート"
+        },
+        "transcribe": {
+          "title": "文字起こしをエクスポート"
+        },
+        "summary": {
+          "title": "要約をエクスポート"
+        },
+        "mindMap": {
+          "title": "マインドマップをエクスポート"
+        },
+        "formats": {
+          "mp3": "MP3",
+          "wav": "WAV",
+          "txt": "TXT",
+          "srt": "SRT",
+          "docx": "DOCX",
+          "pdf": "PDF",
+          "markdown": "Markdown",
+          "jpeg": "JPEG"
+        },
+        "includes": {
+          "timestamp": "タイムスタンプ",
+          "speaker": "発言者"
+        },
+        "errors": {
+          "invalidFileType": "ファイルタイプが無効です",
+          "missingFileKey": "ファイルに必要な識別情報がありません",
+          "failedToGetDownloadUrl": "ダウンロードURLの取得に失敗しました",
+          "failedToDownload": "ファイルのダウンロードに失敗しました",
+          "exportFailed": "エクスポートに失敗しました。再試行してください",
+          "notImplemented": "このエクスポート機能はまだ実装されていません",
+          "canvasRenderFailed": "PDFのレンダリングに失敗しました。内容が空です"
+        },
+        "exportSuccess": "エクスポート成功"
+      },
+      "keywordAdd": "追加",
+      "speakerNameDialog": {
+        "title": "発言者に名前を付ける",
+        "speakerNamePlaceholder": "発言者名",
+        "duration": "長さ",
+        "totalDuration": "合計時間",
+        "noSpeakerData": "発言者データがありません"
+      },
+      "editSpeakerDialog": {
+        "title": "発言者を編集"
+      },
+      "messages": {
+        "selectFileFirst": "先にファイルを選択してください",
+        "noTranscriptionContent": "文字起こしがありません",
+        "noSummaryContent": "要約がありません",
+        "noAudio": "音声がありません",
+        "noMindmapContent": "マインドマップがありません",
+        "templateMemberMismatch": "テンプレートモデルと会員レベルが一致しません",
+        "transcriptionFailed": "文字起こしに失敗しました",
+        "queryTranscriptionFailed": "文字起こし結果の取得に失敗しました",
+        "fastTranscribeFailed": "クイック文字起こしに失敗しました",
+        "feedbackSubmitSuccess": "フィードバックを送信しました",
+        "showL2Nav": "ファイルリストを表示"
+      },
+      "keywordsLabel": "キーワード：",
+      "keywordJoiner": "、",
+      "translate": {
+        "loading": "翻訳中...",
+        "success": "翻訳成功",
+        "error": {
+          "userNotLoggedIn": "ユーザーがログインしていません",
+          "fileNotGenerated": "ファイルが生成されていないため翻訳できません",
+          "noResult": "翻訳結果が空です",
+          "failed": "翻訳に失敗しました。再試行してください"
+        }
+      },
+      "findAndReplaceModal": {
+        "title": "検索と置換",
+        "find": "検索",
+        "replaceWith": "置換後",
+        "searchPlaceholder": "検索するテキストを入力",
+        "replacePlaceholder": "置換テキストを入力",
+        "previousMatch": "前の一致項目",
+        "nextMatch": "次の一致項目",
+        "replace": "置換",
+        "replaceAll": "すべて置換",
+        "replaceSuccess": "置換が完了しました",
+        "replaceAllSuccess": "すべての置換が完了しました",
+        "replaceError": "置換に失敗しました。再試行してください"
+      },
+      "nameSpeakerModal": {
+        "title": "発言者に名前を付ける",
+        "save": "保存",
+        "cancel": "キャンセル",
+        "speakerPlaceholder": "発言者名を入力してください",
+        "totalDuration": "総時間",
+        "noSpeakers": "発言者データがありません",
+        "loading": "書き起こしデータを読み込み中...",
+        "noSegments": "書き起こしのセグメントがありません",
+        "loadError": "書き起こしデータの読み込みに失敗しました。再試行してください",
+        "saveSuccess": "保存に成功しました",
+        "speakerNameEmpty": "発言者名は空にできません"
+      },
+      "speakerEditBox": {
+        "title": "編集スポークスマン",
+        "applyToCurrentParagraph": "現在の段落に適用",
+        "applyToAllParagraphs": "この発言者をすべての段落に適用",
+        "save": "保存"
+      },
+      "translateModal": {
+        "title": "翻訳先",
+        "searchPlaceholder": "言語を検索",
+        "clear": "クリア",
+        "noResults": "一致する言語が見つかりません",
+        "exit": "終了"
+      }
+    },
+    "askAI": {
+      "deleteConfirm": {
+        "title": "この記録を完全に削除しますか？",
+        "subtitle": "この記録は完全に削除され、復元できません。",
+        "confirm": "削除",
+        "cancel": "キャンセル"
+      },
+      "greeting": "こんにちは、{name}。",
+      "subtitle": "本日はどのようにお手伝いできますか？",
+      "inputPlaceholder": "AI に質問する...",
+      "followUpPlaceholder": "フォローアップ",
+      "reading": "読み込み中...",
+      "responses": {
+        "greeting": "こんにちは！私はあなたの AI アシスタントです。お役に立ててうれしいです。質問への回答、アドバイスの提供、さまざまな作業のサポートができます。どのようにお手伝いできますか？",
+        "help": "次のようなサポートを提供できます：\n1. 質問への回答：さまざまな知識に関する質問にお答えします\n2. テキスト処理：文章の編集、要約、翻訳をお手伝いします\n3. クリエイティブな提案：創造的なアイデアやアドバイスを提供します\n4. 技術サポート：技術的な質問にお答えします\nどのようなサポートが必要か教えてください。",
+        "features": "主な機能は次のとおりです：\n• インテリジェント Q&A：さまざまな質問に回答\n• テキスト分析：分析、要約、重要情報の抽出\n• コンテンツ生成：記事や要約などの生成\n• 多言語対応：複数言語でのコミュニケーションに対応\n• コンテキスト理解：会話の文脈を理解し、一貫した回答を提供\nどの機能について詳しく知りたいですか？",
+        "default": "ご質問\"{question}\"に基づき、次の内容を用意しました：\nこれは AI の回答形式を示すサンプルです。実際の利用では、ご質問内容に基づき、より詳細で正確な回答を提供します。\n他にもご質問がありましたら、引き続きお気軽にお尋ねください。できる限りお手伝いします。"
+      },
+      "moreMenu": {
+        "insertSummary": "要約を挿入",
+        "concise": "より簡潔",
+        "detailed": "より詳細",
+        "useful": "役に立つ",
+        "useless": "役に立たない"
+      },
+      "actions": {
+        "copySuccess": "クリップボードにコピーされました",
+        "copyFailed": "コピーに失敗しました",
+        "shareFailed": "共有に失敗しました",
+        "exporting": "エクスポート中",
+        "exportFailed": "エクスポートに失敗しました",
+        "insertSuccess": "挿入に成功しました",
+        "feedbackThanks": "フィードバックありがとうございます"
+      },
+      "suggestedQuestions": {
+        "title": "質問を続ける",
+        "more": "もっと見る...",
+        "collapse": "折りたたむ"
+      },
+      "quickActions": {
+        "insights": "インサイトを取得",
+        "todo": "ToDo リストを生成",
+        "email": "メールを書く",
+        "summary": "要点を要約"
+      },
+      "sidebarSuggestedQuestions": {
+        "question1": "華盛プロジェクト以外に、進行中のプロジェクトはありますか？",
+        "question2": "メールよりも効果的な他の連絡手段はありますか？",
+        "question3": "設備パラメータ調整における具体的な中間値はどのように決定しますか？",
+        "question4": "プロジェクトの進捗はどのように追跡・管理されていますか？",
+        "question5": "チームコラボレーションのベストプラクティスは何ですか？",
+        "question6": "業務効率を向上させるにはどうすればよいですか？"
+      },
+      "clearConfirm": {
+        "title": "すべてのチャット履歴をクリアしますか？",
+        "message": "すべての記録が完全に削除され、復元できなくなります。続行してもよろしいですか？",
+        "confirm": "削除",
+        "cancel": "キャンセル"
+      },
+      "error": {
+        "userInfoMissing": "ユーザー情報が存在しないため、メッセージを送信できません",
+        "fileInfoMissing": "ファイル情報が存在しないため、メッセージを送信できません",
+        "requestFailed": "リクエストに失敗しました。後でもう一度お試しください",
+        "networkError": "ネットワークエラーです。接続を確認して再試行してください"
+      }
+    },
+    "secondaryNav": {
+      "recordingFile": "録音ファイル",
+      "contextMenu": {
+        "select": "選択",
+        "rename": "名前を変更",
+        "move": "移動",
+        "moveToRecycleBin": "ごみ箱へ移動",
+        "restore": "復元",
+        "permanentDelete": "完全に削除"
+      },
+      "selection": {
+        "selected": "選択済み",
+        "done": "完了",
+        "merge": "結合",
+        "moveToFolder": "フォルダーへ移動",
+        "delete": "削除",
+        "restore": "復元",
+        "permanentDelete": "完全に削除"
+      },
+      "merge": {
+        "mergeFile": "ファイルを結合",
+        "merging": "結合中",
+        "mergeSuccess": "結合に成功しました",
+        "view": "表示",
+        "onlyTwoFiles": "結合操作は音声ファイル 2 件の選択のみ対応しています",
+        "mergeProgress": "結合中（{progress}%）"
+      },
+      "move": {
+        "moveSuccess": "{fileName} を {folderName} に移動しました",
+        "etc": "待機中",
+        "alreadyInFolder": "{fileName} はすでに {folderName} にあり、移動する必要はありません"
+      },
+      "rename": {
+        "renameSuccess": "名前の変更に成功しました",
+        "renameFailed": "名前の変更に失敗しました。後でもう一度お試しください"
+      },
+      "delete": {
+        "deleteSuccess": "完了しました。いつでもごみ箱から復元できます"
+      },
+      "restore": {
+        "restoreSuccess": "{fileName} は復元されました",
+        "restoreFailed": "復元に失敗しました。後でもう一度お試しください"
+      },
+      "permanentDelete": {
+        "confirmTitle": "ファイルを完全に削除しますか？",
+        "confirmMessage": "このファイルは完全に削除され、復元できません。",
+        "confirmButton": "削除",
+        "cancelButton": "キャンセル",
+        "deleteSuccess": "{fileName} ファイルが削除されました"
+      }
+    },
+    "membership": {
+      "title": "メンバーシップセンター",
+      "memberType": {
+        "notMember": "非会員",
+        "trial": "メンバーシップを試す",
+        "monthly": "月額会員",
+        "annual": "年額会員",
+        "masterMonthly": "Ultimate版 月間メンバーシップ",
+        "masterAnnual": "Ultimate版 年間メンバーシップ"
+      },
+      "currentSubscription": {
+        "title": "現在のサブスクリプション",
+        "professional": "Pro",
+        "usage": "使用済み {used}/{total} 分",
+        "expiration": "有効期限：{date}",
+        "details": "詳細",
+        "usageUnlimited": "使用済み{used}分/無制限"
+      },
+      "subscriptionPlans": {
+        "title": "あなたに最適なプランを選択してください",
+        "monthly": "月額サブスクリプション",
+        "annual": "年間サブスクリプション",
+        "month": "月",
+        "year": "年",
+        "includes": "含まれる内容：",
+        "mostPopular": "最も人気",
+        "currentPlan": "現在のプラン",
+        "unavailable": "購読不可",
+        "upgrade": "アップグレード",
+        "explorer": {
+          "name": "エクスプローラー版",
+          "button": "無料",
+          "features": {
+            "transcription": "毎月 {value} 分の文字起こし",
+            "storage": "無制限クラウドストレージ",
+            "languages": "{value} 以上の文字起こし対応言語",
+            "speaker": "話者分離",
+            "multimodal": "マルチモーダル入力",
+            "tagging": "ワンクリックタグ付け",
+            "editing": "テキスト編集",
+            "import": "音声インポート",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "translation": "翻訳分数",
+            "mindmap": "マインドマップ",
+            "export": "{value} 種類のエクスポート形式",
+            "templates": "{value} 種類のプロフェッショナルテンプレート"
+          }
+        },
+        "professional": {
+          "name": "Pro",
+          "button": "購読する",
+          "features": {
+            "transcription": "毎月 {value} 分の文字起こし",
+            "storage": "無制限クラウドストレージ",
+            "languages": "{value} 以上の文字起こし対応言語",
+            "speaker": "話者分離",
+            "multimodal": "マルチモーダル入力",
+            "tagging": "ワンクリックタグ付け",
+            "editing": "テキスト編集",
+            "import": "音声インポート",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "通義千問",
+            "translation": "翻訳分数",
+            "mindmap": "マインドマップ",
+            "export": "{value} 種類のファイルエクスポート形式",
+            "templates": "{value} 種類のプロフェッショナルテンプレート",
+            "customTemplates": "カスタムテンプレート",
+            "askAI": "AI に質問"
+          }
+        },
+        "master": {
+          "name": "Ultimate",
+          "button": "購読する",
+          "features": {
+            "transcription": "無制限の文字起こし時間",
+            "storage": "無制限クラウドストレージ",
+            "languages": "{value} 以上の文字起こし対応言語",
+            "speaker": "話者分離",
+            "multimodal": "マルチモーダル入力",
+            "tagging": "ワンクリックタグ付け",
+            "editing": "テキスト編集",
+            "import": "音声インポート",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "通義千問",
+            "translation": "翻訳分数",
+            "mindmap": "マインドマップ",
+            "export": "{value} 種類のファイルエクスポート形式",
+            "templates": "{value} 以上のプロフェッショナルテンプレート",
+            "customTemplates": "カスタムテンプレート",
+            "askAI": "AI に質問"
+          }
+        },
+        "switch": "切り替え",
+        "pendingPlan": "まもなく有効になる会員",
+        "pendingPlanTip": "現在のサブスクリプション期間が終了すると、次の期間から新しいメンバーシッププランが有効になります。",
+        "pendingPlanAlreadyTip": "すでに有効化予定のプランがあります。現在の期間終了後に有効になります。",
+        "switchScheduledTip": "次のサイクルで有効になるよう予約済みです。現在のサブスクリプション期間終了後、自動的に新プランに切り替わります。",
+        "loading": "読み込み中..."
+      },
+      "moreTranscriptionTime": {
+        "title": "文字起こし時間を追加",
+        "minutes": "分",
+        "perMinute": "分",
+        "buy": "購入"
+      },
+      "footer": {
+        "note": "購入後すぐに有効となり、1 年間有効です",
+        "userAgreement": "ユーザー契約",
+        "privacyPolicy": "プライバシーポリシー"
+      },
+      "payment": {
+        "orderInfo": "注文情報",
+        "annualSubscription": "年額自動更新",
+        "monthlySubscription": "月額自動更新",
+        "paymentMethod": "支払い方法",
+        "bankCard": "クレジット／デビットカード",
+        "applePay": "Apple Pay",
+        "googlePay": "Google Pay",
+        "alipay": "Alipay",
+        "wechat": "WeChat",
+        "cardNumber": "カード番号",
+        "cardNumberPlaceholder": "入力してください",
+        "expiryDate": "有効期限",
+        "securityCode": "CVV/CVC",
+        "country": "国",
+        "selectCountry": "国を選択",
+        "cancel": "キャンセル",
+        "pay": "支払う",
+        "countries": {
+          "US": "アメリカ合衆国",
+          "CN": "中国",
+          "GB": "イギリス",
+          "JP": "日本"
+        },
+        "error": {
+          "userNotLoggedIn": "先にログインしてください",
+          "productIdRequired": "製品IDは空にできません",
+          "regionDetecting": "地域情報を検出中です。お待ちください",
+          "createOrderFailed": "支払い注文の作成に失敗しました",
+          "pollingTimeout": "支払結果の照会がタイムアウトしました。後で注文状態を確認してください",
+          "paymentFailed": "支払いに失敗しました"
+        }
+      },
+      "paymentSuccess": {
+        "title": "おめでとうございます。Ultimate版メンバーシップを解禁しました",
+        "titleProfessional": "おめでとうございます。Pro版メンバーシップを解除しました。",
+        "benefitsTitle": "Ultimate版の特典に含まれるもの",
+        "benefitsTitleProfessional": "Pro版の特典に含まれるもの",
+        "benefits": {
+          "unlimitedTranscription": "無制限の書き起こし",
+          "unlimitedStorage": "無制限クラウドストレージ",
+          "transcriptionLanguages": "140 以上の文字起こし対応言語",
+          "latestAIModels": "最新の AI モデル：ChatGPT、Gemini、Claude、Grok",
+          "exportFormats": "7 種類のファイルエクスポート形式",
+          "professionalTemplates": "60 以上のプロフェッショナルテンプレート",
+          "customTemplates": "カスタムテンプレート",
+          "askAI": "AI に質問",
+          "more": "さらに他にも"
+        },
+        "enterApp": "BOYA Notra に入る",
+        "purchaseSuccess": "購入完了"
+      },
+      "paymentFailure": {
+        "title": "支払いに失敗しました",
+        "subtitle": "別の支払い方法を選択してください",
+        "returnToCheckout": "レジに戻る"
+      }
+    },
+    "settings": {
+      "title": "設定",
+      "profile": "プロフィール",
+      "accountSecurity": "アカウントとセキュリティ",
+      "accountSafety": {
+        "loginMethods": {
+          "title": "ログイン方法",
+          "email": "メール",
+          "phone": "携帯電話番号",
+          "changePassword": "パスワードを変更",
+          "wechat": "WeChat",
+          "add": "追加",
+          "remove": "削除",
+          "verify": "確認",
+          "notBound": "未連携",
+          "passwordNotSet": "未設定",
+          "alreadyRegistered": "このアカウントはすでに登録されています",
+          "Registered": "このアカウントはすでに登録されています。現在のアカウントに連携したい場合は、ログアウトするかアカウントを削除してから再試行してください。",
+          "loginMethodWarning": "アカウントには少なくとも1つのログイン方法が必要です。ログイン方法を変更する場合は、先に別のログイン方法を1つ追加してください。",
+          "thirdAccountTypes": {
+            "google": "Google",
+            "apple": "Apple",
+            "wechat": "WeChat"
+          }
+        },
+        "devices": {
+          "title": "ログインデバイス",
+          "device": "デバイス",
+          "loginMethod": "ログイン方法",
+          "lastActiveTime": "最終アクティブ",
+          "operation": "操作",
+          "currentDevice": "現在のデバイス",
+          "loggedIn": "ログイン中",
+          "delete": "削除",
+          "fetchFailed": "デバイス一覧の取得に失敗しました",
+          "noDevices": "デバイスがありません",
+          "unknownDevice": "未知の設備",
+          "unknown": "不明",
+          "deleteSuccess": "デバイスはオフラインです",
+          "deleteFailed": "デバイスの削除に失敗しました",
+          "deleteConfirm": {
+            "title": "デバイスを削除",
+            "message": "デバイス\"{deviceName}\"を削除してもよろしいですか？",
+            "messageDefault": "このデバイスを削除してもよろしいですか？",
+            "confirm": "確認",
+            "cancel": "キャンセル"
+          }
+        },
+        "logout": "ログアウト",
+        "changeEmail": {
+          "confirmTitle": "注意",
+          "confirmQuestion": "メールアドレスを変更しますか？",
+          "currentEmail": "現在のメール：{email}",
+          "change": "変更",
+          "verifyTitle": "アカウント認証",
+          "verifyOldEmailText": "アカウントの安全を確保するため、本人確認を行ってください。確認コードを {email} に送信しました",
+          "changeTitle": "メールアドレスを変更",
+          "enterNewEmail": "新しいメールアドレスを入力してください",
+          "codeSent": "確認コードを送信しました",
+          "success": "メールアドレスの変更が完了しました",
+          "cancel": "キャンセル",
+          "confirm": "確認"
+        },
+        "changePhone": {
+          "confirmTitle": "注意",
+          "confirmQuestion": "電話番号を変更しますか？",
+          "currentPhone": "現在の電話番号：{phone}",
+          "change": "変更",
+          "verifyTitle": "アカウント認証",
+          "verifyOldPhoneText": "アカウントの安全を確保するため、本人確認を行ってください。確認コードを電話番号 {phonel} に送信しました",
+          "changeTitle": "電話番号を変更",
+          "enterNewPhone": "新しい電話番号を入力してください",
+          "codeSent": "確認コードを送信しました",
+          "success": "電話番号の変更が完了しました",
+          "cancel": "キャンセル",
+          "confirm": "確認"
+        },
+        "resetPassword": {
+          "title": "パスワードをリセット",
+          "message": "パスワードをリセットする前に本人確認を行ってください。続行しますか？",
+          "cancel": "キャンセル",
+          "confirm": "確認"
+        },
+        "logoutConfirm": {
+          "title": "ログアウト",
+          "message": "終了してもよろしいですか？\n終了する前に、すべてのファイルのアップロード、書き起こし、同期が完了していることを確認してください。完了していないとデータが失われる可能性があります。",
+          "cancel": "キャンセル",
+          "confirm": "終了"
+        },
+        "bindThirdAccountSuccess": "{type} アカウントの連携に成功しました",
+        "bindThirdAccountError": {
+          "userNotLoggedIn": "ユーザーがログインしていないため、サードパーティアカウントを連携できません",
+          "failed": "連携に失敗しました。後でもう一度お試しください",
+          "invalidType": "サポートされていないサードパーティアカウントの種類",
+          "googleAuthFailed": "Google の認証に失敗しました。再試行してください",
+          "appleAuthFailed": "Apple の認証に失敗しました。再試行してください",
+          "wechatAuthFailed": "WeChat の認証に失敗しました。再試行してください。",
+          "authCancelled": "承認がキャンセルされました"
+        },
+        "unbindThirdAccountSuccess": "{type} アカウントの連携解除に成功しました",
+        "unbindThirdAccountError": {
+          "userNotLoggedIn": "ユーザーがログインしていないため、サードパーティアカウントを解除できません",
+          "failed": "連携解除に失敗しました。後でもう一度お試しください"
+        },
+        "unbindThirdAccountConfirm": {
+          "title": "連携を解除しますか？",
+          "message": "{type}アカウントとの連携を解除しますか？",
+          "messageDefault": "このアカウントとの連携を解除しますか？",
+          "confirm": "確認",
+          "cancel": "キャンセル"
+        }
+      },
+      "general": "一般",
+      "membership": "メンバーシップ",
+      "membershipContent": {
+        "currentPlan": "現在のプラン",
+        "cancelSubscription": "サブスクリプションを解約",
+        "transcriptionDuration": "文字起こしクレジット",
+        "remaining": "残り {remaining} 分（合計 {total} 分）",
+        "startEndDate": "開始／終了日：{start}~{end}",
+        "nextResetDate": "次回リセット日：{date}",
+        "nextPaymentDate": "次回支払日：{date}",
+        "purchaseHistory": "購入履歴",
+        "purchaseHistorySwipeHint": "スワイプしてページを切り替え",
+        "transcriptionHistory": "文字起こし履歴",
+        "purchaseHistoryTable": {
+          "product": "項目",
+          "paymentTime": "支払日時",
+          "actualPayment": "支払金額"
+        },
+        "purchaseHistoryData": {
+          "professionalMonthly": "Pro月額サブスクリプション",
+          "transcription300": "300 分の文字起こしクレジット"
+        },
+        "transcriptionHistoryTable": {
+          "product": "項目",
+          "transcriptionTime": "文字起こし時間",
+          "consumedQuota": "使用済みクレジット"
+        },
+        "transcriptionHistoryData": {
+          "aiSummary": "AI 要約",
+          "realTimeTranscription": "即時転写",
+          "minutes": "分",
+          "seconds": "秒"
+        },
+        "cancelSubscriptionDescription1": "サブスクリプションは現在の請求期間の終了日（{date}）に解約されます。以降の請求は発生しません。",
+        "cancelSubscriptionDescription2": "その日以降、以下の BOYA Notra 特典は利用できなくなります：",
+        "cancelSubscriptionBenefits": {
+          "transcription140": "毎月 140 分の文字起こし",
+          "unlimitedStorage": "無制限クラウドストレージ",
+          "languages100": "100 以上の文字起こし対応言語",
+          "latestAIModels": "最新の AI モデル：ChatGPT、Gemini、Claude、Grok",
+          "exportFormats": "7 種類のファイルエクスポート形式",
+          "professionalTemplates": "20 種類のプロフェッショナルテンプレート",
+          "customTemplates": "カスタムテンプレート",
+          "askAI": "AI に質問"
+        },
+        "cancelSubscriptionReasonPlaceholder": "解約理由を選択してください",
+        "cancelSubscriptionReasons": {
+          "price": "高すぎる",
+          "notUsing": "あまり使わない",
+          "foundAlternative": "代替サービスを見つけた",
+          "tooExpensive": "コストが高い",
+          "other": "その他の理由"
+        },
+        "keepSubscription": "サブスクリプションを継続",
+        "remainingUnlimited": "残り{remaining}分（無制限）",
+        "unlimitedDuration": "無制限時間",
+        "transcriptionHistoryLoading": "読み込み中...",
+        "transcriptionHistoryEmpty": "書き起こし記録がありません",
+        "transcriptionHistoryError": "書き起こし記録の読み込みに失敗しました",
+        "transcriptionHistoryLoadComplete": "すべてのデータを読み込みました",
+        "purchaseHistoryLoadComplete": "すべてのデータを読み込みました",
+        "purchaseHistoryError": "購入記録の読み込みに失敗しました",
+        "cancelSubscriptionSuccess": "サブスクリプションの解約に成功しました",
+        "cancelSubscriptionError": {
+          "userNotLoggedIn": "ユーザーがログインしていません",
+          "failed": "サブスクリプションの解約に失敗しました。後でもう一度お試しください"
+        }
+      },
+      "helpFeedbackTitle": "ヘルプとフィードバック",
+      "about": "について",
+      "aboutContent": {
+        "socialMedia": "ソーシャルメディア",
+        "officialWebsite": "公式サイト",
+        "x": "X",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "tiktok": "Tiktok",
+        "legalPrivacy": "法務とプライバシー",
+        "userAgreement": "ユーザー契約",
+        "privacyPolicy": "プライバシーポリシー",
+        "cookiePolicy": "クッキーポリシー",
+        "cookieSettings": "クッキー設定",
+        "cookieSettingsContent": {
+          "categories": {
+            "necessary": "必須",
+            "necessaryDesc": "ウェブサイトの運営に不可欠で、常に有効です。",
+            "functional": "機能",
+            "functionalDesc": "設定を保存し、拡張機能を提供します。",
+            "analytics": "分析",
+            "analyticsDesc": "利用状況を測定し、体験向上のために使用されます。",
+            "marketing": "マーケティング",
+            "marketingDesc": "ターゲット広告に使用されます。"
+          }
+        },
+        "youtube": "YouTube",
+        "linkedin": "LinkedIn",
+        "discord": "Discord"
+      },
+      "nickname": "ニックネーム",
+      "nicknamePlaceholder": "ニックネームを入力",
+      "editAvatar": "アバターを編集",
+      "displayLanguage": "表示言語",
+      "selectLanguage": "言語を選択",
+      "languages": {
+        "zhCN": "简体中文",
+        "zhTW": "繁體中文（台灣）",
+        "zhHK": "繁體中文（香港）",
+        "enUS": "English",
+        "de": "Deutsch",
+        "fr": "Français",
+        "ja": "日本語",
+        "es": "Español",
+        "it": "Italiano",
+        "ru": "Русский"
+      },
+      "helpFeedback": {
+        "suggestionsFeedback": "ご意見・フィードバック",
+        "submitFeedback": "フィードバックを送信",
+        "contactUs": "お問い合わせ",
+        "operatingHours": "月曜日～日曜日 9:00-12:00、13:00-18:30（GMT+8）",
+        "whatsapp": "WhatsApp",
+        "email": "メール",
+        "onlineService": "オンラインカスタマーサービス",
+        "phone": "携帯電話番号",
+        "copy": "コピー",
+        "copySuccess": "コピー成功",
+        "copyFailed": "コピーに失敗しました",
+        "commonQuestions": "FAQ",
+        "feedbackModal": {
+          "title": "ご意見・フィードバック",
+          "description": "説明",
+          "descriptionPlaceholder": "ご意見をお聞かせください（10文字以上）",
+          "images": "画像",
+          "submit": "送信",
+          "submitSuccess": "送信に成功しました",
+          "submitSuccessMessage": "フィードバックありがとうございます",
+          "descriptionMinLengthError": "説明は 10 文字以上で入力してください"
+        },
+        "questions": {
+          "bindDevice": "デバイスをバインドする方法は？",
+          "startRecording": "録音を開始する方法は？",
+          "generateTranscription": "文字起こしを生成する方法は？",
+          "generateSummary": "要約を生成する方法は？",
+          "allQuestions": "すべての質問"
+        },
+        "emailCopyFallback": "メールアドレスをコピーしました。メールクライアントを開いて送信してください"
+      },
+      "nicknameMaxBytesExceeded": "ニックネームは50バイト以内にしてください"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "BOYA Notra にログイン",
+      "phoneNumber": "携帯電話番号を入力してください",
+      "email": "メールアドレスを入力してください",
+      "verificationCode": "認証コードを入力",
+      "password": "パスワードを入力してください",
+      "getCode": "送信",
+      "submit": "ログイン",
+      "register": "登録",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "passwordLogin": "パスワードログイン",
+      "verificationCodeLogin": "確認コードログイン",
+      "google": "Google",
+      "apple": "Apple ID",
+      "wechat": "WeChat",
+      "or": "または",
+      "autoRegister": "未登録の携帯電話番号はログイン後に自動的に登録されます",
+      "autoRegisterEmail": "未登録のメールアドレスはログイン後に自動的に登録されます",
+      "agreement": "「ログイン」をクリックすると、ユーザー契約およびプライバシーポリシーに同意したものとみなされます",
+      "backToLogin": "ログインに戻る",
+      "setPassword": "パスワードを設定",
+      "registerSuccess": "登録に成功しました。パスワードを設定してください",
+      "loading": "ログイン中...",
+      "codeSentCountdown": "送信済み",
+      "resend": "再送信",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを非表示",
+      "loginBackground": "ログイン背景",
+      "agreementPrefix": "ログインをクリックすると同意したことになります",
+      "userAgreement": "ユーザー規約",
+      "agreementAnd": "と",
+      "privacyPolicy": "プライバシーポリシー",
+      "wechatQRCodeTitle": "WeChatでQRログイン",
+      "wechatQRCodeTip": "WeChatでQRコードをスキャンしてログインしてください",
+      "wechatQRCodeHint": "スキャン後、手机でログインを確認してください"
+    },
+    "setPassword": {
+      "title": "パスワードを設定",
+      "hint": "新しいパスワードを設定してください（8～20 文字）。英字・数字・特殊文字のうち、少なくとも 2 種類を含める必要があります。",
+      "confirm": "確認"
+    },
+    "register": {
+      "title": "BOYA Notra を登録",
+      "phoneNumber": "携帯電話番号を入力してください",
+      "email": "メールアドレスを入力してください",
+      "verificationCode": "認証コードを入力",
+      "password": "パスワードを設定してください",
+      "confirmPassword": "パスワードを確認してください",
+      "getCode": "確認コードを取得",
+      "submit": "登録",
+      "backToLogin": "すでにアカウントをお持ちですか？ログインに戻る"
+    },
+    "forgotPassword": {
+      "title": "パスワードをお忘れですか",
+      "hint1China": "登録した携帯電話番号で本人確認を行い、パスワードをリセットしてください。",
+      "hint1NonChina": "登録したメールアドレスで本人確認を行い、パスワードをリセットしてください。",
+      "hint1": "登録した携帯電話番号／メールアドレスで本人確認を行い、パスワードをリセットしてください。",
+      "hint2": "新しいパスワード（8～20 文字）は、英字・数字・特殊文字のうち少なくとも 2 種類を含める必要があります。",
+      "phoneOrEmail": "携帯電話番号またはメールアドレスを入力してください",
+      "phoneOrEmailChina": "携帯電話番号を入力してください",
+      "phoneOrEmailNonChina": "メールアドレスを入力してください",
+      "email": "メールアドレスを入力してください",
+      "verificationCode": "認証コードを入力",
+      "newPassword": "パスワードを入力してください",
+      "confirmPassword": "パスワードを再入力してください",
+      "getCode": "確認コードを取得",
+      "submit": "パスワードをリセット",
+      "confirm": "確認",
+      "backToLogin": "キャンセル"
+    },
+    "changePassword": {
+      "title": "パスワードを変更",
+      "hint1China": "登録した携帯電話番号で本人確認を行い、パスワードをリセットしてください。",
+      "hint1NonChina": "登録したメールアドレスで本人確認を行い、パスワードをリセットしてください。",
+      "hint1": "パスワードをリセットする前に本人確認を行ってください。",
+      "hint2": "新しいパスワード（8～20 文字）は、英字・数字・特殊文字のうち少なくとも 2 種類を含める必要があります。",
+      "phoneOrEmail": "携帯電話番号またはメールアドレスを入力してください",
+      "phoneOrEmailChina": "携帯電話番号を入力してください",
+      "phoneOrEmailNonChina": "メールアドレスを入力してください",
+      "newPassword": "パスワードを入力してください",
+      "confirmPassword": "パスワードを再入力してください",
+      "confirm": "確認",
+      "backToSettings": "キャンセル"
+    },
+    "errors": {
+      "phoneRequired": "携帯電話番号を入力してください",
+      "phoneInvalid": "携帯電話番号の形式が正しくありません",
+      "emailRequired": "メールアドレスを入力してください",
+      "emailInvalid": "メールアドレスの形式が正しくありません",
+      "codeRequired": "認証コードを入力",
+      "codeInvalid": "確認コードは 6 桁である必要があります",
+      "codeExpired": "確認コードの有効期限が切れました。新しいコードをリクエストしてください。",
+      "codeIncorrect": "無効な確認コードです",
+      "codeMismatch": "確認コードが正しくありません。再入力してください。",
+      "passwordRequired": "パスワードを入力してください",
+      "passwordTooShort": "パスワードの長さは8～20文字である必要があります",
+      "passwordFormatInvalid": "パスワードは8～20文字で、英字・数字・記号のうち少なくとも2種類を含める必要があります",
+      "passwordMismatch": "パスワードが一致しません",
+      "passwordResetFailed": "パスワードのリセットに失敗しました。再試行してください",
+      "networkError": "ネットワークエラーです。後でもう一度お試しください。",
+      "sendCodeFailed": "確認コードの送信に失敗しました。再試行してください。",
+      "codeSendFailed": "確認コードの送信に失敗しました。再試行してください。",
+      "loginFailed": "ログインに失敗しました。アカウントとパスワードを確認してください。",
+      "thirdPartyNotImplemented": "サードパーティログインは開発中です。後でもう一度お試しください。",
+      "wechatAuthFailed": "WeChat の認証に失敗しました。再試行してください。",
+      "wechatAuthCancelled": "WeChat の認証がキャンセルされました",
+      "googleAuthFailed": "Google の認証に失敗しました。再試行してください",
+      "googleAuthCancelled": "Google の認証がキャンセルされました",
+      "appleAuthFailed": "Apple の認証に失敗しました。再試行してください",
+      "appleAuthCancelled": "Apple の認証がキャンセルされました",
+      "setPasswordFailed": "パスワードの設定に失敗しました。再試行してください",
+      "sessionExpired": "セッションの有効期限が切れました。再度ログインしてください。",
+      "tokenMissing": "認証情報が不足しています。再度ログインしてください。",
+      "userIdMissing": "ユーザー ID がありません",
+      "updateNicknameFailed": "ニックネームの設定に失敗しました",
+      "uploadAvatarFailed": "アバターのアップロードに失敗しました",
+      "invalidImageFile": "画像ファイルを選択してください",
+      "imageFileTooLarge": "画像ファイルが大きすぎます。5MB 未満のファイルを選択してください。",
+      "phonePasswordError": "電話番号またはパスワードが正しくありません",
+      "emailPasswordError": "メールアドレスまたはパスワードが正しくありません",
+      "phoneNotRegistered": "電話番号が未登録です。認証コードでログインしてください",
+      "emailNotRegistered": "メールアドレスが未登録です。認証コードでログインしてください",
+      "wechatQRCodeExpired": "QRコードの有効期限が切れました。再度スキャンしてください",
+      "googleAuthRejected": "ユーザーが認可を拒否したか、認可に失敗しました",
+      "googleStateValidationFailed": "Stateの検証に失敗しました。セキュリティリスクの可能性があります",
+      "googlePopupClosed": "ユーザーがログインをキャンセルしました",
+      "googlePopupBlocked": "ポップアップがブラウザにブロックされました。許可して再試行してください",
+      "googleAccountExistsWithDifferentCredential": "このメールアドレスは他のログイン方法で使用されています。元のログイン方法を使用してください",
+      "googleLoginFailed": "Googleログインに失敗しました",
+      "firebaseConfigMissing": "必要な設定項目が不足しています",
+      "firebaseConfigMissingHint": ".envファイルにFirebase関連の環境変数を設定してください",
+      "wechatSDKNotLoaded": "WeChatログインSDKが読み込まれていません。ネットワーク接続を確認してください",
+      "wechatAppIdNotConfigured": "WeChat AppIDが未設定です。環境変数にVITE_WECHAT_APPIDを設定してください",
+      "appleSDKNotLoaded": "Apple SDKが読み込まれていません。Apple JS SDKが導入されていることを確認してください",
+      "appleClientIdNotConfigured": "Apple Client IDが未設定です。環境変数にVITE_APPLE_CLIENT_IDを設定してください",
+      "appleSDKInitFailed": "Apple SDKの初期化に失敗しました",
+      "appleSDKLoadTimeout": "Apple SDKの読み込みがタイムアウトしました。ページを刷新して再試行してください",
+      "appleSignInFailed": "Appleログインに失敗しました",
+      "appleRedirectFailed": "Apple認可へのリダイレクトに失敗しました",
+      "appleAuthRejected": "ユーザーが認可を拒否したか、認可に失敗しました",
+      "appleStateValidationFailed": "Stateの検証に失敗しました。セキュリティリスクの可能性があります"
+    },
+    "success": {
+      "codeSent": "確認コードを送信しました",
+      "loginSuccess": "ログインに成功しました",
+      "registerSuccess": "登録に成功しました",
+      "passwordReset": "パスワードのリセットに成功しました",
+      "passwordSet": "パスワードの設定に成功しました",
+      "passwordChanged": "パスワードの変更に成功しました",
+      "logoutSuccess": "ログアウトに成功しました",
+      "nicknameUpdated": "ニックネームが正常に設定されました",
+      "avatarUpdated": "アバターのアップロードに成功しました"
+    }
+  },
+  "richTextToolbar": {
+    "bold": "太字",
+    "italic": "斜体",
+    "underline": "下線",
+    "strikethrough": "取り消し線",
+    "code": "コードブロック",
+    "link": "リンク",
+    "linkInputPlaceholder": "リンクを貼り付けるか入力",
+    "confirm": "確認",
+    "textStyle": {
+      "bodyText": "本文",
+      "heading1": "見出し1",
+      "heading2": "見出し2",
+      "heading3": "見出し3",
+      "heading4": "見出し4",
+      "bulletList": "箇条書きリスト",
+      "numberedList": "番号付きリスト",
+      "todoList": "ToDoリスト",
+      "quote": "引用",
+      "codeBlock": "コードブロック"
+    }
+  },
+  "share": {
+    "adText": "デバイスについて知り、購入して、すべての機能を満喫",
+    "buyNow": "今すぐ購入",
+    "createLinkSuccess": "共有リンクの作成に成功しました",
+    "createLinkFailed": "共有リンクの作成に失敗しました",
+    "loadContentFailed": "共有コンテンツの読み込みに失敗しました",
+    "linkExpired": "共有リンクの有効期限が切れました",
+    "loading": "読み込み中...",
+    "userInfoMissing": "ユーザー情報がありません。再ログインしてください",
+    "fileInfoMissing": "ファイル情報がありません",
+    "noShareTypesSelected": "少なくとも1種類の共有タイプを選択してください",
+    "shareIdMissing": "共有IDがありません",
+    "defaultTitle": "共有内容",
+    "noContent": "コンテンツはありません",
+    "invalidOrExpired": "リンクが無効または期限切れです",
+    "reachLimit": "アクセス回数の上限に達しました",
+    "brand": "BOYA Notra",
+    "tabTranscription": "文字起こし",
+    "tabSummary": "要約",
+    "tabMindmap": "マインドマップ",
+    "speaker": "話者",
+    "editSpeaker": "話者を編集",
+    "speakerNamePlaceholder": "話者名",
+    "applyToCurrent": "現在の段落に適用",
+    "applyToAll": "この話者のすべての段落に適用",
+    "loginFirstToSave": "保存するには先にログインしてください",
+    "saveSuccess": "保存しました",
+    "saveFailed": "保存に失敗しました"
+  },
+  "subscriptionTips": {
+    "title": "アップグレードしてすべての機能を利用",
+    "viewAllPlans": "すべてのプランを表示"
+  },
+  "bindingDevice": {
+    "title": "デバイスを連携して、効率的に記録を開始",
+    "existingDevice": {
+      "title": "すでにデバイスをお持ちですか？",
+      "description": "コードをスキャンしてアプリをダウンロードし、デバイスを連携して、すぐに使用"
+    },
+    "noDevice": {
+      "title": "デバイスをお持ちではありませんか？",
+      "description": "デバイスについて知り、購入して、すべての機能を満喫"
+    },
+    "upgradeTitle": "アップグレードしてすべての機能を利用",
+    "professional": {
+      "feature1": "毎月 1400 分の文字起こし",
+      "feature2": "無制限クラウドストレージ",
+      "feature3": "100 以上の文字起こし対応言語",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "さらに他にも"
+    },
+    "master": {
+      "feature1": "無制限の文字起こし時間",
+      "feature2": "無制限クラウドストレージ",
+      "feature3": "140 以上の文字起こし対応言語",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "さらに他にも"
+    },
+    "viewAllPlans": "すべてのプランを表示",
+    "planCards": {
+      "professional": {
+        "name": "プロフェッショナル",
+        "feature1": "月 1280 分の文字起こし",
+        "feature2": "無制限のクラウドストレージ",
+        "feature3": "100 以上の文字起こし言語",
+        "feature4": "7 形式でエクスポート",
+        "feature5": "その他"
+      },
+      "master": {
+        "name": "マスター",
+        "badge": "最も人気",
+        "feature1": "無制限の文字起こし時間",
+        "feature2": "無制限のクラウドストレージ",
+        "feature3": "140 以上の文字起こし言語",
+        "feature4": "7 形式でエクスポート",
+        "feature5": "その他"
+      },
+      "subscribe": "購読",
+      "perYear": "/年",
+      "buyNowArrow": "今すぐ購入 →"
+    }
+  },
+  "dialogs": {
+    "audioEditor": {
+      "cropTitle": "トリミング：選択範囲の音声のみを残す",
+      "cropAlt": "トリミング",
+      "deleteAlt": "削除",
+      "pauseAlt": "一時停止",
+      "playAlt": "再生",
+      "zoomOutAlt": "縮小",
+      "zoomInAlt": "拡大",
+      "loadingText": "音声を読み込み中...（{progress}%）",
+      "loadingHint": "トリミングと削除で音声を編集できます",
+      "saveAsNewTitle": "新しいファイルとして保存",
+      "saveHintEdited": "音声が編集されています。新しいファイルとして保存しますか？<br />保存しない変更は失われます。",
+      "saveHintPlain": "新しいファイルとして保存しますか？<br />保存しない変更は失われます。",
+      "fileNameLabel": "ファイル名",
+      "processingCut": "トリミング中...",
+      "preparing": "準備中...",
+      "uploadCredential": "アップロード資格情報を取得中...",
+      "uploading": "アップロード中...",
+      "uploadSuccess": "音声をクラウドにアップロードしました",
+      "uploadFailed": "アップロードに失敗しました",
+      "processFailed": "音声の処理に失敗しました: {msg}",
+      "selectRegionFirst": "先に残す範囲を選択してください",
+      "ffmpegNotReady": "FFmpeg の準備ができていません。しばらくしてから再試行してください。",
+      "loginFirst": "先にサインインしてください",
+      "networkError": "ネットワークエラー",
+      "audioLoadFailed": "音声の読み込みに失敗しました"
+    },
+    "exportAudio": {
+      "title": "音声をエクスポート",
+      "exportAs": "形式",
+      "export": "エクスポート",
+      "noAudio": "利用できる音声がありません",
+      "exporting": "音声をエクスポート中...",
+      "downloadUrlFailed": "ダウンロードリンクの取得に失敗しました",
+      "fetchAudioFailed": "音声の取得に失敗しました。ネットワークを確認して再試行してください。",
+      "exportDone": "エクスポートが完了しました",
+      "exportFailed": "音声のエクスポートに失敗しました",
+      "filePickerMp3": "MP3 音声",
+      "filePickerWav": "WAV 音声",
+      "defaultFileName": "audio"
+    },
+    "exportSummary": {
+      "title": "要約をエクスポート",
+      "exportAs": "形式",
+      "export": "エクスポート",
+      "noContent": "要約の内容がありません",
+      "exporting": "要約をエクスポート中...",
+      "exportDone": "エクスポートが完了しました",
+      "exportFailed": "要約のエクスポートに失敗しました",
+      "defaultFileName": "要約",
+      "filePickerDesc": "ファイルをエクスポート"
+    },
+    "exportMindMap": {
+      "title": "マインドマップをエクスポート",
+      "exportAs": "形式",
+      "export": "エクスポート",
+      "noContent": "マインドマップの内容がありません",
+      "exporting": "マインドマップをエクスポート中...",
+      "exportDone": "エクスポートが完了しました",
+      "exportFailed": "マインドマップのエクスポートに失敗しました",
+      "defaultFileName": "マインドマップ",
+      "filePickerDesc": "ファイルをエクスポート"
+    },
+    "exportTranscription": {
+      "title": "文字起こしをエクスポート",
+      "exportAs": "形式",
+      "export": "エクスポート",
+      "include": "含める",
+      "timestamp": "タイムスタンプ",
+      "speaker": "話者",
+      "speakerLine": "話者 {id}",
+      "noContent": "文字起こしの内容がありません",
+      "exporting": "文字起こしをエクスポート中...",
+      "exportDone": "エクスポートが完了しました",
+      "exportFailed": "文字起こしのエクスポートに失敗しました",
+      "defaultFileName": "文字起こし",
+      "filePickerDesc": "ファイルをエクスポート"
+    },
+    "feedback": {
+      "title": "詳しく教えてください",
+      "subtitle": "ご意見は大切です。いただいた内容をもとに改善を続けます。",
+      "placeholderOther": "その他：改善してほしい点は？",
+      "agreeShare": "文字起こしを BOYA Notra チームと共有することに同意します",
+      "send": "送信",
+      "tag1": "重要な情報が欠けている",
+      "tag2": "固有名詞は翻訳しないでほしい",
+      "tag3": "各セグメントが長すぎる",
+      "tag4": "冗長な内容"
+    },
+    "generateMethod": {
+      "title": "生成方法を選択",
+      "autoName": "自動",
+      "autoDesc": "手動設定なしで、最適な文字起こしと要約を自動生成します。",
+      "customName": "カスタム",
+      "summaryTemplate": "要約テンプレート",
+      "aiModel": "AI モデル",
+      "transcriptLanguage": "文字起こし言語",
+      "distinguishSpeakers": "話者を区別",
+      "generateNow": "今すぐ生成",
+      "auto": "自動",
+      "defaultTemplateName": "議事録",
+      "zhCNFallback": "中国語（簡体字）"
+    },
+    "shareLink": {
+      "title": "共有リンク",
+      "tip": "リンクの有効期限は 7 日間です。期限前であれば、リンクを知っている誰でもアクセスできます。",
+      "copyLink": "リンクをコピー",
+      "optionAudio": "録音音声",
+      "optionSummary": "要約",
+      "optionMindmap": "マインドマップ",
+      "optionTranscription": "文字起こし",
+      "atLeastOne": "1 つ以上選択してください",
+      "loginFirst": "先にサインインしてください",
+      "missingTranscribeId": "文字起こし ID がありません",
+      "linkCopied": "リンクをクリップボードにコピーしました",
+      "noLink": "共有リンクが返されませんでした",
+      "createFailed": "共有リンクの作成に失敗しました"
+    },
+    "summaryTemplate": {
+      "title": "要約テンプレート",
+      "create": "作成",
+      "noTemplates": "テンプレートがありません",
+      "customTitle": "カスタムテンプレート",
+      "templateName": "テンプレート名",
+      "prompt": "プロンプト",
+      "placeholderName": "テンプレート名を入力",
+      "placeholderPrompt": "プロンプトを入力",
+      "previewTitle": "テンプレート",
+      "overview": "概要",
+      "recordingLanguage": "録音言語",
+      "aiModel": "AI モデル",
+      "distinguishSpeakers": "話者を区別",
+      "generateNow": "今すぐ生成",
+      "auto": "自動",
+      "zhCNFallback": "中国語（簡体字）",
+      "enterName": "テンプレート名を入力してください",
+      "enterPrompt": "プロンプトを入力してください",
+      "createSuccess": "作成しました",
+      "createFailed": "作成に失敗しました"
+    },
+    "translate": {
+      "title": "翻訳先",
+      "searchPlaceholder": "言語を検索"
+    }
+  }
+}

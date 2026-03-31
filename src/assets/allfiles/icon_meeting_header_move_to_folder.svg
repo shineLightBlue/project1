@@ -1,0 +1,21 @@
+<svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.000000" height="14.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<mask id="mask_1" width="14.000000" height="14.000000" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="矩形 105" width="14.000000" height="14.000000" x="0.000000" y="0.000000" fill="rgb(196,196,196)" />
+		</g>
+	</mask>
+	<g id="组合 317" mask="url(#mask_1)">
+		<g id="编组 23">
+			<path id="路径" d="M12.4286 10C12.4286 10.3094 12.4286 10.8094 12.4286 11.5L1.5 11.5L1.5 2.5C1.5 2.5 2.71429 2.5 5.14286 2.5L6.35714 4.57692L12.4286 4.57692C12.4286 5.65385 12.4286 5.71154 12.4286 6.25" fill="rgb(216,216,216)" fill-opacity="0" fill-rule="evenodd" />
+			<path id="路径" d="M12.4286 10C12.4286 10.3094 12.4286 10.8094 12.4286 11.5L1.5 11.5L1.5 2.5C1.5 2.5 2.71429 2.5 5.14286 2.5L6.35714 4.57692L12.4286 4.57692C12.4286 5.65385 12.4286 5.71154 12.4286 6.25" fill-rule="evenodd" stroke="rgb(0,0,0)" stroke-width="0.899999976" />
+			<path id="路径 23" d="M8.78564 5.875L10.6071 7.75L8.78564 9.625" fill="rgb(216,216,216)" fill-opacity="0" fill-rule="evenodd" />
+			<path id="路径 23" d="M8.78564 5.875L10.6071 7.75L8.78564 9.625" fill-rule="evenodd" stroke="rgb(0,0,0)" stroke-linejoin="round" stroke-width="0.899999976" />
+			<path id="路径 24" d="M0 0L5.82857 0" stroke="rgb(0,0,0)" stroke-width="0.899999976" transform="matrix(-1,0,0,-1,10.2429,7.75)" />
+		</g>
+	</g>
+</svg>

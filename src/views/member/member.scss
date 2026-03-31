@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+/* 会员中心页面容器：固定宽度、垂直布局、区块间距 */
+.member-page {
+  padding-top: 50px;
+  padding-bottom: 28px;
+  width: 790px;
+  max-width: 790px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+/* 页头：标题「会员中心」 */
+.page-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 页面主标题样式 */
+.page-title {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}

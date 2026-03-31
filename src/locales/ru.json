@@ -1,0 +1,1477 @@
+{
+  "file": {
+    "fileNameNotEmpty": "Имя файла не может быть пустым",
+    "askAIDelete": "Успешно очищено"
+  },
+  "common": {
+    "loading": "Загрузка…",
+    "noData": "Данные отсутствуют",
+    "copySuccess": "Скопировано в буфер обмена",
+    "copyFailed": "Не удалось скопировать",
+    "close": "Закрыть",
+    "select": "Пожалуйста, выберите",
+    "aiReply": "Ответ ИИ",
+    "aiReplyFile": "Ответ ИИ.txt",
+    "showDirectory": "Показать каталог",
+    "hideDirectory": "Скрыть каталог",
+    "deleteImage": "Удалить изображение",
+    "closePreview": "Закрыть предпросмотр",
+    "audioLoadError": "Не удалось загрузить аудио",
+    "audioLoadAborted": "Загрузка аудио была прервана",
+    "audioNetworkError": "Ошибка сети, невозможно загрузить аудио",
+    "audioDecodeError": "Декодирование аудио не удалось",
+    "audioFormatError": "Неподдерживаемый формат аудио",
+    "audioLoadErrorWithCode": "Не удалось загрузить аудио (код ошибки: {code})",
+    "crop": "Обрезать",
+    "moreActions": "Другие действия",
+    "cancel": "Отмена",
+    "saveAs": "Сохранить как",
+    "delete": "Удалить",
+    "play": "Воспроизвести",
+    "pause": "Пауза",
+    "zoom": "Масштаб",
+    "zoomIn": "Увеличить",
+    "zoomOut": "Уменьшить",
+    "confirm": "Подтвердить",
+    "save": "Сохранить",
+    "edit": "Редактировать",
+    "copy": "Копировать",
+    "praise": "Похвалить",
+    "criticize": "Покритиковать"
+  },
+  "layout": {
+    "header": {
+      "showSidebar": "Показать основную навигацию",
+      "hideSidebar": "Скрыть основную навигацию",
+      "showSecondaryNav": "Показать список файлов",
+      "hideSecondaryNav": "Скрыть список файлов",
+      "allFiles": "Все файлы",
+      "updateTime": "Время обновления",
+      "sortOptions": {
+        "creationTime": "Время создания",
+        "updateTime": "Время обновления",
+        "recentlyOpened": "Недавно открытые"
+      }
+    },
+    "sidebar": {
+      "search": "Поиск",
+      "allFiles": "Все файлы",
+      "uncategorized": "Без категории",
+      "recycleBin": "Корзина",
+      "folders": "Папка",
+      "folderName": "Название папки",
+      "addFolder": "Новая папка",
+      "createFolder": {
+        "title": "Создать новую папку",
+        "nameLabel": "Название",
+        "namePlaceholder": "Пожалуйста, введите",
+        "colorLabel": "Цвет",
+        "iconLabel": "Иконка",
+        "iconSelectorTitle": "Выбрать иконку",
+        "createButton": "Создать",
+        "success": "Папка успешно создана",
+        "error": "Не удалось создать папку",
+        "nameRequired": "Пожалуйста, введите имя папки.",
+        "nameTooLong": "Слишком длинное имя файла",
+        "userNotLoggedIn": "Пользователь не вошёл в систему, сначала войдите"
+      },
+      "editFolder": {
+        "title": "Редактировать папку",
+        "nameLabel": "Название",
+        "namePlaceholder": "Пожалуйста, введите",
+        "colorLabel": "Цвет",
+        "iconLabel": "Иконка",
+        "saveButton": "Сохранить",
+        "deleteButton": "Удалить",
+        "saveSuccess": "Папка обновлена",
+        "saveError": "Не удалось обновить папку",
+        "nameTooLong": "Слишком длинное имя файла",
+        "deleteSuccess": "Папка удалена",
+        "deleteError": "Не удалось удалить папку",
+        "deleteConfirm": {
+          "title": "Удалить папку",
+          "message": "При удалении папки будут удалены все файлы в ней.",
+          "question": "Подтвердить удаление?",
+          "confirmButton": "Удалить",
+          "cancelButton": "Отмена"
+        }
+      },
+      "sources": "Из",
+      "import": "Импорт",
+      "callRecording": "Запись звонка",
+      "envRecording": "Запись окружающих звуков",
+      "headphoneRecording": "Запись через наушники",
+      "help": "Справочный центр",
+      "settings": "Настройки",
+      "importAudio": "Импорт аудио",
+      "searchModal": {
+        "inputPlaceholder": "Пожалуйста, введите",
+        "searchHistory": "История поиска",
+        "recentBrowsing": "Недавние просмотры",
+        "noResults": "Результаты поиска отсутствуют",
+        "deleteHistory": "Удалить историю поиска",
+        "deleteHistoryTitle": "Удалить историю поиска",
+        "deleteHistoryMessage": "Подтвердить удаление всей истории поиска?",
+        "historyDeleted": "История поиска удалена",
+        "clear": "Очистить",
+        "cancel": "Отмена",
+        "delete": "Удалить",
+        "close": "Закрыть",
+        "searching": "Поиск...",
+        "searchFailed": "Поиск не удался",
+        "matchSource": {
+          "transcription": "Текст транскрипции",
+          "title": "Заголовок",
+          "summary": "Сводка",
+          "mindmap": "Интеллект-карта"
+        }
+      },
+      "importAudioModal": {
+        "title": "Импорт аудио",
+        "clickToUpload": "Нажмите, чтобы загрузить файл",
+        "or": "Или",
+        "dragFiles": "Перетащите файлы",
+        "supportedFormats": "Поддерживаются форматы MP3、AAC、PCM、WAV、MP4、M4V、MOV、OGG、M4A",
+        "status": {
+          "uploading": "Загрузка",
+          "transcoding": "Транскодирование",
+          "success": "Импорт выполнен успешно",
+          "error": "Импорт не выполнен"
+        },
+        "errors": {
+          "maxFilesExceeded": "Одновременно можно загрузить не более 5 файлов",
+          "unsupportedFormat": "Неподдерживаемый формат файла",
+          "durationExceeded": "Пожалуйста, загружайте аудиофайлы длительностью менее 5 часов",
+          "networkError": "Проблемы с сетью",
+          "fileSizeExceeded": "Размер файла превышает лимит",
+          "uploadFailed": "Ошибка загрузки",
+          "serverError": "Ошибка сервера, повторите попытку позже"
+        }
+      },
+      "askAI": "Спросить ИИ",
+      "professional": "Pro",
+      "usage": "Использовано {used}/{total} минут",
+      "usageUnlimited": "Использовано {used} мин / безлимитная длительность"
+    },
+    "mainContent": {
+      "welcome": "Добро пожаловать в BOYA Notra Web",
+      "tabs": {
+        "transcription": "Транскрипция",
+        "summary": "Резюме",
+        "mindMap": "Интеллект-карта"
+      },
+      "transcription": {
+        "noTranscription": "Нет доступной расшифровки",
+        "willShowAfterGeneration": "Расшифровка будет отображена здесь после генерации",
+        "noTranscribableContent": "Не обнаружено содержимого для транскрибирования",
+        "checkAudioFile": "Проверьте аудиофайл",
+        "noAudioFile": "В этом файле нет аудио",
+        "noAudioFileDesc": "Невозможно воспроизвести аудио или создать транскрипцию",
+        "play": "Воспроизвести",
+        "pause": "Пауза",
+        "playSegment": "Воспроизвести фрагмент",
+        "rewind15s": "Перемотка назад на 15 секунд",
+        "forward15s": "Перемотка вперёд на 15 секунд",
+        "playbackRate": "Скорость воспроизведения",
+        "crop": "Обрезать",
+        "generate": "Создать",
+        "generating": "Генерация...",
+        "generateNow": "Генерировать немедленно",
+        "generateFailed": "Не удалось создать транскрипцию, попробуйте ещё раз",
+        "generatingView": {
+          "loading": "Генерация...",
+          "hint": "Пожалуйста, подождите, контент создаётся"
+        },
+        "errors": {
+          "userNotLoggedIn": "Пользователь не вошёл в систему",
+          "fileUrlEmpty": "URL файла не может быть пустым",
+          "fileFetchFailed": "Не удалось получить файл",
+          "languageCodeEmpty": "Код языка не может быть пустым",
+          "fileDurationInvalid": "Недействительная длительность файла: {duration} сек, убедитесь, что аудиофайл загружен правильно",
+          "modelConfigInvalid": "Недействительная конфигурация модели: platform={platform}, model={model}",
+          "modelNotFound": "Подходящая модель не найдена",
+          "downloadUrlMissing": "У файла нет действительного URL для скачивания, массовая транскрипция невозможна. Убедитесь, что файл загружен правильно.",
+          "pollingFailed": "Задача транскрипции не удалась, попробуйте позже",
+          "saveFailed": "Сохранение не удалось, попробуйте ещё раз"
+        },
+        "saveSuccess": "Успешно сохранено",
+        "paragraphEmpty": "Содержание абзаца не может быть пустым",
+        "selectGenerateMethod": "Выберите способ генерации",
+        "generateMethod": {
+          "auto": "Автогенерация",
+          "autoDescription": "Автоматически создаёт наиболее подходящую транскрипцию и резюме, без ручных настроек",
+          "custom": "Пользовательская генерация",
+          "summaryTemplate": "Шаблон",
+          "aiModel": "Модель ИИ",
+          "transcriptionLanguage": "Язык расшифровки",
+          "differentiateSpeakers": "Отдельные говорящие",
+          "recordingDesensitization": "Обезличивание записи",
+          "meetingSummary": "Заметки с совещаний",
+          "automatic": "Авто",
+          "chineseSimplifiedMandarin": "Упрощённый китайский — мандарин",
+          "modelDisplayName": {
+            "Auto": "Авто"
+          },
+          "aiModelOptions": {
+            "auto": "Авто",
+            "gpt5": "GPT-5",
+            "gpt41": "GPT-4.1",
+            "grok4": "Grok 4",
+            "claudeSonnet4": "Claude Sonnet 4",
+            "deepseekChat": "Deepseek chat",
+            "doubao": "Doubao"
+          }
+        },
+        "summaryTemplate": {
+          "categories": {
+            "custom": "Пользовательский",
+            "recentlyUsed": "Недавно использованные",
+            "general": "Общие",
+            "meeting": "Совещание",
+            "speech": "Речь",
+            "call": "Звонок",
+            "interview": "Интервью",
+            "medical": "Медицина",
+            "sales": "Продажа",
+            "consultation": "Консультация",
+            "education": "Образование",
+            "architecture": "Архитектура",
+            "it": "IT-отрасль"
+          },
+          "templates": {
+            "meetingMinutes": "Заметки с совещаний",
+            "classNotes": "Заметки с занятий"
+          },
+          "create": "Создать",
+          "lastUsed": "Последнее использование",
+          "loading": "Загрузка…",
+          "loadError": "Не удалось загрузить категории шаблонов",
+          "noTemplates": "В этой категории нет шаблонов",
+          "customTemplate": {
+            "title": "Пользовательский шаблон",
+            "templateName": "Название шаблона",
+            "templateNamePlaceholder": "Введите название шаблона",
+            "prompt": "Промпт",
+            "promptPlaceholder": "Введите промпт",
+            "save": "Сохранить",
+            "saveSuccess": "Шаблон успешно сохранён",
+            "saveFailed": "Не удалось сохранить шаблон",
+            "userInfoMissing": "Информация о пользователе отсутствует, невозможно сохранить шаблон"
+          },
+          "preview": {
+            "overview": "Обзор",
+            "taskLabel": "Определить задачи ассистента",
+            "elementsLabel": "Составные элементы протокола встречи включают",
+            "constraintsLabel": "Ограничения при составлении протокола включают",
+            "meeting_minutes": {
+              "title": "Заметки с совещаний",
+              "task": "Извлеките указанные элементы из аудиотранскрипции встречи и сформируйте краткий протокол согласно ограничениям.",
+              "elements[0]": "Название встречи и дата/время",
+              "elements[1]": "Участники",
+              "elements[2]": "Вопросы",
+              "elements[3]": "Содержание обсуждения",
+              "elements[4]": "Решения",
+              "elements[5]": "Нерешённые вопросы",
+              "elements[6]": "А также следующие действия и другие особые пункты с указанием ответственного, содержания и срока.",
+              "constraints[0]": "Используйте чёткие маркированные пункты",
+              "constraints[1]": "Весь текст не более 800 знаков",
+              "constraints[2]": "Используйте вежливую форму",
+              "constraints[3]": "Сосредоточьтесь на ключевых моментах",
+              "constraints[4]": "Избегайте эмоциональности",
+              "constraints[5]": "Фиксируйте только объективные факты."
+            }
+          }
+        },
+        "markdownViewer": {
+          "feedbackModal": {
+            "title": "Расскажите нам подробнее",
+            "subtitle": "Ваш отзыв非常 ценен, мы продолжим улучшать и итеративно развивать на основе ваших предложений.",
+            "feedback": {
+              "submitSuccess": "Отзыв успешно отправлен",
+              "submitFailed": "Не удалось отправить отзыв, попробуйте позже"
+            },
+            "categories": {
+              "missingKeyInfo": "Отсутствует ключевая информация",
+              "properNouns": "Имена собственные не следует переводить",
+              "paragraphTooLong": "Каждый абзац слишком длинный",
+              "redundantContent": "Содержание избыточно"
+            },
+            "otherPlaceholder": "Другое: что нужно улучшить?",
+            "agreeToShare": "Я согласен поделиться моей транскрипцией с командой BOYA Notra",
+            "send": "Отправить"
+          },
+          "summaryVersionConflict": {
+            "title": "Конфликт редактирования резюме",
+            "message": "Обнаружен конфликт版本; содержимое backend было更新 другими действиями. Выберите способ сохранения:",
+            "localVersion": "Локальная версия",
+            "serverVersion": "Версия backend",
+            "saveLocal": "Сохранить локально",
+            "saveServer": "Сохранить в backend"
+          }
+        },
+        "audioLoading": "Загрузка аудио...({progress}%)",
+        "cropHint": "Вы можете использовать обрезку и удаление, чтобы редактировать аудио",
+        "audioCropProcessing": "Обрезка...",
+        "audioDeleteProcessing": "Удаление...",
+        "audioDeleteFailed": "Не удалось удалить аудиофрагмент, попробуйте ещё раз",
+        "audioCropFailed": "Не удалось обрезать аудио, попробуйте ещё раз",
+        "saveAsNewFile": "Сохранить как новый файл",
+        "audioEdited": "Аудио было отредактировано. Сохранить как новый файл?",
+        "unsavedChanges": "Несохранённые изменения будут потеряны.",
+        "fileName": "Имя файла",
+        "save": "Сохранить",
+        "saveAsSuccess": "Файл сохранён локально",
+        "saveAsFailed": "Не удалось сохранить файл, попробуйте ещё раз",
+        "uploading": "Загрузка",
+        "uploadSuccess": "Файл успешно загружен",
+        "uploadError": {
+          "userNotLoggedIn": "Пользователь не вошёл, сначала войдите",
+          "failed": "Загрузка файла не удалась"
+        }
+      },
+      "summary": {
+        "noSummary": "Нет доступного резюме",
+        "willShowAfterGeneration": "Резюме будет отображено здесь после генерации"
+      },
+      "mindMap": {
+        "noMindmap": "Нет доступной интеллект-карты",
+        "willShowAfterGeneration": "Интеллект-карта будет отображена здесь после генерации"
+      }
+    },
+    "headerRight": {
+      "shareMenu": {
+        "shareLink": "Поделиться ссылкой",
+        "copyTranscribe": "Скопировать транскрипцию",
+        "copySummary": "Скопировать сводку",
+        "copying": "Копирование…",
+        "copySuccess": "Скопировано в буфер обмена",
+        "copyFailed": "Не удалось скопировать, пожалуйста, попробуйте снова",
+        "exportAudio": "Экспорт аудио",
+        "exportTranscribe": "Экспорт транскрипции",
+        "exportSummary": "Экспорт сводки",
+        "exportMindMap": "Экспорт интеллект-карты",
+        "speaker": "Диктор",
+        "keywords": "Ключевые слова",
+        "errors": {
+          "fileObjectRequired": "Объект файла не может быть пустым",
+          "fileIdRequired": "ID файла не может быть пустым",
+          "transcriptionDataEmpty": "Данные транскрипции пусты",
+          "summaryDataEmpty": "Данные резюме пусты",
+          "transcriptionTextEmpty": "Текст транскрипции пуст",
+          "summaryTextEmpty": "Текст резюме пуст",
+          "mindMapDataEmpty": "Данные ментальной карты пусты",
+          "mindMapDataInvalid": "Неверный формат данных ментальной карты",
+          "mindMapElementNotFound": "Элемент ментальной карты не найден",
+          "mindMapTextEmpty": "Текст ментальной карты пуст",
+          "mindMapTabNotActive": "Сначала переключитесь на вкладку \"Интеллект-карта\"",
+          "imageConversionFailed": "Не удалось преобразовать изображение",
+          "fileNotGenerated": "Файл не создан"
+        }
+      },
+      "shareLinkModal": {
+        "title": "Поделиться ссылкой",
+        "audio": "Запись аудио",
+        "summary": "Сводка",
+        "mindMap": "Интеллект-карта",
+        "transcribe": "Транскрипция",
+        "copyLink": "Скопировать ссылку",
+        "info": "Срок действия ссылки — 7 дней. До истечения срока любой, у кого есть ссылка, может получить доступ.",
+        "copySuccess": "Скопировано в буфер обмена",
+        "copyFailed": "Не удалось скопировать, пожалуйста, попробуйте снова",
+        "atLeastOneRequired": "Для ссылки общего доступа нужно выбрать как минимум один пункт"
+      },
+      "moreMenu": {
+        "moveToFolder": "Переместить в папку",
+        "regenerate": "Сгенерировать заново",
+        "translate": "Перевести",
+        "findAndReplace": "Найти и заменить",
+        "moveToRecycleBin": "Переместить в корзину",
+        "nameSpeaker": "Назвать выступающих"
+      },
+      "share": "Поделиться",
+      "more": "Ещё",
+      "exportModal": {
+        "title": "Экспорт",
+        "exportAs": "Экспортировать как",
+        "include": "Включить",
+        "export": "Экспорт",
+        "exporting": "Экспорт...",
+        "audio": {
+          "title": "Экспорт аудио"
+        },
+        "transcribe": {
+          "title": "Экспорт транскрипции"
+        },
+        "summary": {
+          "title": "Экспорт сводки"
+        },
+        "mindMap": {
+          "title": "Экспорт интеллект-карты"
+        },
+        "formats": {
+          "mp3": "MP3",
+          "wav": "WAV",
+          "txt": "TXT",
+          "srt": "SRT",
+          "docx": "DOCX",
+          "pdf": "PDF",
+          "markdown": "Markdown",
+          "jpeg": "JPEG"
+        },
+        "includes": {
+          "timestamp": "Время метки",
+          "speaker": "Диктор"
+        },
+        "errors": {
+          "invalidFileType": "Недопустимый тип файла",
+          "missingFileKey": "В файле отсутствует необходимая идентификационная информация",
+          "failedToGetDownloadUrl": "Не удалось получить URL скачивания",
+          "failedToDownload": "Не удалось скачать файл",
+          "exportFailed": "Экспорт не удался, попробуйте ещё раз",
+          "notImplemented": "Эта функция экспорта ещё не реализована",
+          "canvasRenderFailed": "Ошибка рендеринга PDF, содержимое пусто"
+        },
+        "exportSuccess": "Экспорт успешен"
+      },
+      "keywordAdd": "Добавить",
+      "speakerNameDialog": {
+        "title": "Назвать докладчиков",
+        "speakerNamePlaceholder": "Имя докладчика",
+        "duration": "Длительность",
+        "totalDuration": "Общая длительность",
+        "noSpeakerData": "Нет данных докладчиков"
+      },
+      "editSpeakerDialog": {
+        "title": "Редактировать докладчика"
+      },
+      "messages": {
+        "selectFileFirst": "Сначала выберите файл",
+        "noTranscriptionContent": "Нет содержимого транскрипции",
+        "noSummaryContent": "Нет содержимого резюме",
+        "noAudio": "Нет аудио",
+        "noMindmapContent": "Нет содержимого интеллект-карты",
+        "templateMemberMismatch": "Модель шаблона не соответствует уровню подписки",
+        "transcriptionFailed": "Ошибка транскрипции",
+        "queryTranscriptionFailed": "Не удалось получить результат транскрипции",
+        "fastTranscribeFailed": "Ошибка быстрой транскрипции",
+        "feedbackSubmitSuccess": "Отзыв успешно отправлен",
+        "showL2Nav": "Показать список файлов"
+      },
+      "keywordsLabel": "Ключевые слова: ",
+      "keywordJoiner": ", ",
+      "translate": {
+        "loading": "Перевод...",
+        "success": "Перевод выполнен",
+        "error": {
+          "userNotLoggedIn": "Пользователь не вошёл в систему",
+          "fileNotGenerated": "Файл не создан, перевод невозможен",
+          "noResult": "Результат перевода пуст",
+          "failed": "Перевод не удался, попробуйте ещё раз"
+        }
+      },
+      "findAndReplaceModal": {
+        "title": "Найти и заменить",
+        "find": "Найти",
+        "replaceWith": "Заменить на",
+        "searchPlaceholder": "Введите текст для поиска",
+        "replacePlaceholder": "Введите текст замены",
+        "previousMatch": "Предыдущее совпадение",
+        "nextMatch": "Следующее совпадение",
+        "replace": "Заменить",
+        "replaceAll": "Заменить все",
+        "replaceSuccess": "Замена завершена",
+        "replaceAllSuccess": "Все замены завершены",
+        "replaceError": "Замена не удалась, попробуйте ещё раз"
+      },
+      "nameSpeakerModal": {
+        "title": "Назвать выступающих",
+        "save": "Сохранить",
+        "cancel": "Отмена",
+        "speakerPlaceholder": "Введите имя говорящего",
+        "totalDuration": "Общая длительность",
+        "noSpeakers": "Нет данных о выступающих",
+        "loading": "Загрузка данных транскрипции...",
+        "noSegments": "Нет сегментов транскрипции",
+        "loadError": "Не удалось загрузить данные транскрипции, попробуйте ещё раз",
+        "saveSuccess": "Успешно сохранено",
+        "speakerNameEmpty": "Имя говорящего не может быть пустым"
+      },
+      "speakerEditBox": {
+        "title": "Редактировать говорящего",
+        "applyToCurrentParagraph": "Применить к текущему абзацу",
+        "applyToAllParagraphs": "Применить этого говорящего ко всем абзацам",
+        "save": "Сохранить"
+      },
+      "translateModal": {
+        "title": "Перевести на",
+        "searchPlaceholder": "Поиск языка",
+        "clear": "Очистить",
+        "noResults": "Подходящий язык не найден",
+        "exit": "Выйти"
+      }
+    },
+    "askAI": {
+      "deleteConfirm": {
+        "title": "Подтвердить безвозвратное удаление записи?",
+        "subtitle": "Эта запись будет удалена навсегда и не подлежит восстановлению.",
+        "confirm": "Удалить",
+        "cancel": "Отмена"
+      },
+      "greeting": "Привет, {name}.",
+      "subtitle": "Чем я могу вам помочь сегодня?",
+      "inputPlaceholder": "Задать вопрос ИИ…",
+      "followUpPlaceholder": "Продолжить",
+      "reading": "Чтение…",
+      "responses": {
+        "greeting": "Здравствуйте! Я ваш ИИ-ассистент, рад быть полезным. Я могу помочь ответить на вопросы, дать советы или помочь с различными задачами. Чем я могу помочь?",
+        "help": "Я могу предоставить следующую помощь:\n1. Ответы на вопросы: могу отвечать на различные вопросы, основанные на знаниях\n2. Обработка текста: помогу отредактировать, обобщить или перевести текст\n3. Творческие предложения: предложу креативные идеи и советы\n4. Техническая поддержка: отвечу на технические вопросы\nПожалуйста, сообщите, с чем вам нужна помощь?",
+        "features": "Мои основные функции включают:\n• Интеллектуальные вопросы и ответы: ответы на различные вопросы\n• Анализ текста: анализ, обобщение и извлечение ключевой информации\n• Генерация контента: создание статей, сводок и т. д.\n• Многоязычная поддержка: поддержка общения на нескольких языках\n• Понимание контекста: понимание контекста беседы и предоставление связных ответов\nО какой функции вы хотели бы узнать подробнее?",
+        "default": "На основе вашего вопроса \"{question}\" я подготовил следующий материал:\nЭто пример ответа, демонстрирующий формат ответов ИИ. В реальных приложениях я буду предоставлять более подробные и точные ответы в зависимости от ваших конкретных вопросов.\nЕсли у вас есть другие вопросы, пожалуйста, продолжайте спрашивать. Я сделаю всё возможное, чтобы помочь вам."
+      },
+      "moreMenu": {
+        "insertSummary": "Вставить сводку",
+        "concise": "Более кратко",
+        "detailed": "Более подробно",
+        "useful": "Полезно",
+        "useless": "Бесполезно"
+      },
+      "actions": {
+        "copySuccess": "Скопировано в буфер обмена",
+        "copyFailed": "Не удалось скопировать",
+        "shareFailed": "Не удалось поделиться",
+        "exporting": "Экспорт",
+        "exportFailed": "Сбой экспорта",
+        "insertSuccess": "Вставка выполнена успешно",
+        "feedbackThanks": "Спасибо за ваш отзыв"
+      },
+      "suggestedQuestions": {
+        "title": "Продолжить задавать вопросы",
+        "more": "Ещё…",
+        "collapse": "Свернуть"
+      },
+      "quickActions": {
+        "insights": "Получить инсайты",
+        "todo": "Сгенерировать список дел",
+        "email": "Написать письмо",
+        "summary": "Суммировать ключевые моменты"
+      },
+      "sidebarSuggestedQuestions": {
+        "question1": "Помимо проекта Huasheng, есть ли другие проекты в работе?",
+        "question2": "Есть ли другие способы коммуникации, более эффективные, чем электронная почта?",
+        "question3": "Как определить конкретные промежуточные значения для настройки параметров оборудования?",
+        "question4": "Как отслеживается и управляется ход проекта?",
+        "question5": "Каковы лучшие практики командного взаимодействия?",
+        "question6": "Как повысить эффективность работы?"
+      },
+      "clearConfirm": {
+        "title": "Очистить всю историю чата?",
+        "message": "Все записи будут удалены без возможности восстановления. Вы уверены, что хотите продолжить?",
+        "confirm": "Удалить",
+        "cancel": "Отмена"
+      },
+      "error": {
+        "userInfoMissing": "Нет информации о пользователе, невозможно отправить сообщение",
+        "fileInfoMissing": "Нет информации о файле, невозможно отправить сообщение",
+        "requestFailed": "Запрос не удался, попробуйте позже",
+        "networkError": "Ошибка сети, проверьте соединение и попробуйте снова"
+      }
+    },
+    "secondaryNav": {
+      "recordingFile": "Файл записи",
+      "contextMenu": {
+        "select": "Выбрать",
+        "rename": "Переименовать",
+        "move": "Переместить",
+        "moveToRecycleBin": "Переместить в корзину",
+        "restore": "Восстановить",
+        "permanentDelete": "Удалить навсегда"
+      },
+      "selection": {
+        "selected": "выбрано",
+        "done": "Готово",
+        "merge": "Объединить",
+        "moveToFolder": "Переместить в папку",
+        "delete": "Удалить",
+        "restore": "Восстановить",
+        "permanentDelete": "Удалить навсегда"
+      },
+      "merge": {
+        "mergeFile": "Объединить файлы",
+        "merging": "Объединение",
+        "mergeSuccess": "Объединение выполнено успешно",
+        "view": "Просмотреть",
+        "onlyTwoFiles": "Операция объединения поддерживает выбор только 2 аудиофайлов",
+        "mergeProgress": "Объединение ({progress}%)"
+      },
+      "move": {
+        "moveSuccess": "{fileName} перемещён в {folderName}",
+        "etc": "ожидание",
+        "alreadyInFolder": "{fileName} уже в {folderName}, перемещать не нужно"
+      },
+      "rename": {
+        "renameSuccess": "Переименование выполнено успешно",
+        "renameFailed": "Переименование не удалось, попробуйте позже"
+      },
+      "delete": {
+        "deleteSuccess": "Завершено, можно восстановить из корзины в любое время"
+      },
+      "restore": {
+        "restoreSuccess": "{fileName} восстановлен",
+        "restoreFailed": "Восстановление не удалось, попробуйте позже"
+      },
+      "permanentDelete": {
+        "confirmTitle": "Подтвердить безвозвратное удаление файла?",
+        "confirmMessage": "Этот файл будет удалён навсегда и не подлежит восстановлению.",
+        "confirmButton": "Удалить",
+        "cancelButton": "Отмена",
+        "deleteSuccess": "Файл {fileName} был удалён"
+      }
+    },
+    "membership": {
+      "title": "Центр подписки",
+      "memberType": {
+        "notMember": "Нет подписки",
+        "trial": "Попробовать подписку",
+        "monthly": "Ежемесячная подписка",
+        "annual": "Годовая подписка",
+        "masterMonthly": "Месячная подписка Ultimate",
+        "masterAnnual": "Годовая подписка Ultimate"
+      },
+      "currentSubscription": {
+        "title": "Текущая подписка",
+        "professional": "Pro",
+        "usage": "Использовано {used}/{total} минут",
+        "expiration": "Истекает: {date}",
+        "details": "Подробнее",
+        "usageUnlimited": "Использовано {used} мин / безлимитная длительность"
+      },
+      "subscriptionPlans": {
+        "title": "Выберите подходящий план",
+        "monthly": "Ежемесячная подписка",
+        "annual": "Годовая подписка",
+        "month": "Месяц",
+        "year": "Год",
+        "includes": "Включает:",
+        "mostPopular": "Самый популярный",
+        "currentPlan": "Текущий план",
+        "unavailable": "Подписка недоступна",
+        "upgrade": "Обновить",
+        "explorer": {
+          "name": "Версия Explorer",
+          "button": "Бесплатно",
+          "features": {
+            "transcription": "{value} минут транскрипции в месяц",
+            "storage": "Неограниченное облачное хранилище",
+            "languages": "{value}+ языков транскрипции",
+            "speaker": "Разделение говорящих",
+            "multimodal": "Мультимодальный ввод",
+            "tagging": "Теги в один клик",
+            "editing": "Редактирование текста",
+            "import": "Импорт аудио",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "translation": "Перевод минут",
+            "mindmap": "Интеллект-карта",
+            "export": "{value} формата экспорта",
+            "templates": "{value} профессиональных шаблонов"
+          }
+        },
+        "professional": {
+          "name": "Pro",
+          "button": "Подписаться",
+          "features": {
+            "transcription": "{value} минут транскрипции в месяц",
+            "storage": "Неограниченное облачное хранилище",
+            "languages": "{value}+ языков транскрипции",
+            "speaker": "Разделение говорящих",
+            "multimodal": "Мультимодальный ввод",
+            "tagging": "Теги в один клик",
+            "editing": "Редактирование текста",
+            "import": "Импорт аудио",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "Tongyi Qianwen",
+            "translation": "Перевод минут",
+            "mindmap": "Интеллект-карта",
+            "export": "{value} форматов экспорта файлов",
+            "templates": "{value} профессиональных шаблонов",
+            "customTemplates": "Пользовательский шаблон",
+            "askAI": "Спросить ИИ"
+          }
+        },
+        "master": {
+          "name": "Ultimate",
+          "button": "Подписаться",
+          "features": {
+            "transcription": "Неограниченное время транскрипции",
+            "storage": "Неограниченное облачное хранилище",
+            "languages": "{value}+ языков транскрипции",
+            "speaker": "Разделение говорящих",
+            "multimodal": "Мультимодальный ввод",
+            "tagging": "Теги в один клик",
+            "editing": "Редактирование текста",
+            "import": "Импорт аудио",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "Tongyi Qianwen",
+            "translation": "Перевод минут",
+            "mindmap": "Интеллект-карта",
+            "export": "{value} форматов экспорта файлов",
+            "templates": "{value}+ профессиональных шаблонов",
+            "customTemplates": "Пользовательский шаблон",
+            "askAI": "Спросить ИИ"
+          }
+        },
+        "switch": "Переключить",
+        "pendingPlan": "Ожидающая подписка",
+        "pendingPlanTip": "После завершения текущего цикла подписки в следующем цикле будет активирован новый план.",
+        "pendingPlanAlreadyTip": "У вас уже есть план, который вступит в силу после окончания текущего цикла.",
+        "switchScheduledTip": "Запланировано на следующий цикл; после окончания текущего цикла подписки автоматически переключится на новый план.",
+        "loading": "Загрузка…"
+      },
+      "moreTranscriptionTime": {
+        "title": "Больше времени транскрипции",
+        "minutes": "Минута",
+        "perMinute": "Минута",
+        "buy": "Купить"
+      },
+      "footer": {
+        "note": "Вступает в силу сразу после покупки, действует один год",
+        "userAgreement": "Пользовательское соглашение",
+        "privacyPolicy": "Политика конфиденциальности"
+      },
+      "payment": {
+        "orderInfo": "Информация о заказе",
+        "annualSubscription": "Непрерывная годовая подписка",
+        "monthlySubscription": "Непрерывная ежемесячная подписка",
+        "paymentMethod": "Способы оплаты",
+        "bankCard": "Кредитная/дебетовая карта",
+        "applePay": "Apple Pay",
+        "googlePay": "Google Pay",
+        "alipay": "Alipay",
+        "wechat": "WeChat",
+        "cardNumber": "Номер карты",
+        "cardNumberPlaceholder": "Пожалуйста, введите",
+        "expiryDate": "Срок действия",
+        "securityCode": "CVV/CVC",
+        "country": "Страна",
+        "selectCountry": "Выберите страну",
+        "cancel": "Отмена",
+        "pay": "Оплатить",
+        "countries": {
+          "US": "Соединённые Штаты",
+          "CN": "Китай",
+          "GB": "Соединённое Королевство",
+          "JP": "Япония"
+        },
+        "error": {
+          "userNotLoggedIn": "Сначала войдите",
+          "productIdRequired": "ID продукта не может быть пустым",
+          "regionDetecting": "Определение региональной информации, подождите",
+          "createOrderFailed": "Не удалось создать платёжный заказ",
+          "pollingTimeout": "Запрос статуса платежа истёк, проверьте статус заказа позже",
+          "paymentFailed": "Платёж не прошёл"
+        }
+      },
+      "paymentSuccess": {
+        "title": "Поздравляем, вы разблокировали подписку Ultimate",
+        "titleProfessional": "Поздравляем, вы разблокировали подписку Pro",
+        "benefitsTitle": "Преимущества Ultimate включают",
+        "benefitsTitleProfessional": "Преимущества Pro включают",
+        "benefits": {
+          "unlimitedTranscription": "Неограниченная транскрипция",
+          "unlimitedStorage": "Неограниченное облачное хранилище",
+          "transcriptionLanguages": "140+ языков транскрипции",
+          "latestAIModels": "Новейшие модели ИИ: ChatGPT, Gemini, Claude, Grok",
+          "exportFormats": "7 форматов экспорта файлов",
+          "professionalTemplates": "60+ профессиональных шаблонов",
+          "customTemplates": "Пользовательский шаблон",
+          "askAI": "Спросить ИИ",
+          "more": "И многое другое"
+        },
+        "enterApp": "Войти в BOYA Notra",
+        "purchaseSuccess": "Покупка успешна"
+      },
+      "paymentFailure": {
+        "title": "Платёж не прошёл",
+        "subtitle": "Выберите другой способ оплаты",
+        "returnToCheckout": "Вернуться к кассе"
+      }
+    },
+    "settings": {
+      "title": "Настройки",
+      "profile": "Профиль",
+      "accountSecurity": "Аккаунт и безопасность",
+      "accountSafety": {
+        "loginMethods": {
+          "title": "Способ входа",
+          "email": "Электронная почта",
+          "phone": "Номер мобильного телефона",
+          "changePassword": "Изменить пароль",
+          "wechat": "WeChat",
+          "add": "Добавить",
+          "remove": "Удалить",
+          "verify": "Подтвердить",
+          "notBound": "Не привязано",
+          "passwordNotSet": "Не установлено",
+          "alreadyRegistered": "Этот аккаунт уже зарегистрирован",
+          "Registered": "Этот аккаунт уже зарегистрирован. Если вы хотите связать его с текущим аккаунтом, выйдите из системы или удалите аккаунт и попробуйте снова.",
+          "loginMethodWarning": "У аккаунта должен быть как минимум один способ входа. Если вы хотите изменить способ входа, сначала добавьте другой способ входа.",
+          "thirdAccountTypes": {
+            "google": "Google",
+            "apple": "Apple",
+            "wechat": "WeChat"
+          }
+        },
+        "devices": {
+          "title": "Устройство входа",
+          "device": "Устройство",
+          "loginMethod": "Способ входа",
+          "lastActiveTime": "Последняя активность",
+          "operation": "Действие",
+          "currentDevice": "Текущее устройство",
+          "loggedIn": "Вход в систему",
+          "delete": "Удалить",
+          "fetchFailed": "Не удалось получить список устройств",
+          "noDevices": "Нет устройств",
+          "unknownDevice": "Неизвестное устройство",
+          "unknown": "Неизвестно",
+          "deleteSuccess": "Устройство не в сети",
+          "deleteFailed": "Не удалось удалить устройство",
+          "deleteConfirm": {
+            "title": "Удалить устройство",
+            "message": "Вы действительно хотите удалить устройство \"{deviceName}\"?",
+            "messageDefault": "Вы действительно хотите удалить это устройство?",
+            "confirm": "Подтвердить",
+            "cancel": "Отмена"
+          }
+        },
+        "logout": "Выйти",
+        "changeEmail": {
+          "confirmTitle": "Примечание",
+          "confirmQuestion": "Изменить адрес электронной почты?",
+          "currentEmail": "Текущий email: {email}",
+          "change": "Изменить",
+          "verifyTitle": "Подтверждение аккаунта",
+          "verifyOldEmailText": "Для обеспечения безопасности аккаунта подтвердите свою личность. Код подтверждения отправлен на {email}",
+          "changeTitle": "Изменить электронную почту",
+          "enterNewEmail": "Введите новый email",
+          "codeSent": "Код подтверждения отправлен",
+          "success": "Email успешно изменён",
+          "cancel": "Отмена",
+          "confirm": "Подтвердить"
+        },
+        "changePhone": {
+          "confirmTitle": "Примечание",
+          "confirmQuestion": "Изменить номер телефона?",
+          "currentPhone": "Текущий номер: {phone}",
+          "change": "Изменить",
+          "verifyTitle": "Подтверждение аккаунта",
+          "verifyOldPhoneText": "Для обеспечения безопасности аккаунта подтвердите свою личность. Код подтверждения отправлен на номер {phonel}",
+          "changeTitle": "Изменить номер телефона",
+          "enterNewPhone": "Введите новый номер телефона",
+          "codeSent": "Код подтверждения отправлен",
+          "success": "Номер телефона успешно изменён",
+          "cancel": "Отмена",
+          "confirm": "Подтвердить"
+        },
+        "resetPassword": {
+          "title": "Сбросить пароль",
+          "message": "Перед сбросом пароля подтвердите свою личность. Продолжить сброс?",
+          "cancel": "Отмена",
+          "confirm": "Подтвердить"
+        },
+        "logoutConfirm": {
+          "title": "Выйти",
+          "message": "Вы действительно хотите выйти?\nПеред выходом убедитесь, что все файлы завершили загрузку, транскрипцию и синхронизацию, иначе данные могут быть потеряны.",
+          "cancel": "Отмена",
+          "confirm": "Выйти"
+        },
+        "bindThirdAccountSuccess": "Аккаунт {type} успешно привязан",
+        "bindThirdAccountError": {
+          "userNotLoggedIn": "Пользователь не вошёл в систему, невозможно привязать сторонний аккаунт",
+          "failed": "Привязка не удалась, попробуйте позже",
+          "invalidType": "Неподдерживаемый тип стороннего аккаунта",
+          "googleAuthFailed": "Авторизация Google не выполнена, пожалуйста, попробуйте снова",
+          "appleAuthFailed": "Авторизация Apple не выполнена, пожалуйста, попробуйте снова",
+          "wechatAuthFailed": "Авторизация WeChat не выполнена, пожалуйста, попробуйте снова",
+          "authCancelled": "Авторизация отменена"
+        },
+        "unbindThirdAccountSuccess": "Аккаунт {type} успешно отвязан",
+        "unbindThirdAccountError": {
+          "userNotLoggedIn": "Пользователь не вошёл в систему, невозможно отвязать сторонний аккаунт",
+          "failed": "Отвязка не удалась, попробуйте позже"
+        },
+        "unbindThirdAccountConfirm": {
+          "title": "Отвязать аккаунт?",
+          "message": "Вы уверены, что хотите отвязать аккаунт {type}?",
+          "messageDefault": "Вы уверены, что хотите отвязать этот аккаунт?",
+          "confirm": "Подтвердить",
+          "cancel": "Отмена"
+        }
+      },
+      "general": "Общие",
+      "membership": "Подписка",
+      "membershipContent": {
+        "currentPlan": "Текущий план",
+        "cancelSubscription": "Отменить подписку",
+        "transcriptionDuration": "Кредиты транскрипции",
+        "remaining": "Осталось {remaining} минут (из {total})",
+        "startEndDate": "Дата начала/окончания: {start}~{end}",
+        "nextResetDate": "Дата следующего сброса: {date}",
+        "nextPaymentDate": "Дата следующего платежа: {date}",
+        "purchaseHistory": "История покупок",
+        "purchaseHistorySwipeHint": "Проведите, чтобы переключить страницы",
+        "transcriptionHistory": "Записи транскрипции",
+        "purchaseHistoryTable": {
+          "product": "Элемент",
+          "paymentTime": "Время оплаты",
+          "actualPayment": "Сумма оплаты"
+        },
+        "purchaseHistoryData": {
+          "professionalMonthly": "Ежемесячная подписка Pro",
+          "transcription300": "300 минут кредитов транскрипции"
+        },
+        "transcriptionHistoryTable": {
+          "product": "Элемент",
+          "transcriptionTime": "Время транскрипции",
+          "consumedQuota": "Использовано кредитов"
+        },
+        "transcriptionHistoryData": {
+          "aiSummary": "ИИ-сводка",
+          "realTimeTranscription": "Транскрипция в реальном времени",
+          "minutes": "Минута",
+          "seconds": "Секунды"
+        },
+        "cancelSubscriptionDescription1": "Ваша подписка будет отменена в конце текущего платёжного периода ({date}). Дополнительные списания производиться не будут.",
+        "cancelSubscriptionDescription2": "После этой даты вы утратите доступ к следующим преимуществам BOYA Notra:",
+        "cancelSubscriptionBenefits": {
+          "transcription140": "140 минут транскрипции в месяц",
+          "unlimitedStorage": "Неограниченное облачное хранилище",
+          "languages100": "100+ языков транскрипции",
+          "latestAIModels": "Новейшие модели ИИ: ChatGPT, Gemini, Claude, Grok",
+          "exportFormats": "7 форматов экспорта файлов",
+          "professionalTemplates": "20 профессиональных шаблонов",
+          "customTemplates": "Пользовательский шаблон",
+          "askAI": "Спросить ИИ"
+        },
+        "cancelSubscriptionReasonPlaceholder": "Пожалуйста, выберите причину отмены",
+        "cancelSubscriptionReasons": {
+          "price": "Слишком дорого",
+          "notUsing": "Использую редко",
+          "foundAlternative": "Нашёл альтернативу",
+          "tooExpensive": "Высокая стоимость",
+          "other": "Другая причина"
+        },
+        "keepSubscription": "Сохранить подписку",
+        "remainingUnlimited": "Осталось {remaining} мин (безлимитно)",
+        "unlimitedDuration": "Неограниченная продолжительность",
+        "transcriptionHistoryLoading": "Загрузка…",
+        "transcriptionHistoryEmpty": "Нет записей транскрипции",
+        "transcriptionHistoryError": "Не удалось загрузить записи транскрипции",
+        "transcriptionHistoryLoadComplete": "Все данные загружены",
+        "purchaseHistoryLoadComplete": "Все данные загружены",
+        "purchaseHistoryError": "Не удалось загрузить записи покупок",
+        "cancelSubscriptionSuccess": "Подписка успешно отменена",
+        "cancelSubscriptionError": {
+          "userNotLoggedIn": "Пользователь не вошёл в систему",
+          "failed": "Не удалось отменить подписку, попробуйте позже"
+        }
+      },
+      "helpFeedbackTitle": "Помощь и обратная связь",
+      "about": "О приложении",
+      "aboutContent": {
+        "socialMedia": "Социальные сети",
+        "officialWebsite": "Официальный сайт",
+        "x": "X",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "tiktok": "Tiktok",
+        "legalPrivacy": "Правовые вопросы и конфиденциальность",
+        "userAgreement": "Пользовательское соглашение",
+        "privacyPolicy": "Политика конфиденциальности",
+        "cookiePolicy": "Политика использования файлов cookie",
+        "cookieSettings": "Настройки cookie",
+        "cookieSettingsContent": {
+          "categories": {
+            "necessary": "Необходимые",
+            "necessaryDesc": "Необходимы для работы сайта, всегда включены.",
+            "functional": "Функциональные",
+            "functionalDesc": "Сохраняют предпочтения и предоставляют расширенные функции.",
+            "analytics": "Аналитика",
+            "analyticsDesc": "Используются для измерения использования и улучшения вашего опыта.",
+            "marketing": "Маркетинг",
+            "marketingDesc": "Используется для таргетированной рекламы."
+          }
+        },
+        "youtube": "YouTube",
+        "linkedin": "LinkedIn",
+        "discord": "Discord"
+      },
+      "nickname": "Никнейм",
+      "nicknamePlaceholder": "Введите никнейм",
+      "editAvatar": "Редактировать аватар",
+      "displayLanguage": "Язык интерфейса",
+      "selectLanguage": "Выбрать язык",
+      "languages": {
+        "zhCN": "简体中文",
+        "zhTW": "繁體中文（台灣）",
+        "zhHK": "繁體中文（香港）",
+        "enUS": "English",
+        "de": "Deutsch",
+        "fr": "Français",
+        "ja": "日本語",
+        "es": "Español",
+        "it": "Italiano",
+        "ru": "Русский"
+      },
+      "helpFeedback": {
+        "suggestionsFeedback": "Предложения и отзывы",
+        "submitFeedback": "Отправить отзыв",
+        "contactUs": "Свяжитесь с нами",
+        "operatingHours": "Понедельник–воскресенье 9:00–12:00, 13:00–18:30 (GMT+8)",
+        "whatsapp": "WhatsApp",
+        "email": "Электронная почта",
+        "onlineService": "Онлайн-служба поддержки",
+        "phone": "Номер мобильного телефона",
+        "copy": "Копировать",
+        "copySuccess": "Копирование выполнено успешно",
+        "copyFailed": "Не удалось скопировать",
+        "commonQuestions": "FAQ",
+        "feedbackModal": {
+          "title": "Предложения и отзывы",
+          "description": "Описание",
+          "descriptionPlaceholder": "Пожалуйста, расскажите свои предложения, не менее 10 символов",
+          "images": "Изображение",
+          "submit": "Отправить",
+          "submitSuccess": "Отправка выполнена успешно",
+          "submitSuccessMessage": "Спасибо за ваш отзыв",
+          "descriptionMinLengthError": "Описание должно содержать не менее 10 символов"
+        },
+        "questions": {
+          "bindDevice": "Как привязать устройство?",
+          "startRecording": "Как начать запись?",
+          "generateTranscription": "Как создать транскрипцию?",
+          "generateSummary": "Как создать сводку?",
+          "allQuestions": "Все вопросы"
+        },
+        "emailCopyFallback": "Адрес электронной почты скопирован, откройте почтовый клиент для отправки"
+      },
+      "nicknameMaxBytesExceeded": "Ник не может превышать 50 байт"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Войти в BOYA Notra",
+      "phoneNumber": "Пожалуйста, введите номер мобильного телефона",
+      "email": "Пожалуйста, введите адрес электронной почты",
+      "verificationCode": "Введите код",
+      "password": "Пожалуйста, введите пароль",
+      "getCode": "Отправить",
+      "submit": "Войти",
+      "register": "Зарегистрироваться",
+      "forgotPassword": "Забыли пароль?",
+      "passwordLogin": "Вход по паролю",
+      "verificationCodeLogin": "Вход по коду подтверждения",
+      "google": "Google",
+      "apple": "Apple ID",
+      "wechat": "WeChat",
+      "or": "Или",
+      "autoRegister": "Незарегистрированные номера телефонов будут автоматически зарегистрированы после входа",
+      "autoRegisterEmail": "Незарегистрированные адреса электронной почты будут автоматически зарегистрированы после входа",
+      "agreement": "Нажимая «Войти», вы соглашаетесь с Пользовательским соглашением и Политикой конфиденциальности",
+      "backToLogin": "Вернуться к входу",
+      "setPassword": "Установить пароль",
+      "registerSuccess": "Регистрация выполнена успешно, пожалуйста, установите пароль",
+      "loading": "Вход в систему…",
+      "codeSentCountdown": "Отправлено",
+      "resend": "Отправить снова",
+      "showPassword": "Показать пароль",
+      "hidePassword": "Скрыть пароль",
+      "loginBackground": "Фон входа",
+      "agreementPrefix": "Нажимая «Войти», вы соглашаетесь с",
+      "userAgreement": "Пользовательское соглашение",
+      "agreementAnd": "и",
+      "privacyPolicy": "Политика конфиденциальности",
+      "wechatQRCodeTitle": "Вход по QR WeChat",
+      "wechatQRCodeTip": "Пожалуйста, используйте WeChat, чтобы отсканировать QR-код и войти",
+      "wechatQRCodeHint": "После сканирования подтвердите вход на телефоне"
+    },
+    "setPassword": {
+      "title": "Установить пароль",
+      "hint": "Пожалуйста, установите новый пароль (8–20 символов). Он должен содержать как минимум 2 из следующих типов: буквы, цифры, специальные символы.",
+      "confirm": "Подтвердить"
+    },
+    "register": {
+      "title": "Регистрация BOYA Notra",
+      "phoneNumber": "Пожалуйста, введите номер мобильного телефона",
+      "email": "Пожалуйста, введите адрес электронной почты",
+      "verificationCode": "Введите код",
+      "password": "Пожалуйста, установите пароль",
+      "confirmPassword": "Пожалуйста, подтвердите пароль",
+      "getCode": "Получить код подтверждения",
+      "submit": "Зарегистрироваться",
+      "backToLogin": "Уже есть аккаунт? Вернуться к входу"
+    },
+    "forgotPassword": {
+      "title": "Забыли пароль",
+      "hint1China": "Пожалуйста, подтвердите свою личность с помощью зарегистрированного номера телефона для сброса пароля.",
+      "hint1NonChina": "Пожалуйста, подтвердите свою личность с помощью зарегистрированного адреса электронной почты для сброса пароля.",
+      "hint1": "Пожалуйста, подтвердите свою личность с помощью зарегистрированного номера телефона/адреса электронной почты для сброса пароля.",
+      "hint2": "Новый пароль (8–20 символов) должен содержать как минимум 2 из следующих типов: буквы, цифры, специальные символы.",
+      "phoneOrEmail": "Пожалуйста, введите номер мобильного телефона или адрес электронной почты",
+      "phoneOrEmailChina": "Пожалуйста, введите номер мобильного телефона",
+      "phoneOrEmailNonChina": "Пожалуйста, введите адрес электронной почты",
+      "email": "Пожалуйста, введите адрес электронной почты",
+      "verificationCode": "Введите код",
+      "newPassword": "Пожалуйста, введите пароль",
+      "confirmPassword": "Пожалуйста, повторно введите пароль",
+      "getCode": "Получить код подтверждения",
+      "submit": "Сбросить пароль",
+      "confirm": "Подтвердить",
+      "backToLogin": "Отмена"
+    },
+    "changePassword": {
+      "title": "Изменить пароль",
+      "hint1China": "Пожалуйста, подтвердите свою личность с помощью зарегистрированного номера телефона для сброса пароля.",
+      "hint1NonChina": "Пожалуйста, подтвердите свою личность с помощью зарегистрированного адреса электронной почты для сброса пароля.",
+      "hint1": "Пожалуйста, подтвердите свою личность перед сбросом пароля.",
+      "hint2": "Новый пароль (8–20 символов) должен содержать как минимум 2 из следующих типов: буквы, цифры, специальные символы.",
+      "phoneOrEmail": "Пожалуйста, введите номер мобильного телефона или адрес электронной почты",
+      "phoneOrEmailChina": "Пожалуйста, введите номер мобильного телефона",
+      "phoneOrEmailNonChina": "Пожалуйста, введите адрес электронной почты",
+      "newPassword": "Пожалуйста, введите пароль",
+      "confirmPassword": "Пожалуйста, повторно введите пароль",
+      "confirm": "Подтвердить",
+      "backToSettings": "Отмена"
+    },
+    "errors": {
+      "phoneRequired": "Пожалуйста, введите номер мобильного телефона",
+      "phoneInvalid": "Неверный формат номера мобильного телефона",
+      "emailRequired": "Пожалуйста, введите адрес электронной почты",
+      "emailInvalid": "Неверный формат адреса электронной почты",
+      "codeRequired": "Введите код",
+      "codeInvalid": "Код подтверждения должен состоять из 6 цифр",
+      "codeExpired": "Срок действия кода подтверждения истёк. Пожалуйста, запросите новый.",
+      "codeIncorrect": "Недействительный код подтверждения",
+      "codeMismatch": "Неверный код подтверждения. Пожалуйста, введите ещё раз.",
+      "passwordRequired": "Пожалуйста, введите пароль",
+      "passwordTooShort": "Длина пароля должна быть от 8 до 20 символов",
+      "passwordFormatInvalid": "Пароль должен быть 8–20 символов и включать至少 две категории: буквы, цифры и спецсимволы",
+      "passwordMismatch": "Пароли не совпадают",
+      "passwordResetFailed": "Сброс пароля не выполнен, пожалуйста, попробуйте снова",
+      "networkError": "Ошибка сети. Пожалуйста, попробуйте позже.",
+      "sendCodeFailed": "Не удалось отправить код подтверждения. Пожалуйста, попробуйте снова.",
+      "codeSendFailed": "Не удалось отправить код подтверждения. Пожалуйста, попробуйте снова.",
+      "loginFailed": "Вход не выполнен. Пожалуйста, проверьте учётную запись и пароль.",
+      "thirdPartyNotImplemented": "Вход через сторонние сервисы находится в разработке. Пожалуйста, попробуйте позже.",
+      "wechatAuthFailed": "Авторизация WeChat не выполнена, пожалуйста, попробуйте снова",
+      "wechatAuthCancelled": "Авторизация WeChat отменена",
+      "googleAuthFailed": "Авторизация Google не выполнена, пожалуйста, попробуйте снова",
+      "googleAuthCancelled": "Авторизация Google отменена",
+      "appleAuthFailed": "Авторизация Apple не выполнена, пожалуйста, попробуйте снова",
+      "appleAuthCancelled": "Авторизация Apple отменена",
+      "setPasswordFailed": "Не удалось установить пароль, пожалуйста, попробуйте снова",
+      "sessionExpired": "Сеанс истёк. Пожалуйста, войдите снова.",
+      "tokenMissing": "Отсутствует информация аутентификации. Пожалуйста, войдите снова.",
+      "userIdMissing": "Отсутствует идентификатор пользователя",
+      "updateNicknameFailed": "Не удалось установить никнейм",
+      "uploadAvatarFailed": "Не удалось загрузить аватар",
+      "invalidImageFile": "Пожалуйста, выберите файл изображения",
+      "imageFileTooLarge": "Файл изображения слишком большой. Пожалуйста, выберите файл размером менее 5 МБ.",
+      "phonePasswordError": "Неверный номер телефона или пароль",
+      "emailPasswordError": "Неверный адрес электронной почты или пароль",
+      "phoneNotRegistered": "Номер телефона не зарегистрирован, войдите с кодом подтверждения",
+      "emailNotRegistered": "Электронная почта не зарегистрирована, войдите с кодом подтверждения",
+      "wechatQRCodeExpired": "Срок действия QR-кода истёк, отсканируйте снова",
+      "googleAuthRejected": "Пользователь отказал в авторизации или авторизация не удалась",
+      "googleStateValidationFailed": "Проверка State не удалась, возможен риск безопасности",
+      "googlePopupClosed": "Пользователь отменил вход",
+      "googlePopupBlocked": "Всплывающее окно было заблокировано браузером, разрешите всплывающие окна и повторите",
+      "googleAccountExistsWithDifferentCredential": "Этот email уже используется другим способом входа, используйте исходный способ",
+      "googleLoginFailed": "Не удалось войти через Google",
+      "firebaseConfigMissing": "Отсутствует необходимая конфигурация",
+      "firebaseConfigMissingHint": "Настройте переменные окружения Firebase в файле .env",
+      "wechatSDKNotLoaded": "SDK входа WeChat не загружен, проверьте подключение к сети",
+      "wechatAppIdNotConfigured": "WeChat AppID не настроен, установите VITE_WECHAT_APPID в переменных окружения",
+      "appleSDKNotLoaded": "SDK Apple не загружен, убедитесь, что подключен Apple JS SDK",
+      "appleClientIdNotConfigured": "Apple Client ID не настроен, установите VITE_APPLE_CLIENT_ID в переменных окружения",
+      "appleSDKInitFailed": "Не удалось инициализировать Apple SDK",
+      "appleSDKLoadTimeout": "Загрузка Apple SDK превысила время ожидания, обновите страницу и повторите",
+      "appleSignInFailed": "Не удалось войти через Apple",
+      "appleRedirectFailed": "Не удалось перенаправить на авторизацию Apple",
+      "appleAuthRejected": "Пользователь отказал в авторизации или авторизация не удалась",
+      "appleStateValidationFailed": "Проверка State не удалась, возможен риск безопасности"
+    },
+    "success": {
+      "codeSent": "Код подтверждения отправлен",
+      "loginSuccess": "Вход выполнен успешно",
+      "registerSuccess": "Регистрация выполнена успешно",
+      "passwordReset": "Сброс пароля выполнен успешно",
+      "passwordSet": "Пароль успешно установлен",
+      "passwordChanged": "Пароль успешно изменён",
+      "logoutSuccess": "Выход выполнен успешно",
+      "nicknameUpdated": "Никнейм успешно установлен",
+      "avatarUpdated": "Аватар успешно загружен"
+    }
+  },
+  "richTextToolbar": {
+    "bold": "Жирный",
+    "italic": "Курсив",
+    "underline": "Подчёркивание",
+    "strikethrough": "Зачёркнутый",
+    "code": "Блок кода",
+    "link": "Ссылка",
+    "linkInputPlaceholder": "Вставьте или введите ссылку",
+    "confirm": "Подтвердить",
+    "textStyle": {
+      "bodyText": "Основной текст",
+      "heading1": "Заголовок 1",
+      "heading2": "Заголовок 2",
+      "heading3": "Заголовок 3",
+      "heading4": "Заголовок 4",
+      "bulletList": "Маркированный список",
+      "numberedList": "Нумерованный список",
+      "todoList": "Список задач",
+      "quote": "Цитата",
+      "codeBlock": "Блок кода"
+    }
+  },
+  "share": {
+    "adText": "Узнайте и приобретите устройство, пользуйтесь всеми функциями",
+    "buyNow": "Купить сейчас",
+    "createLinkSuccess": "Ссылка для совместного доступа успешно создана",
+    "createLinkFailed": "Не удалось создать ссылку для совместного доступа",
+    "loadContentFailed": "Не удалось загрузить общий контент",
+    "linkExpired": "Ссылка для совместного доступа истекла",
+    "loading": "Загрузка…",
+    "userInfoMissing": "Отсутствует информация о пользователе, войдите снова",
+    "fileInfoMissing": "Отсутствует информация о файле",
+    "noShareTypesSelected": "Выберите хотя бы один тип общего доступа",
+    "shareIdMissing": "Отсутствует ID общего доступа",
+    "defaultTitle": "Общий контент",
+    "noContent": "Нет содержимого",
+    "invalidOrExpired": "Ссылка недействительна или истекла",
+    "reachLimit": "Достигнут лимит просмотров",
+    "brand": "BOYA Notra",
+    "tabTranscription": "Транскрипция",
+    "tabSummary": "Резюме",
+    "tabMindmap": "Интеллект-карта",
+    "speaker": "Докладчик",
+    "editSpeaker": "Редактировать докладчика",
+    "speakerNamePlaceholder": "Имя докладчика",
+    "applyToCurrent": "Применить к текущему абзацу",
+    "applyToAll": "Применить ко всем абзацам этого докладчика",
+    "loginFirstToSave": "Войдите, чтобы сохранить",
+    "saveSuccess": "Сохранено",
+    "saveFailed": "Ошибка сохранения"
+  },
+  "subscriptionTips": {
+    "title": "Обновите, чтобы открыть все функции",
+    "viewAllPlans": "Посмотреть все тарифы"
+  },
+  "bindingDevice": {
+    "title": "Привяжите устройство, начните эффективно записывать",
+    "existingDevice": {
+      "title": "Уже есть устройство?",
+      "description": "Отсканируйте код, скачайте приложение, привяжите устройство и сразу используйте"
+    },
+    "noDevice": {
+      "title": "Нет устройства?",
+      "description": "Узнайте и приобретите устройство, чтобы пользоваться всеми функциями"
+    },
+    "upgradeTitle": "Обновите, чтобы открыть все функции",
+    "professional": {
+      "feature1": "1400 минут транскрипции в месяц",
+      "feature2": "Неограниченное облачное хранилище",
+      "feature3": "100+ языков транскрипции",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "И многое другое"
+    },
+    "master": {
+      "feature1": "Неограниченное время транскрипции",
+      "feature2": "Неограниченное облачное хранилище",
+      "feature3": "140+ языков транскрипции",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "И многое другое"
+    },
+    "viewAllPlans": "Посмотреть все тарифы",
+    "planCards": {
+      "professional": {
+        "name": "Professional",
+        "feature1": "1280 мин транскрипции в месяц",
+        "feature2": "Неограниченное облачное хранилище",
+        "feature3": "100+ языков транскрипции",
+        "feature4": "Экспорт в 7 форматах",
+        "feature5": "И многое другое"
+      },
+      "master": {
+        "name": "Master",
+        "badge": "Самый популярный",
+        "feature1": "Неограниченное время транскрипции",
+        "feature2": "Неограниченное облачное хранилище",
+        "feature3": "140+ языков транскрипции",
+        "feature4": "Экспорт в 7 форматах",
+        "feature5": "И многое другое"
+      },
+      "subscribe": "Подписка",
+      "perYear": "/год",
+      "buyNowArrow": "Купить сейчас →"
+    }
+  },
+  "dialogs": {
+    "audioEditor": {
+      "cropTitle": "Обрезка: оставить только выбранную область",
+      "cropAlt": "Обрезка",
+      "deleteAlt": "Удалить",
+      "pauseAlt": "Пауза",
+      "playAlt": "Воспроизведение",
+      "zoomOutAlt": "Уменьшить",
+      "zoomInAlt": "Увеличить",
+      "loadingText": "Загрузка аудио... ({progress}%)",
+      "loadingHint": "Используйте обрезку и удаление для редактирования аудио",
+      "saveAsNewTitle": "Сохранить как новый файл",
+      "saveHintEdited": "Аудио было отредактировано. Сохранить как новый файл?<br />Несохранённые изменения будут потеряны.",
+      "saveHintPlain": "Сохранить как новый файл?<br />Несохранённые изменения будут потеряны.",
+      "fileNameLabel": "Имя файла",
+      "processingCut": "Обрезка...",
+      "preparing": "Подготовка...",
+      "uploadCredential": "Получение учётных данных для загрузки...",
+      "uploading": "Загрузка...",
+      "uploadSuccess": "Аудио загружено в облако",
+      "uploadFailed": "Ошибка загрузки",
+      "processFailed": "Ошибка обработки аудио: {msg}",
+      "selectRegionFirst": "Сначала выберите область для сохранения",
+      "ffmpegNotReady": "FFmpeg ещё не готов. Повторите попытку позже.",
+      "loginFirst": "Сначала войдите в аккаунт",
+      "networkError": "Ошибка сети",
+      "audioLoadFailed": "Не удалось загрузить аудио"
+    },
+    "exportAudio": {
+      "title": "Экспорт аудио",
+      "exportAs": "Экспортировать как",
+      "export": "Экспорт",
+      "noAudio": "Аудио недоступно",
+      "exporting": "Экспорт аудио...",
+      "downloadUrlFailed": "Не удалось получить ссылку на скачивание",
+      "fetchAudioFailed": "Не удалось получить аудио. Проверьте сеть и повторите попытку.",
+      "exportDone": "Экспорт завершён",
+      "exportFailed": "Ошибка экспорта аудио",
+      "filePickerMp3": "Аудио MP3",
+      "filePickerWav": "Аудио WAV",
+      "defaultFileName": "audio"
+    },
+    "exportSummary": {
+      "title": "Экспорт сводки",
+      "exportAs": "Экспортировать как",
+      "export": "Экспорт",
+      "noContent": "Нет содержимого сводки",
+      "exporting": "Экспорт сводки...",
+      "exportDone": "Экспорт завершён",
+      "exportFailed": "Ошибка экспорта сводки",
+      "defaultFileName": "Сводка",
+      "filePickerDesc": "Экспорт файла"
+    },
+    "exportMindMap": {
+      "title": "Экспорт интеллект-карты",
+      "exportAs": "Экспортировать как",
+      "export": "Экспорт",
+      "noContent": "Нет содержимого интеллект-карты",
+      "exporting": "Экспорт интеллект-карты...",
+      "exportDone": "Экспорт завершён",
+      "exportFailed": "Ошибка экспорта интеллект-карты",
+      "defaultFileName": "Интеллект-карта",
+      "filePickerDesc": "Экспорт файла"
+    },
+    "exportTranscription": {
+      "title": "Экспорт транскрипции",
+      "exportAs": "Экспортировать как",
+      "export": "Экспорт",
+      "include": "Включить",
+      "timestamp": "Временные метки",
+      "speaker": "Спикер",
+      "speakerLine": "Спикер {id}",
+      "noContent": "Нет содержимого транскрипции",
+      "exporting": "Экспорт транскрипции...",
+      "exportDone": "Экспорт завершён",
+      "exportFailed": "Ошибка экспорта транскрипции",
+      "defaultFileName": "Транскрипция",
+      "filePickerDesc": "Экспорт файла"
+    },
+    "feedback": {
+      "title": "Расскажите подробнее",
+      "subtitle": "Ваш отзыв важен. Мы продолжим улучшать продукт на основе ваших предложений.",
+      "placeholderOther": "Другое: что нам улучшить?",
+      "agreeShare": "Я согласен(на) поделиться транскрипцией с командой BOYA Notra",
+      "send": "Отправить",
+      "tag1": "Не хватает ключевой информации",
+      "tag2": "Имена собственные не следует переводить",
+      "tag3": "Каждый фрагмент слишком длинный",
+      "tag4": "Избыточное содержимое"
+    },
+    "generateMethod": {
+      "title": "Выберите способ создания",
+      "autoName": "Автоматически",
+      "autoDesc": "Автоматически создаёт наиболее подходящую транскрипцию и сводку без ручных настроек.",
+      "customName": "Настраиваемый",
+      "summaryTemplate": "Шаблон сводки",
+      "aiModel": "Модель ИИ",
+      "transcriptLanguage": "Язык транскрипции",
+      "distinguishSpeakers": "Различать спикеров",
+      "generateNow": "Создать сейчас",
+      "auto": "Авто",
+      "defaultTemplateName": "Протокол встречи",
+      "zhCNFallback": "Китайский (упрощённый)"
+    },
+    "shareLink": {
+      "title": "Ссылка для общего доступа",
+      "tip": "Ссылка действительна 7 дней. Любой, у кого она есть, может открыть её до истечения срока.",
+      "copyLink": "Копировать ссылку",
+      "optionAudio": "Аудиозапись",
+      "optionSummary": "Сводка",
+      "optionMindmap": "Интеллект-карта",
+      "optionTranscription": "Транскрипция",
+      "atLeastOne": "Выберите хотя бы один пункт",
+      "loginFirst": "Сначала войдите в аккаунт",
+      "missingTranscribeId": "Отсутствует ID транскрипции",
+      "linkCopied": "Ссылка скопирована в буфер обмена",
+      "noLink": "Ссылка для общего доступа не получена",
+      "createFailed": "Не удалось создать ссылку для общего доступа"
+    },
+    "summaryTemplate": {
+      "title": "Шаблоны сводки",
+      "create": "Создать",
+      "noTemplates": "Нет шаблонов",
+      "customTitle": "Пользовательский шаблон",
+      "templateName": "Имя шаблона",
+      "prompt": "Подсказка",
+      "placeholderName": "Введите имя шаблона",
+      "placeholderPrompt": "Введите подсказку",
+      "previewTitle": "Шаблон",
+      "overview": "Обзор",
+      "recordingLanguage": "Язык записи",
+      "aiModel": "Модель ИИ",
+      "distinguishSpeakers": "Различать спикеров",
+      "generateNow": "Создать сейчас",
+      "auto": "Авто",
+      "zhCNFallback": "Китайский (упрощённый)",
+      "enterName": "Введите имя шаблона",
+      "enterPrompt": "Введите подсказку",
+      "createSuccess": "Успешно создано",
+      "createFailed": "Не удалось создать"
+    },
+    "translate": {
+      "title": "Перевести на",
+      "searchPlaceholder": "Поиск языков"
+    }
+  }
+}

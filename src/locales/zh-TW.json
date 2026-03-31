@@ -1,0 +1,1477 @@
+{
+  "file": {
+    "fileNameNotEmpty": "檔案名稱不能為空",
+    "askAIDelete": "清除成功"
+  },
+  "common": {
+    "loading": "載入中...",
+    "noData": "目前沒有可用資料",
+    "copySuccess": "已複製到剪貼簿",
+    "copyFailed": "複製失敗",
+    "close": "關閉",
+    "select": "請選擇",
+    "aiReply": "AI回覆",
+    "aiReplyFile": "AI回覆.txt",
+    "showDirectory": "顯示目錄",
+    "hideDirectory": "隱藏目錄",
+    "deleteImage": "刪除圖片",
+    "closePreview": "關閉預覽",
+    "audioLoadError": "音訊載入失敗",
+    "audioLoadAborted": "音訊載入已中止",
+    "audioNetworkError": "網路錯誤，無法載入音訊",
+    "audioDecodeError": "音訊解碼失敗",
+    "audioFormatError": "不支援的音訊格式",
+    "audioLoadErrorWithCode": "音訊載入失敗（錯誤代碼: {code}）",
+    "crop": "裁剪",
+    "moreActions": "更多操作",
+    "cancel": "取消",
+    "saveAs": "另存為",
+    "delete": "刪除",
+    "play": "播放",
+    "pause": "暫停",
+    "zoom": "縮放",
+    "zoomIn": "放大",
+    "zoomOut": "縮小",
+    "confirm": "確認",
+    "save": "儲存",
+    "edit": "編輯",
+    "copy": "複製",
+    "praise": "表揚",
+    "criticize": "批評"
+  },
+  "layout": {
+    "header": {
+      "showSidebar": "顯示主要導覽",
+      "hideSidebar": "隱藏主要導覽",
+      "showSecondaryNav": "顯示檔案清單",
+      "hideSecondaryNav": "隱藏檔案清單",
+      "allFiles": "所有檔案",
+      "updateTime": "更新時間",
+      "sortOptions": {
+        "creationTime": "建立時間",
+        "updateTime": "更新時間",
+        "recentlyOpened": "最近開啟"
+      }
+    },
+    "sidebar": {
+      "search": "搜尋",
+      "allFiles": "所有檔案",
+      "uncategorized": "未分類",
+      "recycleBin": "垃圾桶",
+      "folders": "資料夾",
+      "folderName": "資料夾名稱",
+      "addFolder": "新增資料夾",
+      "createFolder": {
+        "title": "建立新資料夾",
+        "nameLabel": "名稱",
+        "namePlaceholder": "請輸入",
+        "colorLabel": "顏色",
+        "iconLabel": "圖示",
+        "iconSelectorTitle": "選擇圖示",
+        "createButton": "建立",
+        "success": "資料夾建立成功",
+        "error": "資料夾建立失敗",
+        "nameRequired": "請為資料夾輸入名稱。",
+        "nameTooLong": "檔案名稱過長",
+        "userNotLoggedIn": "使用者未登入，請先登入"
+      },
+      "editFolder": {
+        "title": "編輯資料夾",
+        "nameLabel": "名稱",
+        "namePlaceholder": "請輸入",
+        "colorLabel": "顏色",
+        "iconLabel": "圖示",
+        "saveButton": "儲存",
+        "deleteButton": "刪除",
+        "saveSuccess": "資料夾已更新",
+        "saveError": "資料夾更新失敗",
+        "nameTooLong": "檔案名稱過長",
+        "deleteSuccess": "資料夾已刪除",
+        "deleteError": "資料夾刪除失敗",
+        "deleteConfirm": {
+          "title": "刪除資料夾",
+          "message": "刪除資料夾將同時刪除其中的所有檔案。",
+          "question": "確認刪除？",
+          "confirmButton": "刪除",
+          "cancelButton": "取消"
+        }
+      },
+      "sources": "從",
+      "import": "匯入",
+      "callRecording": "通話錄音",
+      "envRecording": "環境錄音",
+      "headphoneRecording": "耳機錄音",
+      "help": "幫助中心",
+      "settings": "設定",
+      "importAudio": "匯入音訊",
+      "searchModal": {
+        "inputPlaceholder": "請輸入",
+        "searchHistory": "搜尋紀錄",
+        "recentBrowsing": "最近瀏覽",
+        "noResults": "沒有搜尋結果",
+        "deleteHistory": "刪除搜尋紀錄",
+        "deleteHistoryTitle": "刪除搜尋紀錄",
+        "deleteHistoryMessage": "確認刪除所有搜尋紀錄？",
+        "historyDeleted": "搜尋紀錄已刪除",
+        "clear": "清除",
+        "cancel": "取消",
+        "delete": "刪除",
+        "close": "關閉",
+        "searching": "搜尋中...",
+        "searchFailed": "搜尋失敗",
+        "matchSource": {
+          "transcription": "轉寫文字",
+          "title": "標題",
+          "summary": "總結內容",
+          "mindmap": "心智圖"
+        }
+      },
+      "importAudioModal": {
+        "title": "匯入音訊",
+        "clickToUpload": "點擊上傳檔案",
+        "or": "或",
+        "dragFiles": "拖曳並放置檔案",
+        "supportedFormats": "支援 MP3、AAC、PCM、WAV、MP4、M4V、MOV、OGG、M4A 格式",
+        "status": {
+          "uploading": "上傳中",
+          "transcoding": "轉碼中",
+          "success": "匯入成功",
+          "error": "匯入失敗"
+        },
+        "errors": {
+          "maxFilesExceeded": "同時最多只能上傳 5 個檔案",
+          "unsupportedFormat": "不支援的檔案格式",
+          "durationExceeded": "請上傳長度少於 5 小時的音訊檔案",
+          "networkError": "網路異常",
+          "fileSizeExceeded": "檔案大小超過限制",
+          "uploadFailed": "上傳失敗",
+          "serverError": "伺服器錯誤，請稍後重試"
+        }
+      },
+      "askAI": "詢問 AI",
+      "professional": "Pro",
+      "usage": "已使用 {used}/{total} 分鐘",
+      "usageUnlimited": "已用{used}分鐘/無限時長"
+    },
+    "mainContent": {
+      "welcome": "歡迎使用 BOYA Notra Web",
+      "tabs": {
+        "transcription": "逐字稿",
+        "summary": "摘要",
+        "mindMap": "心智圖"
+      },
+      "transcription": {
+        "noTranscription": "無可用轉錄內容",
+        "willShowAfterGeneration": "轉錄內容將於產生後顯示於此",
+        "noTranscribableContent": "未檢測到可轉寫內容",
+        "checkAudioFile": "請檢查音訊檔案",
+        "noAudioFile": "該檔案沒有音訊",
+        "noAudioFileDesc": "無法播放音訊或生成轉寫",
+        "play": "播放",
+        "pause": "暫停",
+        "playSegment": "播放片段",
+        "rewind15s": "快退15秒",
+        "forward15s": "快進15秒",
+        "playbackRate": "播放速度",
+        "crop": "剪輯",
+        "generate": "產生",
+        "generating": "生成中...",
+        "generateNow": "立即產生",
+        "generateFailed": "生成轉寫失敗，請重試",
+        "generatingView": {
+          "loading": "生成中...",
+          "hint": "請稍候，正在為您生成內容"
+        },
+        "errors": {
+          "userNotLoggedIn": "使用者未登入",
+          "fileUrlEmpty": "檔案 URL 不能為空",
+          "fileFetchFailed": "取得檔案失敗",
+          "languageCodeEmpty": "語言代碼不能為空",
+          "fileDurationInvalid": "檔案時長無效: {duration}秒，請確保音訊檔案已正確載入",
+          "modelConfigInvalid": "模型配置無效: platform={platform}, model={model}",
+          "modelNotFound": "未找到對應的模型",
+          "downloadUrlMissing": "檔案缺少有效的下載 URL，無法進行批量轉寫。請確保檔案已正確上傳。",
+          "pollingFailed": "轉寫任務失敗，請稍後重試",
+          "saveFailed": "儲存失敗，請重試"
+        },
+        "saveSuccess": "儲存成功",
+        "paragraphEmpty": "段落內容不能為空",
+        "selectGenerateMethod": "選擇生成方式",
+        "generateMethod": {
+          "auto": "自動產生",
+          "autoDescription": "自動生成最匹配的轉寫與紀要,無需手動設定",
+          "custom": "自訂產生",
+          "summaryTemplate": "範本",
+          "aiModel": "AI 模型",
+          "transcriptionLanguage": "轉錄語言",
+          "differentiateSpeakers": "區分講者",
+          "recordingDesensitization": "錄音脫敏",
+          "meetingSummary": "會議筆記",
+          "automatic": "自動",
+          "chineseSimplifiedMandarin": "簡體中文—普通話",
+          "modelDisplayName": {
+            "Auto": "自動"
+          },
+          "aiModelOptions": {
+            "auto": "自動",
+            "gpt5": "GPT-5",
+            "gpt41": "GPT-4.1",
+            "grok4": "Grok 4",
+            "claudeSonnet4": "Claude Sonnet 4",
+            "deepseekChat": "Deepseek chat",
+            "doubao": "Doubao"
+          }
+        },
+        "summaryTemplate": {
+          "categories": {
+            "custom": "自訂",
+            "recentlyUsed": "最近使用",
+            "general": "一般",
+            "meeting": "會議",
+            "speech": "演講",
+            "call": "通話",
+            "interview": "面試/採訪",
+            "medical": "醫療",
+            "sales": "銷售",
+            "consultation": "諮詢",
+            "education": "教育",
+            "architecture": "建築",
+            "it": "IT產業"
+          },
+          "templates": {
+            "meetingMinutes": "會議筆記",
+            "classNotes": "課堂筆記"
+          },
+          "create": "建立",
+          "lastUsed": "上次使用",
+          "loading": "載入中...",
+          "loadError": "載入模板分類失敗",
+          "noTemplates": "該分類下暫無模板",
+          "customTemplate": {
+            "title": "自訂範本",
+            "templateName": "模板名稱",
+            "templateNamePlaceholder": "請輸入模板名稱",
+            "prompt": "提示詞",
+            "promptPlaceholder": "請輸入提示詞",
+            "save": "儲存",
+            "saveSuccess": "模板保存成功",
+            "saveFailed": "模板保存失敗",
+            "userInfoMissing": "使用者資訊不存在，無法保存模板"
+          },
+          "preview": {
+            "overview": "概覽",
+            "taskLabel": "定義助理的任務",
+            "elementsLabel": "會議紀要的構成要素包括",
+            "constraintsLabel": "紀要編寫的約束條件包括",
+            "meeting_minutes": {
+              "title": "會議筆記",
+              "task": "從會議音訊轉寫中提取指定構成要素,並按約束條件生成簡潔會議紀要。",
+              "elements[0]": "會議名稱與日期時間",
+              "elements[1]": "出席者",
+              "elements[2]": "議題",
+              "elements[3]": "討論內容",
+              "elements[4]": "決議事項",
+              "elements[5]": "未決事項",
+              "elements[6]": "以及注明負責人、內容、期限的下一步行動與其他特別事項。",
+              "constraints[0]": "使用清晰的項目符號",
+              "constraints[1]": "全文不超過800字",
+              "constraints[2]": "使用敬體",
+              "constraints[3]": "聚焦重要要點",
+              "constraints[4]": "避免情緒化",
+              "constraints[5]": "僅記錄客觀事實。"
+            }
+          }
+        },
+        "markdownViewer": {
+          "feedbackModal": {
+            "title": "告訴我們更多",
+            "subtitle": "您的回饋非常寶貴,我們將繼續根據您的建議進行優化和迭代。",
+            "feedback": {
+              "submitSuccess": "回饋提交成功",
+              "submitFailed": "提交回饋失敗，請稍後重試"
+            },
+            "categories": {
+              "missingKeyInfo": "缺少關鍵資訊",
+              "properNouns": "專有名詞不應翻譯",
+              "paragraphTooLong": "每段內容過長",
+              "redundantContent": "內容冗餘"
+            },
+            "otherPlaceholder": "其他:需要改進什麼?",
+            "agreeToShare": "我同意將我的轉寫分享給BOYA Notra團隊",
+            "send": "傳送"
+          },
+          "summaryVersionConflict": {
+            "title": "總結編輯衝突",
+            "message": "檢測到版本衝突，後台內容已被其他操作更新。請選擇保存方式：",
+            "localVersion": "本機版本",
+            "serverVersion": "後台版本",
+            "saveLocal": "保存本地",
+            "saveServer": "保存後台"
+          }
+        },
+        "audioLoading": "音訊載入中...({progress}%)",
+        "cropHint": "您可以使用剪輯和刪除來編輯音訊",
+        "audioCropProcessing": "正在剪輯...",
+        "audioDeleteProcessing": "正在刪除...",
+        "audioDeleteFailed": "刪除音訊片段失敗，請重試",
+        "audioCropFailed": "剪輯音訊失敗，請重試",
+        "saveAsNewFile": "另存為新檔案",
+        "audioEdited": "音訊已被編輯。是否另存為新檔案？",
+        "unsavedChanges": "未保存的更改將會丟失。",
+        "fileName": "檔案名稱",
+        "save": "儲存",
+        "saveAsSuccess": "檔案已保存到本地",
+        "saveAsFailed": "保存檔案失敗，請重試",
+        "uploading": "上傳中",
+        "uploadSuccess": "檔案上傳成功",
+        "uploadError": {
+          "userNotLoggedIn": "使用者未登入，請先登入",
+          "failed": "檔案上傳失敗"
+        }
+      },
+      "summary": {
+        "noSummary": "暫無摘要",
+        "willShowAfterGeneration": "摘要將在產生後顯示於此"
+      },
+      "mindMap": {
+        "noMindmap": "暫無心智圖",
+        "willShowAfterGeneration": "心智圖將在產生後顯示於此"
+      }
+    },
+    "headerRight": {
+      "shareMenu": {
+        "shareLink": "分享連結",
+        "copyTranscribe": "複製逐字稿",
+        "copySummary": "複製摘要",
+        "copying": "複製中...",
+        "copySuccess": "已複製到剪貼簿",
+        "copyFailed": "複製失敗，請重試",
+        "exportAudio": "匯出音訊",
+        "exportTranscribe": "匯出逐字稿",
+        "exportSummary": "匯出摘要",
+        "exportMindMap": "匯出心智圖",
+        "speaker": "講者",
+        "keywords": "關鍵詞",
+        "errors": {
+          "fileObjectRequired": "檔案物件不能為空",
+          "fileIdRequired": "檔案ID不能為空",
+          "transcriptionDataEmpty": "轉寫數據為空",
+          "summaryDataEmpty": "紀要數據為空",
+          "transcriptionTextEmpty": "轉寫文本為空",
+          "summaryTextEmpty": "紀要文本為空",
+          "mindMapDataEmpty": "思維導圖數據為空",
+          "mindMapDataInvalid": "思維導圖數據格式無效",
+          "mindMapElementNotFound": "思維導圖元素未找到",
+          "mindMapTextEmpty": "思維導圖文本為空",
+          "mindMapTabNotActive": "請先切換到「導圖」標籤頁",
+          "imageConversionFailed": "圖片轉換失敗",
+          "fileNotGenerated": "檔案未生成"
+        }
+      },
+      "shareLinkModal": {
+        "title": "分享連結",
+        "audio": "錄音中",
+        "summary": "摘要",
+        "mindMap": "心智圖",
+        "transcribe": "逐字稿",
+        "copyLink": "複製連結",
+        "info": "連結分享有效期為 7 天。在到期前，任何取得連結的人都可存取。",
+        "copySuccess": "已複製到剪貼簿",
+        "copyFailed": "複製失敗，請重試",
+        "atLeastOneRequired": "分享連結至少需要選擇一項"
+      },
+      "moreMenu": {
+        "moveToFolder": "移動至資料夾",
+        "regenerate": "重新產生",
+        "translate": "翻譯",
+        "findAndReplace": "尋找與取代",
+        "moveToRecycleBin": "移至回收桶",
+        "nameSpeaker": "命名發言人"
+      },
+      "share": "分享",
+      "more": "更多",
+      "exportModal": {
+        "title": "匯出",
+        "exportAs": "匯出為",
+        "include": "包含",
+        "export": "匯出",
+        "exporting": "正在匯出...",
+        "audio": {
+          "title": "匯出音訊"
+        },
+        "transcribe": {
+          "title": "匯出逐字稿"
+        },
+        "summary": {
+          "title": "匯出摘要"
+        },
+        "mindMap": {
+          "title": "匯出心智圖"
+        },
+        "formats": {
+          "mp3": "MP3",
+          "wav": "WAV",
+          "txt": "TXT",
+          "srt": "SRT",
+          "docx": "DOCX",
+          "pdf": "PDF",
+          "markdown": "Markdown",
+          "jpeg": "JPEG"
+        },
+        "includes": {
+          "timestamp": "時間戳記",
+          "speaker": "講者"
+        },
+        "errors": {
+          "invalidFileType": "檔案類型無效",
+          "missingFileKey": "檔案缺少必要的標識資訊",
+          "failedToGetDownloadUrl": "取得下載地址失敗",
+          "failedToDownload": "下載檔案失敗",
+          "exportFailed": "匯出失敗，請重試",
+          "notImplemented": "該匯出功能暫未實現",
+          "canvasRenderFailed": "PDF 渲染失敗，內容為空"
+        },
+        "exportSuccess": "匯出成功"
+      },
+      "keywordAdd": "添加",
+      "speakerNameDialog": {
+        "title": "命名發言人",
+        "speakerNamePlaceholder": "發言人名稱",
+        "duration": "時長",
+        "totalDuration": "總時長",
+        "noSpeakerData": "暫無發言人數據"
+      },
+      "editSpeakerDialog": {
+        "title": "編輯發言人"
+      },
+      "messages": {
+        "selectFileFirst": "請先選擇檔案",
+        "noTranscriptionContent": "暫無轉錄內容",
+        "noSummaryContent": "暫無摘要內容",
+        "noAudio": "暫無音訊",
+        "noMindmapContent": "暫無心智圖內容",
+        "templateMemberMismatch": "範本模型與會員等級不匹配",
+        "transcriptionFailed": "轉錄失敗",
+        "queryTranscriptionFailed": "查詢轉錄結果失敗",
+        "fastTranscribeFailed": "快速轉錄失敗",
+        "feedbackSubmitSuccess": "反饋提交成功",
+        "showL2Nav": "顯示檔案列表"
+      },
+      "keywordsLabel": "關鍵詞：",
+      "keywordJoiner": "、",
+      "translate": {
+        "loading": "正在翻譯...",
+        "success": "翻譯成功",
+        "error": {
+          "userNotLoggedIn": "使用者未登入",
+          "fileNotGenerated": "檔案未生成，無法翻譯",
+          "noResult": "翻譯結果為空",
+          "failed": "翻譯失敗，請重試"
+        }
+      },
+      "findAndReplaceModal": {
+        "title": "尋找與取代",
+        "find": "查找",
+        "replaceWith": "替換為",
+        "searchPlaceholder": "輸入要查找的文本",
+        "replacePlaceholder": "輸入替換文本",
+        "previousMatch": "上一個匹配項",
+        "nextMatch": "下一個匹配項",
+        "replace": "替換",
+        "replaceAll": "全部替換",
+        "replaceSuccess": "替換完成",
+        "replaceAllSuccess": "全部替換完成",
+        "replaceError": "替換失敗，請重試"
+      },
+      "nameSpeakerModal": {
+        "title": "命名發言人",
+        "save": "儲存",
+        "cancel": "取消",
+        "speakerPlaceholder": "請輸入發言人名稱",
+        "totalDuration": "總時長",
+        "noSpeakers": "暫無發言人數據",
+        "loading": "正在載入轉寫數據...",
+        "noSegments": "沒有轉寫片段",
+        "loadError": "載入轉寫數據失敗，請重試",
+        "saveSuccess": "儲存成功",
+        "speakerNameEmpty": "發言人名稱不能為空"
+      },
+      "speakerEditBox": {
+        "title": "編輯說話者",
+        "applyToCurrentParagraph": "套用至目前段落",
+        "applyToAllParagraphs": "將此發言者套用到所有段落",
+        "save": "儲存"
+      },
+      "translateModal": {
+        "title": "翻譯為",
+        "searchPlaceholder": "搜尋語言",
+        "clear": "清空",
+        "noResults": "未找到匹配的語言",
+        "exit": "退出"
+      }
+    },
+    "askAI": {
+      "deleteConfirm": {
+        "title": "確認永久刪除此紀錄？",
+        "subtitle": "此紀錄將被永久刪除，且無法復原。",
+        "confirm": "刪除",
+        "cancel": "取消"
+      },
+      "greeting": "嗨，{name}。",
+      "subtitle": "今天我可以如何幫助你？",
+      "inputPlaceholder": "向 AI 提問...",
+      "followUpPlaceholder": "追問",
+      "reading": "讀取中...",
+      "responses": {
+        "greeting": "你好！我是你的 AI 助手，很高興為你服務。我可以協助回答問題、提供建議，或協助各種任務。請問需要我幫什麼？",
+        "help": "我可以提供以下協助：\n1. 回答問題：我可以回答各種知識型問題\n2. 文字處理：協助你編輯、摘要或翻譯文字\n3. 創意建議：提供創意想法與建議\n4. 技術支援：回答技術相關問題\n請告訴我你需要哪方面的協助？",
+        "features": "我的主要功能包括：\n• 智慧問答：回答各種問題\n• 文字分析：分析、摘要並擷取關鍵資訊\n• 內容生成：生成文章、摘要等\n• 多語言支援：支援多種語言的溝通\n• 情境理解：理解對話脈絡並提供連貫的回應\n你想進一步了解哪一項功能？",
+        "default": "根據你的問題\"{question}\"，我已準備以下內容：\n這是一則示範回應，用於展示 AI 回覆的格式。在實際應用中，我將根據你的具體問題提供更詳細且準確的答案。\n如果你還有其他問題，歡迎隨時繼續提問。我會盡力協助你。"
+      },
+      "moreMenu": {
+        "insertSummary": "插入摘要",
+        "concise": "更精簡",
+        "detailed": "更詳細",
+        "useful": "有用",
+        "useless": "無用"
+      },
+      "actions": {
+        "copySuccess": "已複製到剪貼簿",
+        "copyFailed": "複製失敗",
+        "shareFailed": "分享失敗",
+        "exporting": "匯出中",
+        "exportFailed": "匯出失敗",
+        "insertSuccess": "插入成功",
+        "feedbackThanks": "感謝你的回饋"
+      },
+      "suggestedQuestions": {
+        "title": "繼續提問",
+        "more": "更多...",
+        "collapse": "收合"
+      },
+      "quickActions": {
+        "insights": "取得洞察",
+        "todo": "產生待辦事項清單",
+        "email": "撰寫電子郵件",
+        "summary": "摘要重點"
+      },
+      "sidebarSuggestedQuestions": {
+        "question1": "除了華盛專案之外，是否還有其他進行中的專案？",
+        "question2": "是否有比電子郵件更有效的其他溝通方式？",
+        "question3": "如何確定設備參數調整的具體中間值？",
+        "question4": "專案進度是如何追蹤與管理的？",
+        "question5": "團隊協作的最佳實務是什麼？",
+        "question6": "如何提升工作效率？"
+      },
+      "clearConfirm": {
+        "title": "清除所有對話記錄？",
+        "message": "所有記錄將被永久清空且無法復原。確認要繼續嗎？",
+        "confirm": "刪除",
+        "cancel": "取消"
+      },
+      "error": {
+        "userInfoMissing": "使用者資訊不存在，無法發送訊息",
+        "fileInfoMissing": "檔案資訊不存在，無法發送訊息",
+        "requestFailed": "請求失敗，請稍後重試",
+        "networkError": "網路錯誤，請檢查網路連接後重試"
+      }
+    },
+    "secondaryNav": {
+      "recordingFile": "錄音檔案",
+      "contextMenu": {
+        "select": "選擇",
+        "rename": "重新命名",
+        "move": "移動",
+        "moveToRecycleBin": "移至回收桶",
+        "restore": "還原",
+        "permanentDelete": "永久刪除"
+      },
+      "selection": {
+        "selected": "已選取",
+        "done": "完成",
+        "merge": "合併",
+        "moveToFolder": "移動至資料夾",
+        "delete": "刪除",
+        "restore": "還原",
+        "permanentDelete": "永久刪除"
+      },
+      "merge": {
+        "mergeFile": "合併檔案",
+        "merging": "合併中",
+        "mergeSuccess": "合併成功",
+        "view": "檢視",
+        "onlyTwoFiles": "合併操作僅支援選取 2 個音訊檔案",
+        "mergeProgress": "合併中（{progress}%）"
+      },
+      "move": {
+        "moveSuccess": "已將 {fileName} 移動至 {folderName}",
+        "etc": "等待中",
+        "alreadyInFolder": "{fileName} 已經在 {folderName} 中，不需要移動"
+      },
+      "rename": {
+        "renameSuccess": "重新命名成功",
+        "renameFailed": "重新命名失敗，請稍後重試"
+      },
+      "delete": {
+        "deleteSuccess": "已完成，可隨時從垃圾桶還原"
+      },
+      "restore": {
+        "restoreSuccess": "{fileName}已恢復",
+        "restoreFailed": "恢復失敗，請稍後重試"
+      },
+      "permanentDelete": {
+        "confirmTitle": "確認永久刪除此檔案？",
+        "confirmMessage": "此檔案將被永久刪除，且無法復原。",
+        "confirmButton": "刪除",
+        "cancelButton": "取消",
+        "deleteSuccess": "{fileName} 檔案已刪除"
+      }
+    },
+    "membership": {
+      "title": "會員中心",
+      "memberType": {
+        "notMember": "非會員",
+        "trial": "試用會員",
+        "monthly": "月費會員",
+        "annual": "年費會員",
+        "masterMonthly": "Ultimate 版包月會員",
+        "masterAnnual": "Ultimate版包年會員"
+      },
+      "currentSubscription": {
+        "title": "目前訂閱",
+        "professional": "Pro",
+        "usage": "已使用 {used}/{total} 分鐘",
+        "expiration": "到期日：{date}",
+        "details": "詳細資訊",
+        "usageUnlimited": "已用{used}分鐘/無限時長"
+      },
+      "subscriptionPlans": {
+        "title": "選擇最適合你的方案",
+        "monthly": "月訂閱",
+        "annual": "年訂閱",
+        "month": "月",
+        "year": "年",
+        "includes": "包含：",
+        "mostPopular": "最受歡迎",
+        "currentPlan": "目前方案",
+        "unavailable": "不可訂閱",
+        "upgrade": "升級",
+        "explorer": {
+          "name": "探索版",
+          "button": "免費",
+          "features": {
+            "transcription": "每月 {value} 分鐘逐字稿",
+            "storage": "雲端儲存空間無限制",
+            "languages": "{value}+ 種逐字語言",
+            "speaker": "說話者分離",
+            "multimodal": "多模態輸入",
+            "tagging": "一鍵標記",
+            "editing": "文字編輯",
+            "import": "音訊匯入",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "translation": "翻譯分鐘數",
+            "mindmap": "心智圖",
+            "export": "{value} 種匯出格式",
+            "templates": "{value} 種專業範本"
+          }
+        },
+        "professional": {
+          "name": "Pro",
+          "button": "訂閱",
+          "features": {
+            "transcription": "每月 {value} 分鐘逐字稿",
+            "storage": "雲端儲存空間無限制",
+            "languages": "{value}+ 種逐字語言",
+            "speaker": "說話者分離",
+            "multimodal": "多模態輸入",
+            "tagging": "一鍵標記",
+            "editing": "文字編輯",
+            "import": "音訊匯入",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "通義千問",
+            "translation": "翻譯分鐘數",
+            "mindmap": "心智圖",
+            "export": "{value} 種檔案匯出格式",
+            "templates": "{value} 種專業範本",
+            "customTemplates": "自訂範本",
+            "askAI": "詢問 AI"
+          }
+        },
+        "master": {
+          "name": "Ultimate",
+          "button": "訂閱",
+          "features": {
+            "transcription": "逐字時間無限制",
+            "storage": "雲端儲存空間無限制",
+            "languages": "{value}+ 種逐字語言",
+            "speaker": "說話者分離",
+            "multimodal": "多模態輸入",
+            "tagging": "一鍵標記",
+            "editing": "文字編輯",
+            "import": "音訊匯入",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "通義千問",
+            "translation": "翻譯分鐘數",
+            "mindmap": "心智圖",
+            "export": "{value} 種檔案匯出格式",
+            "templates": "{value}+ 種專業範本",
+            "customTemplates": "自訂範本",
+            "askAI": "詢問 AI"
+          }
+        },
+        "switch": "切換",
+        "pendingPlan": "即將生效的會員",
+        "pendingPlanTip": "當前購買會員的訂閱週期結束後，下一個訂閱週期將生效新會員方案。",
+        "pendingPlanAlreadyTip": "您已有即將生效的方案，當前週期結束後生效。",
+        "switchScheduledTip": "已預約下一週期生效，當前訂閱週期結束後將自動切換為新方案。",
+        "loading": "載入中..."
+      },
+      "moreTranscriptionTime": {
+        "title": "更多逐字時間",
+        "minutes": "分鐘",
+        "perMinute": "分鐘",
+        "buy": "購買"
+      },
+      "footer": {
+        "note": "購買後立即生效，有效期一年",
+        "userAgreement": "使用者協議",
+        "privacyPolicy": "隱私權政策"
+      },
+      "payment": {
+        "orderInfo": "訂單資訊",
+        "annualSubscription": "連續年訂閱",
+        "monthlySubscription": "連續月訂閱",
+        "paymentMethod": "付款方式",
+        "bankCard": "信用卡／簽帳卡",
+        "applePay": "Apple Pay",
+        "googlePay": "Google Pay",
+        "alipay": "支付寶",
+        "wechat": "微信",
+        "cardNumber": "卡號",
+        "cardNumberPlaceholder": "請輸入",
+        "expiryDate": "到期日",
+        "securityCode": "CVV／CVC",
+        "country": "國家",
+        "selectCountry": "選擇國家",
+        "cancel": "取消",
+        "pay": "付款",
+        "countries": {
+          "US": "美國",
+          "CN": "中國",
+          "GB": "英國",
+          "JP": "日本"
+        },
+        "error": {
+          "userNotLoggedIn": "請先登入",
+          "productIdRequired": "產品ID不能為空",
+          "regionDetecting": "正在檢測區域資訊，請稍候",
+          "createOrderFailed": "建立支付訂單失敗",
+          "pollingTimeout": "支付結果查詢超時，請稍後查看訂單狀態",
+          "paymentFailed": "支付失敗"
+        }
+      },
+      "paymentSuccess": {
+        "title": "恭喜你解鎖Ultimate版會員",
+        "titleProfessional": "恭喜你解鎖Pro版會員",
+        "benefitsTitle": "Ultimate版權益包含",
+        "benefitsTitleProfessional": "Pro版權益包含",
+        "benefits": {
+          "unlimitedTranscription": "無限轉寫",
+          "unlimitedStorage": "雲端儲存空間無限制",
+          "transcriptionLanguages": "140+ 種逐字語言",
+          "latestAIModels": "最新 AI 模型：ChatGPT、Gemini、Claude、Grok",
+          "exportFormats": "7 種檔案匯出格式",
+          "professionalTemplates": "60+ 種專業範本",
+          "customTemplates": "自訂範本",
+          "askAI": "詢問 AI",
+          "more": "還有更多"
+        },
+        "enterApp": "進入 BOYA Notra",
+        "purchaseSuccess": "購買成功"
+      },
+      "paymentFailure": {
+        "title": "支付失敗",
+        "subtitle": "請更換其他支付方式",
+        "returnToCheckout": "返回收銀台"
+      }
+    },
+    "settings": {
+      "title": "設定",
+      "profile": "個人資料",
+      "accountSecurity": "帳戶與安全",
+      "accountSafety": {
+        "loginMethods": {
+          "title": "登入方式",
+          "email": "電子郵件",
+          "phone": "手機號碼",
+          "changePassword": "變更密碼",
+          "wechat": "微信",
+          "add": "新增",
+          "remove": "移除",
+          "verify": "驗證",
+          "notBound": "未綁定",
+          "passwordNotSet": "未設定",
+          "alreadyRegistered": "此帳號已被註冊",
+          "Registered": "此帳號已被註冊。如您希望將其關聯至目前帳號，請先登出或移除該帳號後再試。",
+          "loginMethodWarning": "帳號至少需保留一種登入方式，如要修改登入方式，請先新增一種其他登入方式。",
+          "thirdAccountTypes": {
+            "google": "Google",
+            "apple": "Apple",
+            "wechat": "微信"
+          }
+        },
+        "devices": {
+          "title": "登入裝置",
+          "device": "裝置",
+          "loginMethod": "登入方式",
+          "lastActiveTime": "最後活動時間",
+          "operation": "操作",
+          "currentDevice": "目前裝置",
+          "loggedIn": "登入中",
+          "delete": "刪除",
+          "fetchFailed": "取得裝置清單失敗",
+          "noDevices": "暫無裝置",
+          "unknownDevice": "未知裝置",
+          "unknown": "未知",
+          "deleteSuccess": "設備已下線",
+          "deleteFailed": "刪除裝置失敗",
+          "deleteConfirm": {
+            "title": "刪除裝置",
+            "message": "確定要刪除裝置\"{deviceName}\"嗎？",
+            "messageDefault": "確定要刪除該裝置嗎？",
+            "confirm": "確認",
+            "cancel": "取消"
+          }
+        },
+        "logout": "登出",
+        "changeEmail": {
+          "confirmTitle": "備註",
+          "confirmQuestion": "變更電子郵件地址？",
+          "currentEmail": "目前電子郵件：{email}",
+          "change": "變更",
+          "verifyTitle": "帳戶驗證",
+          "verifyOldEmailText": "為確保帳戶安全，請驗證你的身分。驗證碼已寄送至 {email}",
+          "changeTitle": "變更電子郵件",
+          "enterNewEmail": "請輸入新的電子郵件",
+          "codeSent": "驗證碼已寄送",
+          "success": "電子郵件修改成功",
+          "cancel": "取消",
+          "confirm": "確認"
+        },
+        "changePhone": {
+          "confirmTitle": "備註",
+          "confirmQuestion": "變更手機號碼？",
+          "currentPhone": "目前手機：{phone}",
+          "change": "變更",
+          "verifyTitle": "帳戶驗證",
+          "verifyOldPhoneText": "為確保帳戶安全，請驗證你的身分。驗證碼已傳送至手機號碼 {phonel}",
+          "changeTitle": "變更手機號碼",
+          "enterNewPhone": "請輸入新的手機號碼",
+          "codeSent": "驗證碼已寄送",
+          "success": "手機號碼修改成功",
+          "cancel": "取消",
+          "confirm": "確認"
+        },
+        "resetPassword": {
+          "title": "重設密碼",
+          "message": "重設密碼前請先驗證身分，是否繼續重設？",
+          "cancel": "取消",
+          "confirm": "確認"
+        },
+        "logoutConfirm": {
+          "title": "登出",
+          "message": "確認退出嗎？\n退出時請確認所有檔案已完成上傳、轉寫、同步，否則可能會造成資料遺失。",
+          "cancel": "取消",
+          "confirm": "退出"
+        },
+        "bindThirdAccountSuccess": "{type} 帳號綁定成功",
+        "bindThirdAccountError": {
+          "userNotLoggedIn": "使用者未登入，無法綁定第三方帳號",
+          "failed": "綁定失敗，請稍後重試",
+          "invalidType": "不支援的第三方帳號類型",
+          "googleAuthFailed": "Google 授權失敗，請重試",
+          "appleAuthFailed": "Apple 授權失敗，請重試",
+          "wechatAuthFailed": "微信授權失敗，請重試，",
+          "authCancelled": "已取消授權"
+        },
+        "unbindThirdAccountSuccess": "{type} 帳號解除綁定成功",
+        "unbindThirdAccountError": {
+          "userNotLoggedIn": "使用者未登入，無法解除第三方帳號",
+          "failed": "解除綁定失敗，請稍後重試"
+        },
+        "unbindThirdAccountConfirm": {
+          "title": "確定解除綁定？",
+          "message": "確定要解除 {type} 帳號的綁定嗎？",
+          "messageDefault": "確定要解除此帳號的綁定嗎？",
+          "confirm": "確認",
+          "cancel": "取消"
+        }
+      },
+      "general": "一般",
+      "membership": "會員",
+      "membershipContent": {
+        "currentPlan": "目前方案",
+        "cancelSubscription": "取消訂閱",
+        "transcriptionDuration": "逐字點數",
+        "remaining": "剩餘 {remaining} 分鐘（共 {total} 分鐘）",
+        "startEndDate": "開始／結束日期：{start}~{end}",
+        "nextResetDate": "下次重置日期：{date}",
+        "nextPaymentDate": "下次付款日期：{date}",
+        "purchaseHistory": "購買紀錄",
+        "purchaseHistorySwipeHint": "滑動切換頁面",
+        "transcriptionHistory": "逐字紀錄",
+        "purchaseHistoryTable": {
+          "product": "項目",
+          "paymentTime": "付款時間",
+          "actualPayment": "付款金額"
+        },
+        "purchaseHistoryData": {
+          "professionalMonthly": "Pro 月訂閱",
+          "transcription300": "300 分鐘逐字點數"
+        },
+        "transcriptionHistoryTable": {
+          "product": "項目",
+          "transcriptionTime": "逐字時間",
+          "consumedQuota": "已使用點數"
+        },
+        "transcriptionHistoryData": {
+          "aiSummary": "AI 摘要",
+          "realTimeTranscription": "即時轉錄",
+          "minutes": "分鐘",
+          "seconds": "秒"
+        },
+        "cancelSubscriptionDescription1": "你的訂閱將於本計費週期結束時（{date}）取消，之後不會再產生任何費用。",
+        "cancelSubscriptionDescription2": "自該日期起，你將無法再使用以下 BOYA Notra 會員權益：",
+        "cancelSubscriptionBenefits": {
+          "transcription140": "每月 140 分鐘逐字",
+          "unlimitedStorage": "雲端儲存空間無限制",
+          "languages100": "100+ 種逐字語言",
+          "latestAIModels": "最新 AI 模型：ChatGPT、Gemini、Claude、Grok",
+          "exportFormats": "7 種檔案匯出格式",
+          "professionalTemplates": "20 種專業範本",
+          "customTemplates": "自訂範本",
+          "askAI": "詢問 AI"
+        },
+        "cancelSubscriptionReasonPlaceholder": "請選擇取消原因",
+        "cancelSubscriptionReasons": {
+          "price": "價格太高",
+          "notUsing": "不常使用",
+          "foundAlternative": "找到替代方案",
+          "tooExpensive": "成本過高",
+          "other": "其他原因"
+        },
+        "keepSubscription": "保留訂閱",
+        "remainingUnlimited": "剩餘{remaining}分鐘 (無限時長)",
+        "unlimitedDuration": "不限時長",
+        "transcriptionHistoryLoading": "載入中...",
+        "transcriptionHistoryEmpty": "暫無轉寫記錄",
+        "transcriptionHistoryError": "載入轉寫記錄失敗",
+        "transcriptionHistoryLoadComplete": "已載入全部數據",
+        "purchaseHistoryLoadComplete": "已載入全部數據",
+        "purchaseHistoryError": "載入購買記錄失敗",
+        "cancelSubscriptionSuccess": "取消訂閱成功",
+        "cancelSubscriptionError": {
+          "userNotLoggedIn": "使用者未登入",
+          "failed": "取消訂閱失敗，請稍後重試"
+        }
+      },
+      "helpFeedbackTitle": "說明與回饋",
+      "about": "關於",
+      "aboutContent": {
+        "socialMedia": "社群媒體",
+        "officialWebsite": "官方網站",
+        "x": "X",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "legalPrivacy": "法律與隱私",
+        "userAgreement": "使用者協議",
+        "privacyPolicy": "隱私權政策",
+        "cookiePolicy": "Cookie 政策",
+        "cookieSettings": "Cookie 設定",
+        "cookieSettingsContent": {
+          "categories": {
+            "necessary": "必要",
+            "necessaryDesc": "網站運作所必需，始終啟用。",
+            "functional": "功能",
+            "functionalDesc": "儲存偏好並提供加強功能。",
+            "analytics": "分析",
+            "analyticsDesc": "用於衡量使用情況並改善你的體驗。",
+            "marketing": "行銷",
+            "marketingDesc": "用於精準廣告投放。"
+          }
+        },
+        "youtube": "YouTube",
+        "linkedin": "LinkedIn",
+        "discord": "Discord"
+      },
+      "nickname": "暱稱",
+      "nicknamePlaceholder": "輸入暱稱",
+      "editAvatar": "編輯頭像",
+      "displayLanguage": "顯示語言",
+      "selectLanguage": "選擇語言",
+      "languages": {
+        "zhCN": "简体中文",
+        "zhTW": "繁體中文（台灣）",
+        "zhHK": "繁體中文（香港）",
+        "enUS": "English",
+        "de": "Deutsch",
+        "fr": "Français",
+        "ja": "日本語",
+        "es": "Español",
+        "it": "Italiano",
+        "ru": "Русский"
+      },
+      "helpFeedback": {
+        "suggestionsFeedback": "建議與回饋",
+        "submitFeedback": "提交回饋",
+        "contactUs": "聯絡我們",
+        "operatingHours": "週一至週日 9:00-12:00、13:00-18:30（GMT+8）",
+        "whatsapp": "WhatsApp",
+        "email": "電子郵件",
+        "onlineService": "線上客服",
+        "phone": "手機號碼",
+        "copy": "複製",
+        "copySuccess": "複製成功",
+        "copyFailed": "複製失敗",
+        "commonQuestions": "常見問題",
+        "feedbackModal": {
+          "title": "建議與回饋",
+          "description": "說明",
+          "descriptionPlaceholder": "請告訴我們您的建議，最少輸入10個字",
+          "images": "圖片",
+          "submit": "提交",
+          "submitSuccess": "提交成功",
+          "submitSuccessMessage": "感謝你的回饋",
+          "descriptionMinLengthError": "說明至少需 10 個字元"
+        },
+        "questions": {
+          "bindDevice": "如何綁定裝置？",
+          "startRecording": "如何開始錄音？",
+          "generateTranscription": "如何產生逐字稿？",
+          "generateSummary": "如何產生摘要？",
+          "allQuestions": "所有問題"
+        },
+        "emailCopyFallback": "已複製郵箱地址，請手動開啟郵件用戶端發送"
+      },
+      "nicknameMaxBytesExceeded": "暱稱不能超過50位元組"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "登入 BOYA Notra",
+      "phoneNumber": "請輸入手機號碼",
+      "email": "請輸入電子郵件",
+      "verificationCode": "請輸入驗證碼",
+      "password": "請輸入密碼",
+      "getCode": "傳送",
+      "submit": "登入",
+      "register": "註冊",
+      "forgotPassword": "忘記密碼？",
+      "passwordLogin": "密碼登入",
+      "verificationCodeLogin": "驗證碼登入",
+      "google": "Google",
+      "apple": "Apple ID",
+      "wechat": "WeChat",
+      "or": "或",
+      "autoRegister": "未註冊的手機號碼將於登入後自動註冊",
+      "autoRegisterEmail": "未註冊的電子郵件將於登入後自動註冊",
+      "agreement": "點擊登入即表示你同意使用者協議與隱私權政策",
+      "backToLogin": "返回登入",
+      "setPassword": "設定密碼",
+      "registerSuccess": "註冊成功，請設定密碼",
+      "loading": "登入中...",
+      "codeSentCountdown": "已送出",
+      "resend": "再次發送",
+      "showPassword": "顯示密碼",
+      "hidePassword": "隱藏密碼",
+      "loginBackground": "登入背景",
+      "agreementPrefix": "點擊登入即同意",
+      "userAgreement": "《使用者協議》",
+      "agreementAnd": "以及",
+      "privacyPolicy": "《隱私協議》",
+      "wechatQRCodeTitle": "微信掃碼登入",
+      "wechatQRCodeTip": "請使用微信掃描二維碼登入",
+      "wechatQRCodeHint": "掃碼後請在手機上確認登入"
+    },
+    "setPassword": {
+      "title": "設定密碼",
+      "hint": "請設定新密碼（8–20 個字元），需至少包含以下兩項：字母、數字、特殊字元。",
+      "confirm": "確認"
+    },
+    "register": {
+      "title": "註冊 BOYA Notra",
+      "phoneNumber": "請輸入手機號碼",
+      "email": "請輸入電子郵件",
+      "verificationCode": "請輸入驗證碼",
+      "password": "請設定密碼",
+      "confirmPassword": "請確認密碼",
+      "getCode": "取得驗證碼",
+      "submit": "註冊",
+      "backToLogin": "已有帳號？返回登入"
+    },
+    "forgotPassword": {
+      "title": "忘記密碼",
+      "hint1China": "請使用已註冊的手機號碼驗證身分以重設密碼。",
+      "hint1NonChina": "請使用已註冊的電子郵件驗證身分以重設密碼。",
+      "hint1": "請使用已註冊的手機號碼／電子郵件驗證身分以重設密碼。",
+      "hint2": "新密碼（8–20 個字元）需至少包含以下兩項：字母、數字、特殊字元。",
+      "phoneOrEmail": "請輸入手機號碼或電子郵件",
+      "phoneOrEmailChina": "請輸入手機號碼",
+      "phoneOrEmailNonChina": "請輸入電子郵件",
+      "email": "請輸入電子郵件",
+      "verificationCode": "請輸入驗證碼",
+      "newPassword": "請輸入密碼",
+      "confirmPassword": "請重新輸入密碼",
+      "getCode": "取得驗證碼",
+      "submit": "重設密碼",
+      "confirm": "確認",
+      "backToLogin": "取消"
+    },
+    "changePassword": {
+      "title": "變更密碼",
+      "hint1China": "請使用已註冊的手機號碼驗證身分以重設密碼。",
+      "hint1NonChina": "請使用已註冊的電子郵件驗證身分以重設密碼。",
+      "hint1": "重設密碼前請先驗證身分。",
+      "hint2": "新密碼（8–20 個字元）需至少包含以下兩項：字母、數字、特殊字元。",
+      "phoneOrEmail": "請輸入手機號碼或電子郵件",
+      "phoneOrEmailChina": "請輸入手機號碼",
+      "phoneOrEmailNonChina": "請輸入電子郵件",
+      "newPassword": "請輸入密碼",
+      "confirmPassword": "請重新輸入密碼",
+      "confirm": "確認",
+      "backToSettings": "取消"
+    },
+    "errors": {
+      "phoneRequired": "請輸入手機號碼",
+      "phoneInvalid": "手機號碼格式錯誤",
+      "emailRequired": "請輸入電子郵件",
+      "emailInvalid": "電子郵件格式錯誤",
+      "codeRequired": "請輸入驗證碼",
+      "codeInvalid": "驗證碼必須為 6 位數",
+      "codeExpired": "驗證碼已過期，請重新取得。",
+      "codeIncorrect": "驗證碼無效",
+      "codeMismatch": "驗證碼錯誤，請重新輸入。",
+      "passwordRequired": "請輸入密碼",
+      "passwordTooShort": "密碼長度需在8-20位之間",
+      "passwordFormatInvalid": "密碼需包含8-20位，至少包括英文字母、數字，特殊符號中的2種",
+      "passwordMismatch": "兩次輸入的密碼不一致",
+      "passwordResetFailed": "重設密碼失敗，請重試",
+      "networkError": "網路錯誤，請稍後再試。",
+      "sendCodeFailed": "驗證碼發送失敗，請重試。",
+      "codeSendFailed": "驗證碼發送失敗，請重試。",
+      "loginFailed": "登入失敗，請檢查帳號與密碼。",
+      "thirdPartyNotImplemented": "第三方登入功能開發中，請稍後再試。",
+      "wechatAuthFailed": "微信授權失敗，請重試，",
+      "wechatAuthCancelled": "微信授權已取消",
+      "googleAuthFailed": "Google 授權失敗，請重試",
+      "googleAuthCancelled": "Google 授權已取消",
+      "appleAuthFailed": "Apple 授權失敗，請重試",
+      "appleAuthCancelled": "Apple 授權已取消",
+      "setPasswordFailed": "設定密碼失敗，請重試",
+      "sessionExpired": "工作階段已過期，請重新登入。",
+      "tokenMissing": "驗證資訊缺失，請重新登入。",
+      "userIdMissing": "使用者 ID 缺失",
+      "updateNicknameFailed": "暱稱設定失敗",
+      "uploadAvatarFailed": "頭像上傳失敗",
+      "invalidImageFile": "請選擇圖片檔案",
+      "imageFileTooLarge": "圖片檔案過大，請選擇小於 5MB 的檔案。",
+      "phonePasswordError": "手機號或密碼錯誤",
+      "emailPasswordError": "郵箱或密碼錯誤",
+      "phoneNotRegistered": "手機號未註冊，請使用驗證碼登入",
+      "emailNotRegistered": "郵箱未註冊，請使用驗證碼登入",
+      "wechatQRCodeExpired": "二維碼已過期，請重新掃描",
+      "googleAuthRejected": "使用者拒絕授權或授權失敗",
+      "googleStateValidationFailed": "State 驗證失敗，可能存在安全風險",
+      "googlePopupClosed": "使用者取消了登入",
+      "googlePopupBlocked": "彈窗被瀏覽器阻止，請允許彈窗後重試",
+      "googleAccountExistsWithDifferentCredential": "該郵箱已被其他登入方式使用，請使用原登入方式登入",
+      "googleLoginFailed": "Google 登入失敗",
+      "firebaseConfigMissing": "缺少必需的設定項",
+      "firebaseConfigMissingHint": "請在 .env 檔案中配置 Firebase 相關環境變數",
+      "wechatSDKNotLoaded": "微信登入 SDK 未載入，請檢查網路連接",
+      "wechatAppIdNotConfigured": "微信 AppID 未配置，請在環境變數中設定 VITE_WECHAT_APPID",
+      "appleSDKNotLoaded": "Apple SDK 未載入，請確保已引入 Apple JS SDK",
+      "appleClientIdNotConfigured": "Apple Client ID 未配置，請在環境變數中設定 VITE_APPLE_CLIENT_ID",
+      "appleSDKInitFailed": "Apple SDK 初始化失敗",
+      "appleSDKLoadTimeout": "Apple SDK 載入超時，請重新整理頁面後重試",
+      "appleSignInFailed": "Apple 登入失敗",
+      "appleRedirectFailed": "跳轉 Apple 授權失敗",
+      "appleAuthRejected": "使用者拒絕授權或授權失敗",
+      "appleStateValidationFailed": "State 驗證失敗，可能存在安全風險"
+    },
+    "success": {
+      "codeSent": "驗證碼已寄送",
+      "loginSuccess": "登入成功",
+      "registerSuccess": "註冊成功",
+      "passwordReset": "重設密碼成功",
+      "passwordSet": "密碼設定成功",
+      "passwordChanged": "密碼變更成功",
+      "logoutSuccess": "登出成功",
+      "nicknameUpdated": "暱稱設定成功",
+      "avatarUpdated": "頭像上傳成功"
+    }
+  },
+  "richTextToolbar": {
+    "bold": "粗體",
+    "italic": "斜體",
+    "underline": "底線",
+    "strikethrough": "刪除線",
+    "code": "程式碼區塊",
+    "link": "連結",
+    "linkInputPlaceholder": "貼上或輸入連結",
+    "confirm": "確認",
+    "textStyle": {
+      "bodyText": "正文",
+      "heading1": "標題1",
+      "heading2": "標題2",
+      "heading3": "標題3",
+      "heading4": "標題4",
+      "bulletList": "項目列表",
+      "numberedList": "列表編號",
+      "todoList": "待辦事項列表",
+      "quote": "引用",
+      "codeBlock": "程式碼區塊"
+    }
+  },
+  "share": {
+    "adText": "了解並選購裝置,暢享全部功能",
+    "buyNow": "立即購買",
+    "createLinkSuccess": "分享連結建立成功",
+    "createLinkFailed": "建立分享連結失敗",
+    "loadContentFailed": "載入分享內容失敗",
+    "linkExpired": "分享連結已過期",
+    "loading": "載入中...",
+    "userInfoMissing": "使用者資訊缺失，請重新登入",
+    "fileInfoMissing": "檔案資訊缺失",
+    "noShareTypesSelected": "請至少選擇一種分享類型",
+    "shareIdMissing": "分享ID缺失",
+    "defaultTitle": "分享內容",
+    "noContent": "暫無內容",
+    "invalidOrExpired": "連結無效或已失效",
+    "reachLimit": "存取次數已達上限",
+    "brand": "BOYA Notra",
+    "tabTranscription": "逐字稿",
+    "tabSummary": "摘要",
+    "tabMindmap": "心智圖",
+    "speaker": "講者",
+    "editSpeaker": "編輯講者",
+    "speakerNamePlaceholder": "講者名稱",
+    "applyToCurrent": "套用到目前段落",
+    "applyToAll": "套用至此講者的所有段落",
+    "loginFirstToSave": "請先登入後再儲存",
+    "saveSuccess": "已儲存",
+    "saveFailed": "儲存失敗"
+  },
+  "subscriptionTips": {
+    "title": "升級以解鎖所有功能",
+    "viewAllPlans": "查看所有方案"
+  },
+  "bindingDevice": {
+    "title": "綁定您的裝置, 開始高效記錄",
+    "existingDevice": {
+      "title": "已有裝置?",
+      "description": "掃碼下載App, 綁定裝置, 馬上使用"
+    },
+    "noDevice": {
+      "title": "沒有裝置?",
+      "description": "了解並選購裝置, 暢享全部功能"
+    },
+    "upgradeTitle": "升級以解鎖所有功能",
+    "professional": {
+      "feature1": "每月 1400 分鐘逐字稿",
+      "feature2": "雲端儲存空間無限制",
+      "feature3": "100+ 種逐字語言",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "還有更多"
+    },
+    "master": {
+      "feature1": "逐字時間無限制",
+      "feature2": "雲端儲存空間無限制",
+      "feature3": "140+ 種逐字語言",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "還有更多"
+    },
+    "viewAllPlans": "查看所有方案",
+    "planCards": {
+      "professional": {
+        "name": "專業版",
+        "feature1": "1280 分鐘轉寫／月",
+        "feature2": "無限雲端儲存空間",
+        "feature3": "轉寫語言 100+",
+        "feature4": "匯出檔案 7 種格式",
+        "feature5": "還有更多"
+      },
+      "master": {
+        "name": "大師版",
+        "badge": "最受歡迎",
+        "feature1": "無限轉寫時長",
+        "feature2": "無限雲端儲存空間",
+        "feature3": "轉寫語言 140+",
+        "feature4": "匯出檔案 7 種格式",
+        "feature5": "還有更多"
+      },
+      "subscribe": "訂閱",
+      "perYear": "/年",
+      "buyNowArrow": "立即購買 →"
+    }
+  },
+  "dialogs": {
+    "audioEditor": {
+      "cropTitle": "裁剪：保留選取區域的音訊",
+      "cropAlt": "裁剪",
+      "deleteAlt": "刪除",
+      "pauseAlt": "暫停",
+      "playAlt": "播放",
+      "zoomOutAlt": "縮小",
+      "zoomInAlt": "放大",
+      "loadingText": "音訊載入中...（{progress}%）",
+      "loadingHint": "您可以使用剪輯與刪除來編輯音訊",
+      "saveAsNewTitle": "另存新檔",
+      "saveHintEdited": "音訊已編輯。是否另存新檔？<br />未儲存的變更將會遺失。",
+      "saveHintPlain": "是否另存新檔？<br />未儲存的變更將會遺失。",
+      "fileNameLabel": "檔案名稱",
+      "processingCut": "正在剪輯...",
+      "preparing": "正在準備...",
+      "uploadCredential": "取得上傳憑證...",
+      "uploading": "上傳中...",
+      "uploadSuccess": "音訊已上傳至雲端",
+      "uploadFailed": "上傳失敗",
+      "processFailed": "音訊處理失敗：{msg}",
+      "selectRegionFirst": "請先選擇要保留的音訊區域",
+      "ffmpegNotReady": "FFmpeg 尚未載入完成，請稍後重試",
+      "loginFirst": "請先登入",
+      "networkError": "網路錯誤",
+      "audioLoadFailed": "音訊載入失敗"
+    },
+    "exportAudio": {
+      "title": "匯出音訊",
+      "exportAs": "匯出為",
+      "export": "匯出",
+      "noAudio": "暫無音訊",
+      "exporting": "匯出音訊中...",
+      "downloadUrlFailed": "取得下載連結失敗",
+      "fetchAudioFailed": "取得音訊檔案失敗，請檢查網路或重試",
+      "exportDone": "匯出完成",
+      "exportFailed": "匯出音訊失敗",
+      "filePickerMp3": "MP3 音訊",
+      "filePickerWav": "WAV 音訊",
+      "defaultFileName": "audio"
+    },
+    "exportSummary": {
+      "title": "匯出總結",
+      "exportAs": "匯出為",
+      "export": "匯出",
+      "noContent": "暫無紀要內容",
+      "exporting": "匯出總結中...",
+      "exportDone": "匯出完成",
+      "exportFailed": "匯出總結失敗",
+      "defaultFileName": "紀要",
+      "filePickerDesc": "匯出檔案"
+    },
+    "exportMindMap": {
+      "title": "匯出思維導圖",
+      "exportAs": "匯出為",
+      "export": "匯出",
+      "noContent": "暫無思維導圖內容",
+      "exporting": "匯出思維導圖中...",
+      "exportDone": "匯出完成",
+      "exportFailed": "匯出思維導圖失敗",
+      "defaultFileName": "思維導圖",
+      "filePickerDesc": "匯出檔案"
+    },
+    "exportTranscription": {
+      "title": "匯出轉寫",
+      "exportAs": "匯出為",
+      "export": "匯出",
+      "include": "包含",
+      "timestamp": "時間戳",
+      "speaker": "發言人",
+      "speakerLine": "發言人{id}",
+      "noContent": "暫無轉寫內容",
+      "exporting": "匯出轉寫中...",
+      "exportDone": "匯出完成",
+      "exportFailed": "匯出轉寫失敗",
+      "defaultFileName": "轉寫",
+      "filePickerDesc": "匯出檔案"
+    },
+    "feedback": {
+      "title": "告訴我們更多",
+      "subtitle": "您的意見非常寶貴，我們將繼續根據您的建議進行優化與迭代。",
+      "placeholderOther": "其他：需要改進什麼？",
+      "agreeShare": "我同意將我的轉寫分享給 BOYA Notra 團隊",
+      "send": "傳送",
+      "tag1": "遺失關鍵資訊",
+      "tag2": "專有名詞不應翻譯",
+      "tag3": "每段內容過長",
+      "tag4": "內容冗餘"
+    },
+    "generateMethod": {
+      "title": "選擇產生方式",
+      "autoName": "自動產生",
+      "autoDesc": "自動產生最匹配的轉寫與紀要，無需手動設定",
+      "customName": "自訂產生",
+      "summaryTemplate": "紀要範本",
+      "aiModel": "AI 模型",
+      "transcriptLanguage": "轉寫語言",
+      "distinguishSpeakers": "區分發言人",
+      "generateNow": "立即產生",
+      "auto": "自動",
+      "defaultTemplateName": "會議紀要",
+      "zhCNFallback": "中文（簡體）"
+    },
+    "shareLink": {
+      "title": "分享連結",
+      "tip": "連結分享有效期為 7 天，失效前，任何取得連結的人都可以存取",
+      "copyLink": "複製連結",
+      "optionAudio": "錄音音訊",
+      "optionSummary": "總結",
+      "optionMindmap": "思維導圖",
+      "optionTranscription": "轉寫",
+      "atLeastOne": "至少需要選擇一項",
+      "loginFirst": "請先登入",
+      "missingTranscribeId": "缺少轉寫 ID",
+      "linkCopied": "連結已複製到剪貼簿",
+      "noLink": "未取得分享連結",
+      "createFailed": "建立分享連結失敗"
+    },
+    "summaryTemplate": {
+      "title": "紀要範本",
+      "create": "建立",
+      "noTemplates": "暫無範本",
+      "customTitle": "自訂範本",
+      "templateName": "範本名稱",
+      "prompt": "提示詞",
+      "placeholderName": "請輸入範本名稱",
+      "placeholderPrompt": "請輸入提示詞",
+      "previewTitle": "範本",
+      "overview": "概覽",
+      "recordingLanguage": "錄音語言",
+      "aiModel": "AI 模型",
+      "distinguishSpeakers": "區分發言人",
+      "generateNow": "立即產生",
+      "auto": "自動",
+      "zhCNFallback": "中文（簡體）",
+      "enterName": "請輸入範本名稱",
+      "enterPrompt": "請輸入提示詞",
+      "createSuccess": "建立成功",
+      "createFailed": "建立失敗"
+    },
+    "translate": {
+      "title": "翻譯為",
+      "searchPlaceholder": "搜尋語言"
+    }
+  }
+}

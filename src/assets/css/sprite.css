@@ -1,0 +1,260 @@
+/* 精灵图CSS代码 */
+
+.sprite {
+    background-image: url('../images/sprite.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.folderIcon1 {
+    width: 30px;
+    height: 30px;
+    background-position: -0px 0;
+}
+
+.folderIcon2 {
+    width: 30px;
+    height: 30px;
+    background-position: -30px 0;
+}
+
+.folderIcon3 {
+    width: 30px;
+    height: 30px;
+    background-position: -60px 0;
+}
+
+.folderIcon4 {
+    width: 30px;
+    height: 30px;
+    background-position: -90px 0;
+}
+
+.folderIcon5 {
+    width: 30px;
+    height: 30px;
+    background-position: -120px 0;
+}
+
+.folderIcon6 {
+    width: 30px;
+    height: 30px;
+    background-position: -150px 0;
+}
+
+.folderIcon7 {
+    width: 30px;
+    height: 30px;
+    background-position: -180px 0;
+}
+
+.folderIcon8 {
+    width: 30px;
+    height: 30px;
+    background-position: -210px 0;
+}
+
+.folderIcon9 {
+    width: 30px;
+    height: 30px;
+    background-position: -240px 0;
+}
+
+.folderIcon10 {
+    width: 30px;
+    height: 30px;
+    background-position: -270px 0;
+}
+
+.folderIcon11 {
+    width: 30px;
+    height: 30px;
+    background-position: -300px 0;
+}
+
+.folderIcon12 {
+    width: 30px;
+    height: 30px;
+    background-position: -330px 0;
+}
+
+.folderIcon13 {
+    width: 30px;
+    height: 30px;
+    background-position: -360px 0;
+}
+
+.folderIcon14 {
+    width: 30px;
+    height: 30px;
+    background-position: -390px 0;
+}
+
+.folderIcon15 {
+    width: 30px;
+    height: 30px;
+    background-position: -420px 0;
+}
+
+.folderIcon16 {
+    width: 30px;
+    height: 30px;
+    background-position: -450px 0;
+}
+
+.folderIcon17 {
+    width: 30px;
+    height: 30px;
+    background-position: -480px 0;
+}
+
+.folderIcon18 {
+    width: 30px;
+    height: 30px;
+    background-position: -510px 0;
+}
+
+.folderIcon19 {
+    width: 30px;
+    height: 30px;
+    background-position: -540px 0;
+}
+
+.folderIcon20 {
+    width: 30px;
+    height: 30px;
+    background-position: -570px 0;
+}
+
+.folderIcon21 {
+    width: 30px;
+    height: 30px;
+    background-position: -600px 0;
+}
+
+.folderIcon22 {
+    width: 30px;
+    height: 30px;
+    background-position: -630px 0;
+}
+
+.folderIcon23 {
+    width: 30px;
+    height: 30px;
+    background-position: -660px 0;
+}
+
+.folderIcon24 {
+    width: 30px;
+    height: 30px;
+    background-position: -690px 0;
+}
+
+.folderIcon25 {
+    width: 30px;
+    height: 30px;
+    background-position: -720px 0;
+}
+
+.folderIcon26 {
+    width: 30px;
+    height: 30px;
+    background-position: -750px 0;
+}
+
+.folderIcon27 {
+    width: 30px;
+    height: 30px;
+    background-position: -780px 0;
+}
+
+.folderIcon28 {
+    width: 30px;
+    height: 30px;
+    background-position: -810px 0;
+}
+
+.folderIcon29 {
+    width: 30px;
+    height: 30px;
+    background-position: -840px 0;
+}
+
+.folderIcon30 {
+    width: 30px;
+    height: 30px;
+    background-position: -870px 0;
+}
+
+.folderIcon31 {
+    width: 30px;
+    height: 30px;
+    background-position: -900px 0;
+}
+
+.folderIcon32 {
+    width: 30px;
+    height: 30px;
+    background-position: -930px 0;
+}
+
+.folderIcon33 {
+    width: 30px;
+    height: 30px;
+    background-position: -960px 0;
+}
+
+.folderIcon34 {
+    width: 30px;
+    height: 30px;
+    background-position: -990px 0;
+}
+
+.folderIcon35 {
+    width: 30px;
+    height: 30px;
+    background-position: -1020px 0;
+}
+
+.folderIcon36 {
+    width: 30px;
+    height: 30px;
+    background-position: -1050px 0;
+}
+
+.folderIcon37 {
+    width: 30px;
+    height: 30px;
+    background-position: -1080px 0;
+}
+
+.folderIcon38 {
+    width: 30px;
+    height: 30px;
+    background-position: -1110px 0;
+}
+
+.folderIcon39 {
+    width: 30px;
+    height: 30px;
+    background-position: -1140px 0;
+}
+
+.folderIcon40 {
+    width: 30px;
+    height: 30px;
+    background-position: -1170px 0;
+}
+
+.folderIcon41 {
+    width: 30px;
+    height: 30px;
+    background-position: -1200px 0;
+}
+
+.folderIcon42,.folderIcon44 {
+    width: 30px;
+    height: 30px;
+    background-position: -1230px 0;
+}
+

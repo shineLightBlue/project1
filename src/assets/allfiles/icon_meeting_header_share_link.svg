@@ -1,0 +1,13 @@
+<svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.000000" height="14.000000" fill="none" customFrame="#000000">
+	<rect id="容器 143" width="14.000000" height="14.000000" x="0.000000" y="0.000000" fill="rgb(196,196,196)" fill-opacity="0" />
+	<g id="编组 3">
+		<ellipse id="椭圆形" rx="2.068272" ry="2.016000" cx="10.9066505" cy="3.41590214" fill="rgb(216,216,216)" fill-opacity="0" />
+		<ellipse id="椭圆形" rx="1.601605" ry="1.549333" cx="10.9066505" cy="3.41590214" stroke="rgb(0,0,0)" stroke-width="0.933333337" />
+		<ellipse id="椭圆形备份" rx="2.068272" ry="2.016000" cx="3.09317398" cy="6.99988651" fill="rgb(216,216,216)" fill-opacity="0" />
+		<ellipse id="椭圆形备份" rx="1.601605" ry="1.549333" cx="3.09317398" cy="6.99988651" stroke="rgb(0,0,0)" stroke-width="0.933333337" />
+		<ellipse id="椭圆形备份 2" rx="2.068272" ry="2.016000" cx="10.9066505" cy="10.584115" fill="rgb(216,216,216)" fill-opacity="0" />
+		<ellipse id="椭圆形备份 2" rx="1.601605" ry="1.549333" cx="10.9066505" cy="10.584115" stroke="rgb(0,0,0)" stroke-width="0.933333337" />
+		<path id="路径 29" d="M0 0L5.52978 0" stroke="rgb(0,0,0)" stroke-width="0.933333337" transform="matrix(0.914281,-0.40508,0.40508,0.914281,4.24219,5.87988)" />
+		<path id="路径 29备份" d="M0 0L5.52978 0" stroke="rgb(0,0,0)" stroke-width="0.933333337" transform="matrix(-0.914282,-0.405079,0.405079,-0.914282,9.2981,9.91211)" />
+	</g>
+</svg>

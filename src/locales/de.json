@@ -1,0 +1,1477 @@
+{
+  "file": {
+    "fileNameNotEmpty": "Dateiname darf nicht leer sein",
+    "askAIDelete": "Erfolgreich gelöscht"
+  },
+  "common": {
+    "loading": "Laden...",
+    "noData": "Keine Daten verfügbar",
+    "copySuccess": "In die Zwischenablage kopiert",
+    "copyFailed": "Kopieren fehlgeschlagen",
+    "close": "Schließen",
+    "select": "Bitte wählen",
+    "aiReply": "KI-Antwort",
+    "aiReplyFile": "KI-Antwort.txt",
+    "showDirectory": "Verzeichnis anzeigen",
+    "hideDirectory": "Verzeichnis ausblenden",
+    "deleteImage": "Bild löschen",
+    "closePreview": "Vorschau schließen",
+    "audioLoadError": "Audio konnte nicht geladen werden",
+    "audioLoadAborted": "Audioladen wurde abgebrochen",
+    "audioNetworkError": "Netzwerkfehler, Audio kann nicht geladen werden",
+    "audioDecodeError": "Audio-Decodierung fehlgeschlagen",
+    "audioFormatError": "Nicht unterstütztes Audioformat",
+    "audioLoadErrorWithCode": "Audio konnte nicht geladen werden (Fehlercode: {code})",
+    "crop": "Zuschneiden",
+    "moreActions": "Weitere Aktionen",
+    "cancel": "Abbrechen",
+    "saveAs": "Speichern unter",
+    "delete": "Löschen",
+    "play": "Wiedergabe",
+    "pause": "Pause",
+    "zoom": "Zoom",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "copy": "Kopieren",
+    "praise": "Loben",
+    "criticize": "Kritisieren"
+  },
+  "layout": {
+    "header": {
+      "showSidebar": "Primärnavigation anzeigen",
+      "hideSidebar": "Primärnavigation ausblenden",
+      "showSecondaryNav": "Dateiliste anzeigen",
+      "hideSecondaryNav": "Dateiliste ausblenden",
+      "allFiles": "Alle Dateien",
+      "updateTime": "Date de mise à jour",
+      "sortOptions": {
+        "creationTime": "Erstellungszeit",
+        "updateTime": "Date de mise à jour",
+        "recentlyOpened": "Zuletzt geöffnet"
+      }
+    },
+    "sidebar": {
+      "search": "Suchen",
+      "allFiles": "Alle Dateien",
+      "uncategorized": "Unklassifiziert",
+      "recycleBin": "Papierkorb",
+      "folders": "Ordner",
+      "folderName": "Ordnername",
+      "addFolder": "Neuer Ordner",
+      "createFolder": {
+        "title": "Neuen Ordner erstellen",
+        "nameLabel": "Name",
+        "namePlaceholder": "Bitte eingeben",
+        "colorLabel": "Farbe",
+        "iconLabel": "Symbol",
+        "iconSelectorTitle": "Symbol auswählen",
+        "createButton": "Erstellen",
+        "success": "Ordner erfolgreich erstellt",
+        "error": "Ordnererstellung fehlgeschlagen",
+        "nameRequired": "Bitte geben Sie einen Namen für den Ordner ein.",
+        "nameTooLong": "Dateiname zu lang",
+        "userNotLoggedIn": "Benutzer nicht angemeldet, bitte zuerst anmelden"
+      },
+      "editFolder": {
+        "title": "Ordner bearbeiten",
+        "nameLabel": "Name",
+        "namePlaceholder": "Bitte eingeben",
+        "colorLabel": "Farbe",
+        "iconLabel": "Symbol",
+        "saveButton": "Speichern",
+        "deleteButton": "Löschen",
+        "saveSuccess": "Ordner wurde aktualisiert",
+        "saveError": "Ordneraktualisierung fehlgeschlagen",
+        "nameTooLong": "Dateiname zu lang",
+        "deleteSuccess": "Ordner wurde gelöscht",
+        "deleteError": "Ordnerlöschung fehlgeschlagen",
+        "deleteConfirm": {
+          "title": "Ordner löschen",
+          "message": "Beim Löschen eines Ordners werden auch alle darin enthaltenen Dateien gelöscht.",
+          "question": "Löschen bestätigen?",
+          "confirmButton": "Löschen",
+          "cancelButton": "Abbrechen"
+        }
+      },
+      "sources": "Von",
+      "import": "Importieren",
+      "callRecording": "Anrufaufnahme",
+      "envRecording": "Umgebungsaufnahme",
+      "headphoneRecording": "Kopfhöreraufnahme",
+      "help": "Centre d’aide",
+      "settings": "Einstellungen",
+      "importAudio": "Audio importieren",
+      "searchModal": {
+        "inputPlaceholder": "Bitte eingeben",
+        "searchHistory": "Suchverlauf",
+        "recentBrowsing": "Zuletzt angesehen",
+        "noResults": "Keine Suchergebnisse verfügbar",
+        "deleteHistory": "Suchverlauf löschen",
+        "deleteHistoryTitle": "Suchverlauf löschen",
+        "deleteHistoryMessage": "Allen Suchverlauf wirklich löschen?",
+        "historyDeleted": "Suchverlauf wurde gelöscht",
+        "clear": "Leeren",
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "close": "Schließen",
+        "searching": "Suche...",
+        "searchFailed": "Suche fehlgeschlagen",
+        "matchSource": {
+          "transcription": "Transkriptionstext",
+          "title": "Titel",
+          "summary": "Zusammenfassung",
+          "mindmap": "Mind-Map"
+        }
+      },
+      "importAudioModal": {
+        "title": "Audio importieren",
+        "clickToUpload": "Zum Datei-Upload klicken",
+        "or": "Oder",
+        "dragFiles": "Dateien hierher ziehen und ablegen",
+        "supportedFormats": "Unterstützte Formate: MP3, AAC, PCM, WAV, MP4, M4V, MOV, OGG, M4A",
+        "status": {
+          "uploading": "Wird hochgeladen",
+          "transcoding": "Wird umgewandelt",
+          "success": "Import erfolgreich",
+          "error": "Import fehlgeschlagen"
+        },
+        "errors": {
+          "maxFilesExceeded": "Es können maximal 5 Dateien gleichzeitig hochgeladen werden",
+          "unsupportedFormat": "Nicht unterstütztes Dateiformat",
+          "durationExceeded": "Bitte laden Sie Audiodateien kürzer als 5 Stunden hoch",
+          "networkError": "Netzwerk abnormal",
+          "fileSizeExceeded": "Dateigröße überschreitet das Limit",
+          "uploadFailed": "Upload-Fehler",
+          "serverError": "Serverfehler, bitte später erneut versuchen"
+        }
+      },
+      "askAI": "KI fragen",
+      "professional": "Pro",
+      "usage": "Bereits genutzt: {used}/{total} Minuten",
+      "usageUnlimited": "{used} Minuten verwendet / unbegrenzte Dauer"
+    },
+    "mainContent": {
+      "welcome": "Willkommen bei BOYA Notra Web",
+      "tabs": {
+        "transcription": "Transkript",
+        "summary": "Zusammenfassung",
+        "mindMap": "Mindmap"
+      },
+      "transcription": {
+        "noTranscription": "Keine Transkription verfügbar",
+        "willShowAfterGeneration": "Transkription wird hier nach der Generierung angezeigt",
+        "noTranscribableContent": "Kein transkribierbarer Inhalt erkannt",
+        "checkAudioFile": "Bitte überprüfen Sie die Audiodatei",
+        "noAudioFile": "Diese Datei hat kein Audio",
+        "noAudioFileDesc": "Audio kann nicht abgespielt oder Transkription erstellt werden",
+        "play": "Wiedergabe",
+        "pause": "Pause",
+        "playSegment": "Clip abspielen",
+        "rewind15s": "15 Sekunden zurück",
+        "forward15s": "15 Sekunden vor",
+        "playbackRate": "Wiedergabegeschwindigkeit",
+        "crop": "Trimmen",
+        "generate": "Generieren",
+        "generating": "Wird generiert...",
+        "generateNow": "Sofort generieren",
+        "generateFailed": "Transkription konnte nicht erstellt werden, bitte erneut versuchen",
+        "generatingView": {
+          "loading": "Wird generiert...",
+          "hint": "Bitte warten, Inhalte werden generiert"
+        },
+        "errors": {
+          "userNotLoggedIn": "Benutzer nicht angemeldet",
+          "fileUrlEmpty": "Datei-URL darf nicht leer sein",
+          "fileFetchFailed": "Datei konnte nicht abgerufen werden",
+          "languageCodeEmpty": "Sprachcode darf nicht leer sein",
+          "fileDurationInvalid": "Ungültige Dateidauer: {duration} Sekunden, stellen Sie sicher, dass die Audiodatei korrekt geladen wurde",
+          "modelConfigInvalid": "Ungültige Modellkonfiguration: platform={platform}, model={model}",
+          "modelNotFound": "Kein entsprechendes Modell gefunden",
+          "downloadUrlMissing": "Der Datei fehlt eine gültige Download-URL, eine Batch-Transkription ist nicht möglich. Bitte stellen Sie sicher, dass die Datei korrekt hochgeladen wurde.",
+          "pollingFailed": "Transkriptionsaufgabe fehlgeschlagen, bitte später erneut versuchen",
+          "saveFailed": "Speichern fehlgeschlagen, bitte erneut versuchen"
+        },
+        "saveSuccess": "Erfolgreich gespeichert",
+        "paragraphEmpty": "Absatzinhalt darf nicht leer sein",
+        "selectGenerateMethod": "Erzeugungsmethode auswählen",
+        "generateMethod": {
+          "auto": "Automatisch generieren",
+          "autoDescription": "Erzeugt automatisch die passendste Transkription und Zusammenfassung, keine manuellen Einstellungen nötig",
+          "custom": "Benutzerdefiniert generieren",
+          "summaryTemplate": "Vorlage",
+          "aiModel": "KI-Modell",
+          "transcriptionLanguage": "Transkriptionssprache",
+          "differentiateSpeakers": "Sprecher trennen",
+          "recordingDesensitization": "Aufnahme-Anonymisierung",
+          "meetingSummary": "Besprechungsnotizen",
+          "automatic": "Automatisch",
+          "chineseSimplifiedMandarin": "Vereinfachtes Chinesisch — Mandarin",
+          "modelDisplayName": {
+            "Auto": "Automatisch"
+          },
+          "aiModelOptions": {
+            "auto": "Automatisch",
+            "gpt5": "GPT-5",
+            "gpt41": "GPT-4.1",
+            "grok4": "Grok 4",
+            "claudeSonnet4": "Claude Sonnet 4",
+            "deepseekChat": "Deepseek chat",
+            "doubao": "Doubao"
+          }
+        },
+        "summaryTemplate": {
+          "categories": {
+            "custom": "Benutzerdefiniert",
+            "recentlyUsed": "Zuletzt verwendet",
+            "general": "Allgemein",
+            "meeting": "Besprechung",
+            "speech": "Rede",
+            "call": "Anruf",
+            "interview": "Interview",
+            "medical": "Medizinisch",
+            "sales": "Vertrieb",
+            "consultation": "Beratung",
+            "education": "Bildung",
+            "architecture": "Architektur",
+            "it": "IT-Branche"
+          },
+          "templates": {
+            "meetingMinutes": "Besprechungsnotizen",
+            "classNotes": "Klassennotizen"
+          },
+          "create": "Erstellen",
+          "lastUsed": "Zuletzt verwendet",
+          "loading": "Laden...",
+          "loadError": "Vorlagenkategorien konnten nicht geladen werden",
+          "noTemplates": "Keine Vorlagen in dieser Kategorie",
+          "customTemplate": {
+            "title": "Benutzerdefinierte Vorlage",
+            "templateName": "Vorlagenname",
+            "templateNamePlaceholder": "Bitte Vorlagenname eingeben",
+            "prompt": "Prompt",
+            "promptPlaceholder": "Bitte Prompt eingeben",
+            "save": "Speichern",
+            "saveSuccess": "Vorlage erfolgreich gespeichert",
+            "saveFailed": "Vorlage konnte nicht gespeichert werden",
+            "userInfoMissing": "Benutzerinformationen fehlen, Vorlage kann nicht gespeichert werden"
+          },
+          "preview": {
+            "overview": "Übersicht",
+            "taskLabel": "Aufgaben des Assistenten definieren",
+            "elementsLabel": "Die Bestandteile des Sitzungsprotokolls umfassen",
+            "constraintsLabel": "Die Einschränkungen für das Protokoll umfassen",
+            "meeting_minutes": {
+              "title": "Besprechungsnotizen",
+              "task": "Extrahieren Sie die angegebenen Elemente aus der Audio-Transkription der Besprechung und erstellen Sie gemäß den Einschränkungen ein knappes Protokoll.",
+              "elements[0]": "Besprechungsname und Datum/Uhrzeit",
+              "elements[1]": "Teilnehmer",
+              "elements[2]": "Themen",
+              "elements[3]": "Diskussionsinhalte",
+              "elements[4]": "Beschlüsse",
+              "elements[5]": "Offene Punkte",
+              "elements[6]": "Sowie die nächsten Schritte und andere besondere Punkte mit Angabe von Verantwortlichem, Inhalt und Frist.",
+              "constraints[0]": "Klare Aufzählungspunkte verwenden",
+              "constraints[1]": "Gesamter Text nicht超过 800 Zeichen",
+              "constraints[2]": "Höfliche Form verwenden",
+              "constraints[3]": "Auf die wichtigsten Punkte konzentrieren",
+              "constraints[4]": "Emotionale Formulierungen vermeiden",
+              "constraints[5]": "Nur objektive Fakten festhalten."
+            }
+          }
+        },
+        "markdownViewer": {
+          "feedbackModal": {
+            "title": "Erzählen Sie uns mehr",
+            "subtitle": "Ihr Feedback ist sehr wertvoll, wir werden weiterhin basierend auf Ihren Vorschlägen optimieren und iterieren.",
+            "feedback": {
+              "submitSuccess": "Feedback erfolgreich gesendet",
+              "submitFailed": "Feedback konnte nicht gesendet werden, bitte später erneut versuchen"
+            },
+            "categories": {
+              "missingKeyInfo": "Wichtige Informationen fehlen",
+              "properNouns": "Eigennamen sollten nicht übersetzt werden",
+              "paragraphTooLong": "Jeder Absatz ist zu lang",
+              "redundantContent": "Inhalt ist redundant"
+            },
+            "otherPlaceholder": "Sonstiges: Was sollte verbessert werden?",
+            "agreeToShare": "Ich stimme zu, meine Transkription mit dem BOYA-Notra-Team zu teilen",
+            "send": "Senden"
+          },
+          "summaryVersionConflict": {
+            "title": "Konflikt beim Bearbeiten der Zusammenfassung",
+            "message": "Versionskonflikt erkannt; Backend-Inhalt wurde durch andere操作 aktualisiert. Bitte Speicher方式 auswählen:",
+            "localVersion": "Lokale Version",
+            "serverVersion": "Backend-Version",
+            "saveLocal": "Lokal speichern",
+            "saveServer": "Im Backend speichern"
+          }
+        },
+        "audioLoading": "Audio wird geladen...({progress}%)",
+        "cropHint": "Sie können zum Bearbeiten des Audios Trimmen und Löschen verwenden",
+        "audioCropProcessing": "Wird getrimmt...",
+        "audioDeleteProcessing": "Wird gelöscht...",
+        "audioDeleteFailed": "Audioclip konnte nicht gelöscht werden, bitte erneut versuchen",
+        "audioCropFailed": "Audio konnte nicht getrimmt werden, bitte erneut versuchen",
+        "saveAsNewFile": "Als neue Datei speichern",
+        "audioEdited": "Das Audio wurde bearbeitet. Als neue Datei speichern?",
+        "unsavedChanges": "Nicht gespeicherte Änderungen gehen verloren.",
+        "fileName": "Dateiname",
+        "save": "Speichern",
+        "saveAsSuccess": "Datei wurde lokal gespeichert",
+        "saveAsFailed": "Datei konnte nicht gespeichert werden, bitte erneut versuchen",
+        "uploading": "Wird hochgeladen",
+        "uploadSuccess": "Datei erfolgreich hochgeladen",
+        "uploadError": {
+          "userNotLoggedIn": "Benutzer nicht angemeldet, bitte zuerst anmelden",
+          "failed": "Datei-Upload fehlgeschlagen"
+        }
+      },
+      "summary": {
+        "noSummary": "Keine Zusammenfassung verfügbar",
+        "willShowAfterGeneration": "Zusammenfassung wird hier nach der Generierung angezeigt"
+      },
+      "mindMap": {
+        "noMindmap": "Keine Mindmap verfügbar",
+        "willShowAfterGeneration": "Mindmap wird hier nach der Generierung angezeigt"
+      }
+    },
+    "headerRight": {
+      "shareMenu": {
+        "shareLink": "Link teilen",
+        "copyTranscribe": "Transkript kopieren",
+        "copySummary": "Zusammenfassung kopieren",
+        "copying": "Wird kopiert...",
+        "copySuccess": "Wurde in die Zwischenablage kopiert",
+        "copyFailed": "Kopieren fehlgeschlagen, bitte erneut versuchen",
+        "exportAudio": "Audio exportieren",
+        "exportTranscribe": "Transkript exportieren",
+        "exportSummary": "Zusammenfassung exportieren",
+        "exportMindMap": "Mind-Map exportieren",
+        "speaker": "Sprecher",
+        "keywords": "Schlüsselwörter",
+        "errors": {
+          "fileObjectRequired": "Dateiobjekt darf nicht leer sein",
+          "fileIdRequired": "Datei-ID darf nicht leer sein",
+          "transcriptionDataEmpty": "Transkriptionsdaten sind leer",
+          "summaryDataEmpty": "Zusammenfassungsdaten sind leer",
+          "transcriptionTextEmpty": "Transkriptionstext ist leer",
+          "summaryTextEmpty": "Zusammenfassungstext ist leer",
+          "mindMapDataEmpty": "Mindmap-Daten sind leer",
+          "mindMapDataInvalid": "Mindmap-Datenformat ist ungültig",
+          "mindMapElementNotFound": "Mindmap-Element nicht gefunden",
+          "mindMapTextEmpty": "Mindmap-Text ist leer",
+          "mindMapTabNotActive": "Bitte zuerst zum Tab \"Mindmap\" wechseln",
+          "imageConversionFailed": "Bildkonvertierung fehlgeschlagen",
+          "fileNotGenerated": "Datei wurde nicht生成"
+        }
+      },
+      "shareLinkModal": {
+        "title": "Link teilen",
+        "audio": "Audio aufnehmen",
+        "summary": "Zusammenfassung",
+        "mindMap": "Mind-Map",
+        "transcribe": "Transkript",
+        "copyLink": "Link kopieren",
+        "info": "Link-Freigabe ist 7 Tage gültig. Vor Ablauf kann jeder, der den Link erhält, darauf zugreifen.",
+        "copySuccess": "Wurde in die Zwischenablage kopiert",
+        "copyFailed": "Kopieren fehlgeschlagen, bitte erneut versuchen",
+        "atLeastOneRequired": "Für den Freigabelink muss mindestens eine Option ausgewählt werden"
+      },
+      "moreMenu": {
+        "moveToFolder": "In Ordner verschieben",
+        "regenerate": "Neu generieren",
+        "translate": "Übersetzen",
+        "findAndReplace": "Suchen und ersetzen",
+        "moveToRecycleBin": "In Papierkorb verschieben",
+        "nameSpeaker": "Sprecher benennen"
+      },
+      "share": "Teilen",
+      "more": "Mehr",
+      "exportModal": {
+        "title": "Exportieren",
+        "exportAs": "Exportieren als",
+        "include": "Einschließen",
+        "export": "Exportieren",
+        "exporting": "Wird exportiert...",
+        "audio": {
+          "title": "Audio exportieren"
+        },
+        "transcribe": {
+          "title": "Transkript exportieren"
+        },
+        "summary": {
+          "title": "Zusammenfassung exportieren"
+        },
+        "mindMap": {
+          "title": "Mind-Map exportieren"
+        },
+        "formats": {
+          "mp3": "MP3",
+          "wav": "WAV",
+          "txt": "TXT",
+          "srt": "SRT",
+          "docx": "DOCX",
+          "pdf": "PDF",
+          "markdown": "Markdown",
+          "jpeg": "JPEG"
+        },
+        "includes": {
+          "timestamp": "Zeitstempel",
+          "speaker": "Sprecher"
+        },
+        "errors": {
+          "invalidFileType": "Ungültiger Dateityp",
+          "missingFileKey": "Der Datei fehlen erforderliche Identifikationsinformationen",
+          "failedToGetDownloadUrl": "Download-URL konnte nicht abgerufen werden",
+          "failedToDownload": "Datei konnte nicht heruntergeladen werden",
+          "exportFailed": "Export fehlgeschlagen, bitte erneut versuchen",
+          "notImplemented": "Diese Exportfunktion ist noch nicht implementiert",
+          "canvasRenderFailed": "PDF-Rendering fehlgeschlagen, Inhalt ist leer"
+        },
+        "exportSuccess": "Export erfolgreich"
+      },
+      "keywordAdd": "Hinzufügen",
+      "speakerNameDialog": {
+        "title": "Sprecher benennen",
+        "speakerNamePlaceholder": "Sprechername",
+        "duration": "Dauer",
+        "totalDuration": "Gesamtdauer",
+        "noSpeakerData": "Keine Sprecherdaten"
+      },
+      "editSpeakerDialog": {
+        "title": "Sprecher bearbeiten"
+      },
+      "messages": {
+        "selectFileFirst": "Bitte wählen Sie zuerst eine Datei",
+        "noTranscriptionContent": "Keine Transkription",
+        "noSummaryContent": "Keine Zusammenfassung",
+        "noAudio": "Kein Audio",
+        "noMindmapContent": "Keine Mindmap",
+        "templateMemberMismatch": "Vorlagenmodell entspricht nicht der Mitgliedsstufe",
+        "transcriptionFailed": "Transkription fehlgeschlagen",
+        "queryTranscriptionFailed": "Transkriptionsergebnis konnte nicht abgerufen werden",
+        "fastTranscribeFailed": "Schnelltranskription fehlgeschlagen",
+        "feedbackSubmitSuccess": "Feedback erfolgreich übermittelt",
+        "showL2Nav": "Dateiliste anzeigen"
+      },
+      "keywordsLabel": "Schlüsselwörter: ",
+      "keywordJoiner": ", ",
+      "translate": {
+        "loading": "Wird übersetzt...",
+        "success": "Übersetzung erfolgreich",
+        "error": {
+          "userNotLoggedIn": "Benutzer nicht angemeldet",
+          "fileNotGenerated": "Datei wurde nicht生成, Übersetzung nicht möglich",
+          "noResult": "Übersetzungsergebnis ist leer",
+          "failed": "Übersetzung fehlgeschlagen, bitte erneut versuchen"
+        }
+      },
+      "findAndReplaceModal": {
+        "title": "Suchen und ersetzen",
+        "find": "Suchen",
+        "replaceWith": "Ersetzen durch",
+        "searchPlaceholder": "Geben Sie den zu suchenden Text ein",
+        "replacePlaceholder": "Geben Sie den Ersetzungstext ein",
+        "previousMatch": "Vorherige Übereinstimmung",
+        "nextMatch": "Nächste Übereinstimmung",
+        "replace": "Ersetzen",
+        "replaceAll": "Alle ersetzen",
+        "replaceSuccess": "Ersetzung abgeschlossen",
+        "replaceAllSuccess": "Alle Ersetzungen abgeschlossen",
+        "replaceError": "Ersetzung fehlgeschlagen, bitte erneut versuchen"
+      },
+      "nameSpeakerModal": {
+        "title": "Sprecher benennen",
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "speakerPlaceholder": "Bitte Sprechernamen eingeben",
+        "totalDuration": "Gesamtdauer",
+        "noSpeakers": "Keine Sprecherdaten",
+        "loading": "Transkriptionsdaten werden geladen...",
+        "noSegments": "Keine Transkriptionssegmente",
+        "loadError": "Transkriptionsdaten konnten nicht geladen werden, bitte erneut versuchen",
+        "saveSuccess": "Erfolgreich gespeichert",
+        "speakerNameEmpty": "Sprechername darf nicht leer sein"
+      },
+      "speakerEditBox": {
+        "title": "Sprecher bearbeiten",
+        "applyToCurrentParagraph": "Auf aktuellen Absatz anwenden",
+        "applyToAllParagraphs": "Diesen Sprecher auf alle Absätze anwenden",
+        "save": "Speichern"
+      },
+      "translateModal": {
+        "title": "Übersetzen nach",
+        "searchPlaceholder": "Sprache suchen",
+        "clear": "Leeren",
+        "noResults": "Keine passende Sprache gefunden",
+        "exit": "Beenden"
+      }
+    },
+    "askAI": {
+      "deleteConfirm": {
+        "title": "Endgültige Löschung des Eintrags bestätigen?",
+        "subtitle": "Dieser Eintrag wird endgültig gelöscht und kann nicht wiederhergestellt werden.",
+        "confirm": "Löschen",
+        "cancel": "Abbrechen"
+      },
+      "greeting": "Hallo, {name}.",
+      "subtitle": "Wie kann ich Ihnen heute helfen?",
+      "inputPlaceholder": "Frage an KI stellen...",
+      "followUpPlaceholder": "Nachfassen",
+      "reading": "Wird gelesen...",
+      "responses": {
+        "greeting": "Hallo! Ich bin dein KI-Assistent und freue mich, dir zu helfen. Ich kann Fragen beantworten, Ratschläge geben oder bei verschiedenen Aufgaben unterstützen. Wie kann ich dir behilflich sein?",
+        "help": "Ich kann die folgenden Unterstützungen leisten:\n1.Fragen beantworten: Ich beantworte verschiedene wissensbasierte Fragen\n2.Textverarbeitung: Helfe dir beim Bearbeiten, Zusammenfassen oder Übersetzen von Texten\n3.Kreative Vorschläge: Biete kreative Ideen und Ratschläge\n4.Technische Unterstützung: Beantworte technische Fragen\nLass mich wissen, womit ich dir helfen kann.",
+        "features": "Zu meinen Hauptfunktionen gehören:\n• Intelligente Frage-Antwort: Beantwortung verschiedener Fragen\n• Textanalyse: Texte analysieren, zusammenfassen und Schlüsselinformationen extrahieren\n• Inhaltsgenerierung: Artikel, Zusammenfassungen u. Ä. erstellen\n• Mehrsprachige Unterstützung: Kommunikation in mehreren Sprachen\n• Kontextverständnis: Gesprächskontext verstehen und kohärente Antworten liefern\nÜber welche Funktion möchten Sie mehr erfahren?",
+        "default": "Basierend auf Ihrer Frage „{question}“ habe ich folgenden Inhalt vorbereitet:\nDies ist eine Beispielantwort, die das Format von KI-Antworten zeigt. In der praktischen Anwendung werde ich Ihnen detailliertere und präzisere Antworten basierend auf Ihren konkreten Fragen liefern.\nWenn Sie weitere Fragen haben, können Sie diese gerne stellen. Ich werde mein Bestes tun, um Ihnen zu helfen."
+      },
+      "moreMenu": {
+        "insertSummary": "Zusammenfassung einfügen",
+        "concise": "Kompakter",
+        "detailed": "Detaillierter",
+        "useful": "Nützlich",
+        "useless": "Nutzlos"
+      },
+      "actions": {
+        "copySuccess": "Wurde in die Zwischenablage kopiert",
+        "copyFailed": "Kopieren fehlgeschlagen",
+        "shareFailed": "Teilen fehlgeschlagen",
+        "exporting": "Export wird durchgeführt",
+        "exportFailed": "Export fehlgeschlagen",
+        "insertSuccess": "Einfügen erfolgreich",
+        "feedbackThanks": "Vielen Dank für Ihr Feedback"
+      },
+      "suggestedQuestions": {
+        "title": "Fragen weiter stellen",
+        "more": "Mehr...",
+        "collapse": "Einklappen"
+      },
+      "quickActions": {
+        "insights": "Erkenntnisse abrufen",
+        "todo": "Aufgabenliste erstellen",
+        "email": "E-Mail verfassen",
+        "summary": "Kernpunkte zusammenfassen"
+      },
+      "sidebarSuggestedQuestions": {
+        "question1": "Gibt es neben dem Huasheng-Projekt noch andere laufende Projekte?",
+        "question2": "Gibt es eine effektivere Kommunikationsmethode als E-Mail?",
+        "question3": "Wie werden die spezifischen Zwischenwerte für die Geräteparameteranpassung ermittelt?",
+        "question4": "Wie wird der Projektfortschritt verfolgt und verwaltet?",
+        "question5": "Was sind die Best Practices für die Teamzusammenarbeit?",
+        "question6": "Wie lässt sich die Arbeitseffizienz steigern?"
+      },
+      "clearConfirm": {
+        "title": "Gesamten Chatverlauf löschen?",
+        "message": "Alle Aufzeichnungen werden dauerhaft gelöscht und können nicht wiederhergestellt werden. Möchten Sie wirklich fortfahren?",
+        "confirm": "Löschen",
+        "cancel": "Abbrechen"
+      },
+      "error": {
+        "userInfoMissing": "Benutzerinformationen fehlen, Nachricht kann nicht gesendet werden",
+        "fileInfoMissing": "Dateiinformationen fehlen, Nachricht kann nicht gesendet werden",
+        "requestFailed": "Anfrage fehlgeschlagen, bitte später erneut versuchen",
+        "networkError": "Netzwerkfehler, bitte Verbindung prüfen und erneut versuchen"
+      }
+    },
+    "secondaryNav": {
+      "recordingFile": "Aufnahmedatei",
+      "contextMenu": {
+        "select": "Auswählen",
+        "rename": "Umbenennen",
+        "move": "Verschieben",
+        "moveToRecycleBin": "In Papierkorb verschieben",
+        "restore": "Wiederherstellen",
+        "permanentDelete": "Endgültig löschen"
+      },
+      "selection": {
+        "selected": "ausgewählt",
+        "done": "Fertig",
+        "merge": "Zusammenführen",
+        "moveToFolder": "In Ordner verschieben",
+        "delete": "Löschen",
+        "restore": "Wiederherstellen",
+        "permanentDelete": "Endgültig löschen"
+      },
+      "merge": {
+        "mergeFile": "Dateien zusammenführen",
+        "merging": "Wird zusammengeführt",
+        "mergeSuccess": "Zusammenführen erfolgreich",
+        "view": "Ansehen",
+        "onlyTwoFiles": "Der Zusammenführungsvorgang unterstützt nur die Auswahl von 2 Audiodateien",
+        "mergeProgress": "Zusammenführen ({progress}%)"
+      },
+      "move": {
+        "moveSuccess": "{Dateiname} wurde in {Ordnername} verschoben",
+        "etc": "Warten",
+        "alreadyInFolder": "{fileName} befindet sich bereits在 {folderName}, kein Verschieben nötig"
+      },
+      "rename": {
+        "renameSuccess": "Umbenennen erfolgreich",
+        "renameFailed": "Umbenennen fehlgeschlagen, bitte später erneut versuchen"
+      },
+      "delete": {
+        "deleteSuccess": "Abgeschlossen, kann jederzeit aus dem Papierkorb wiederhergestellt werden"
+      },
+      "restore": {
+        "restoreSuccess": "{fileName} wurde wiederhergestellt",
+        "restoreFailed": "Wiederherstellung fehlgeschlagen, bitte später erneut versuchen"
+      },
+      "permanentDelete": {
+        "confirmTitle": "Endgültige Löschung der Datei bestätigen?",
+        "confirmMessage": "Diese Datei wird endgültig gelöscht und kann nicht wiederhergestellt werden.",
+        "confirmButton": "Löschen",
+        "cancelButton": "Abbrechen",
+        "deleteSuccess": "{Dateiname} wurde gelöscht"
+      }
+    },
+    "membership": {
+      "title": "Mitgliederbereich",
+      "memberType": {
+        "notMember": "Kein Mitglied",
+        "trial": "Mitgliedschaft testen",
+        "monthly": "Monatliche Mitgliedschaft",
+        "annual": "Jährliche Mitgliedschaft",
+        "masterMonthly": "Ultimate-Monatsmitgliedschaft",
+        "masterAnnual": "Ultimate-Jahresmitgliedschaft"
+      },
+      "currentSubscription": {
+        "title": "Aktuelles Abonnement",
+        "professional": "Pro",
+        "usage": "Bereits genutzt: {used}/{total} Minuten",
+        "expiration": "Läuft ab: {date}",
+        "details": "Details",
+        "usageUnlimited": "{used} Minuten verwendet / unbegrenzte Dauer"
+      },
+      "subscriptionPlans": {
+        "title": "Wählen Sie den passenden Tarif für sich",
+        "monthly": "Monatliches Abonnement",
+        "annual": "Jahresabonnement",
+        "month": "Monat",
+        "year": "Jahr",
+        "includes": "Enthaltene Leistungen:",
+        "mostPopular": "Am beliebtesten",
+        "currentPlan": "Aktueller Tarif",
+        "unavailable": "Nicht abonnierbar",
+        "upgrade": "Upgrade",
+        "explorer": {
+          "name": "Explorer Edition",
+          "button": "Kostenlos",
+          "features": {
+            "transcription": "{value} Transkriptionsminuten pro Monat",
+            "storage": "Unbegrenzter Cloud-Speicher",
+            "languages": "{value}+ Transkriptionssprachen",
+            "speaker": "Sprechertrennung",
+            "multimodal": "Multimodaler Eingang",
+            "tagging": "Ein-Klick-Tagging",
+            "editing": "Textbearbeitung",
+            "import": "Audioimport",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "translation": "Minutenübersetzung",
+            "mindmap": "Mind-Map",
+            "export": "{value} Exportformate",
+            "templates": "{value} Professionelle Vorlagen"
+          }
+        },
+        "professional": {
+          "name": "Pro",
+          "button": "Abonnieren",
+          "features": {
+            "transcription": "{value} Transkriptionsminuten pro Monat",
+            "storage": "Unbegrenzter Cloud-Speicher",
+            "languages": "{value}+ Transkriptionssprachen",
+            "speaker": "Sprechertrennung",
+            "multimodal": "Multimodaler Eingang",
+            "tagging": "Ein-Klick-Tagging",
+            "editing": "Textbearbeitung",
+            "import": "Audioimport",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "Tongyi Qianwen",
+            "translation": "Minutenübersetzung",
+            "mindmap": "Mind-Map",
+            "export": "{value} Datei-Exportformate",
+            "templates": "{value} Professionelle Vorlagen",
+            "customTemplates": "Benutzerdefinierte Vorlage",
+            "askAI": "KI fragen"
+          }
+        },
+        "master": {
+          "name": "Ultimate",
+          "button": "Abonnieren",
+          "features": {
+            "transcription": "Unbegrenzte Transkriptionszeit",
+            "storage": "Unbegrenzter Cloud-Speicher",
+            "languages": "{value}+ Transkriptionssprachen",
+            "speaker": "Sprechertrennung",
+            "multimodal": "Multimodaler Eingang",
+            "tagging": "Ein-Klick-Tagging",
+            "editing": "Textbearbeitung",
+            "import": "Audioimport",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "Tongyi Qianwen",
+            "translation": "Minutenübersetzung",
+            "mindmap": "Mind-Map",
+            "export": "{value} Datei-Exportformate",
+            "templates": "{value}+ Professionelle Vorlagen",
+            "customTemplates": "Benutzerdefinierte Vorlage",
+            "askAI": "KI fragen"
+          }
+        },
+        "switch": "Wechseln",
+        "pendingPlan": "Ausstehende Mitgliedschaft",
+        "pendingPlanTip": "Nach Ende des aktuellen Abonnementzyklus wird im nächsten Zyklus der neue Mitgliedschaftsplan aktiviert.",
+        "pendingPlanAlreadyTip": "Sie haben bereits einen Plan, der wirksam wird; er startet nach Ende des текущего Zyklus.",
+        "switchScheduledTip": "Für den nächsten Zyklus geplant; nach Ende des текущего Abo-Zyklus wird automatisch auf den neuen Plan umgestellt.",
+        "loading": "Laden..."
+      },
+      "moreTranscriptionTime": {
+        "title": "Mehr Transkriptionszeit",
+        "minutes": "Minute",
+        "perMinute": "Minute",
+        "buy": "Kaufen"
+      },
+      "footer": {
+        "note": "Nach Kauf sofort gültig, ein Jahr lang gültig",
+        "userAgreement": "Nutzungsvereinbarung",
+        "privacyPolicy": "Datenschutzrichtlinie"
+      },
+      "payment": {
+        "orderInfo": "Bestellinformationen",
+        "annualSubscription": "Jahresabonnement (automatische Verlängerung)",
+        "monthlySubscription": "Monatsabonnement (automatische Verlängerung)",
+        "paymentMethod": "Zahlungsmethoden",
+        "bankCard": "Kredit-/Debitkarte",
+        "applePay": "Apple Pay",
+        "googlePay": "Google Pay",
+        "alipay": "Alipay",
+        "wechat": "WeChat",
+        "cardNumber": "Kartennummer",
+        "cardNumberPlaceholder": "Bitte eingeben",
+        "expiryDate": "Ablaufdatum",
+        "securityCode": "CVV/CVC",
+        "country": "Land",
+        "selectCountry": "Land auswählen",
+        "cancel": "Abbrechen",
+        "pay": "Bezahlen",
+        "countries": {
+          "US": "Vereinigte Staaten",
+          "CN": "China",
+          "GB": "Vereinigtes Königreich",
+          "JP": "Japan"
+        },
+        "error": {
+          "userNotLoggedIn": "Bitte zuerst anmelden",
+          "productIdRequired": "Produkt-ID darf nicht leer sein",
+          "regionDetecting": "Regioneninformationen werden geprüft, bitte warten",
+          "createOrderFailed": "Zahlungsauftrag konnte nicht erstellt werden",
+          "pollingTimeout": "Abfrage des Zahlungsstatus ist abgelaufen, bitte später Bestellstatus prüfen",
+          "paymentFailed": "Zahlung fehlgeschlagen"
+        }
+      },
+      "paymentSuccess": {
+        "title": "Glückwunsch, Sie haben die Ultimate-Mitgliedschaft freigeschaltet",
+        "titleProfessional": "Glückwunsch, Sie haben die Pro-Mitgliedschaft freigeschaltet",
+        "benefitsTitle": "Ultimate-Leistungen umfassen",
+        "benefitsTitleProfessional": "Pro-Leistungen umfassen",
+        "benefits": {
+          "unlimitedTranscription": "Unbegrenzte Transkription",
+          "unlimitedStorage": "Unbegrenzter Cloud-Speicher",
+          "transcriptionLanguages": "140+ Transkriptionssprachen",
+          "latestAIModels": "Neueste KI-Modelle: ChatGPT, Gemini, Claude, Grok",
+          "exportFormats": "7 Datei-Exportformate",
+          "professionalTemplates": "60+ Professionelle Vorlagen",
+          "customTemplates": "Benutzerdefinierte Vorlage",
+          "askAI": "KI fragen",
+          "more": "Und mehr"
+        },
+        "enterApp": "BOYA Notra öffnen",
+        "purchaseSuccess": "Kauf erfolgreich"
+      },
+      "paymentFailure": {
+        "title": "Zahlung fehlgeschlagen",
+        "subtitle": "Bitte eine andere Zahlungsmethode wählen",
+        "returnToCheckout": "Zur Kasse zurück"
+      }
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "profile": "Profil",
+      "accountSecurity": "Konto & Sicherheit",
+      "accountSafety": {
+        "loginMethods": {
+          "title": "Anmeldemethode",
+          "email": "E-Mail",
+          "phone": "Mobilnummer",
+          "changePassword": "Passwort ändern",
+          "wechat": "WeChat",
+          "add": "Hinzufügen",
+          "remove": "Entfernen",
+          "verify": "Überprüfen",
+          "notBound": "Nicht gebunden",
+          "passwordNotSet": "Nicht festgelegt",
+          "alreadyRegistered": "Dieses Konto ist bereits registriert",
+          "Registered": "Dieses Konto ist bereits registriert. Wenn Sie es mit dem aktuellen Konto verknüpfen möchten, melden Sie sich bitte ab oder entfernen Sie das Konto und versuchen Sie es erneut.",
+          "loginMethodWarning": "Das Konto muss mindestens eine Anmeldemethode haben. Wenn Sie die Anmeldemethode ändern möchten, fügen Sie bitte zuerst eine weitere hinzu.",
+          "thirdAccountTypes": {
+            "google": "Google",
+            "apple": "Apple",
+            "wechat": "WeChat"
+          }
+        },
+        "devices": {
+          "title": "Anmeldegerät",
+          "device": "Gerät",
+          "loginMethod": "Anmeldemethode",
+          "lastActiveTime": "Zuletzt aktiv",
+          "operation": "Aktion",
+          "currentDevice": "Aktuelles Gerät",
+          "loggedIn": "Wird angemeldet",
+          "delete": "Löschen",
+          "fetchFailed": "Geräteliste konnte nicht abgerufen werden",
+          "noDevices": "Keine Geräte",
+          "unknownDevice": "Unbekanntes Gerät",
+          "unknown": "Unbekannt",
+          "deleteSuccess": "Gerät offline",
+          "deleteFailed": "Gerät konnte nicht gelöscht werden",
+          "deleteConfirm": {
+            "title": "Gerät löschen",
+            "message": "Möchten Sie das Gerät \"{deviceName}\" wirklich löschen?",
+            "messageDefault": "Möchten Sie dieses Gerät wirklich löschen?",
+            "confirm": "Bestätigen",
+            "cancel": "Abbrechen"
+          }
+        },
+        "logout": "Abmelden",
+        "changeEmail": {
+          "confirmTitle": "Hinweis",
+          "confirmQuestion": "E-Mail-Adresse ändern?",
+          "currentEmail": "Aktuelle E-Mail: {email}",
+          "change": "Ändern",
+          "verifyTitle": "Kontoverifizierung",
+          "verifyOldEmailText": "Um Ihre Kontosicherheit zu gewährleisten, bestätigen Sie bitte Ihre Identität. Ein Bestätigungscode wurde an {email} gesendet.",
+          "changeTitle": "E-Mail ändern",
+          "enterNewEmail": "Bitte neue E-Mail-Adresse eingeben",
+          "codeSent": "Bestätigungscode wurde gesendet",
+          "success": "E-Mail erfolgreich geändert",
+          "cancel": "Abbrechen",
+          "confirm": "Bestätigen"
+        },
+        "changePhone": {
+          "confirmTitle": "Hinweis",
+          "confirmQuestion": "Telefonnummer ändern?",
+          "currentPhone": "Aktuelle Nummer: {phone}",
+          "change": "Ändern",
+          "verifyTitle": "Kontoverifizierung",
+          "verifyOldPhoneText": "Um Ihre Kontosicherheit zu gewährleisten, bestätigen Sie bitte Ihre Identität. Ein Bestätigungscode wurde an die Telefonnummer {phonel} gesendet.",
+          "changeTitle": "Telefonnummer ändern",
+          "enterNewPhone": "Bitte geben Sie Ihre neue Telefonnummer ein",
+          "codeSent": "Bestätigungscode wurde gesendet",
+          "success": "Mobilnummer erfolgreich geändert",
+          "cancel": "Abbrechen",
+          "confirm": "Bestätigen"
+        },
+        "resetPassword": {
+          "title": "Passwort zurücksetzen",
+          "message": "Bitte bestätigen Sie vor dem Zurücksetzen des Passworts Ihre Identität. Mit der Zurücksetzung fortfahren?",
+          "cancel": "Abbrechen",
+          "confirm": "Bestätigen"
+        },
+        "logoutConfirm": {
+          "title": "Abmelden",
+          "message": "Möchten Sie wirklich beenden?\nBitte确认, dass alle Dateien vollständig hochgeladen, transkribiert und synchronisiert sind, иначе可能 Daten verloren gehen.",
+          "cancel": "Abbrechen",
+          "confirm": "Beenden"
+        },
+        "bindThirdAccountSuccess": "{type}-Konto erfolgreich verknüpft",
+        "bindThirdAccountError": {
+          "userNotLoggedIn": "Benutzer nicht angemeldet, Drittanbieterkonto kann nicht verknüpft werden",
+          "failed": "Verknüpfung fehlgeschlagen, bitte später erneut versuchen",
+          "invalidType": "Nicht unterstützter Drittanbieter-Kontotyp",
+          "googleAuthFailed": "Google-Autorisierung fehlgeschlagen, bitte erneut versuchen.",
+          "appleAuthFailed": "Apple-Autorisierung fehlgeschlagen, bitte erneut versuchen.",
+          "wechatAuthFailed": "WeChat-Autorisierung fehlgeschlagen. Bitte erneut versuchen.",
+          "authCancelled": "Autorisierung取消"
+        },
+        "unbindThirdAccountSuccess": "{type}-Konto erfolgreich getrennt",
+        "unbindThirdAccountError": {
+          "userNotLoggedIn": "Benutzer nicht angemeldet, Drittanbieterkonto kann nicht getrennt werden",
+          "failed": "Entkoppeln fehlgeschlagen, bitte später erneut versuchen"
+        },
+        "unbindThirdAccountConfirm": {
+          "title": "Verknüpfung aufheben?",
+          "message": "Möchten Sie die Verknüpfung mit Ihrem {type}-Konto aufheben?",
+          "messageDefault": "Möchten Sie die Verknüpfung dieses Kontos aufheben?",
+          "confirm": "Bestätigen",
+          "cancel": "Abbrechen"
+        }
+      },
+      "general": "Allgemein",
+      "membership": "Mitgliedschaft",
+      "membershipContent": {
+        "currentPlan": "Aktueller Tarif",
+        "cancelSubscription": "Abonnement kündigen",
+        "transcriptionDuration": "Transkriptionsguthaben",
+        "remaining": "Noch verfügbar: {remaining} Minuten (von {total})",
+        "startEndDate": "Start-/Enddatum: {start}~{end}",
+        "nextResetDate": "Nächstes Zurücksetzdatum: {date}",
+        "nextPaymentDate": "Nächster Zahlungstermin: {date}",
+        "purchaseHistory": "Kaufverlauf",
+        "purchaseHistorySwipeHint": "Zum Wechseln der Seiten wischen",
+        "transcriptionHistory": "Transkriptionsaufzeichnungen",
+        "purchaseHistoryTable": {
+          "product": "Eintrag",
+          "paymentTime": "Zahlungszeitpunkt",
+          "actualPayment": "Bezahlter Betrag"
+        },
+        "purchaseHistoryData": {
+          "professionalMonthly": "Pro Monatsabonnement",
+          "transcription300": "300 Minuten Transkriptionsguthaben"
+        },
+        "transcriptionHistoryTable": {
+          "product": "Eintrag",
+          "transcriptionTime": "Transkriptionszeit",
+          "consumedQuota": "Verwendetes Guthaben"
+        },
+        "transcriptionHistoryData": {
+          "aiSummary": "KI-Zusammenfassung",
+          "realTimeTranscription": "Echtzeit-Transkription",
+          "minutes": "Minute",
+          "seconds": "Sekunden"
+        },
+        "cancelSubscriptionDescription1": "Ihr Abonnement wird am Ende des aktuellen Abrechnungszyklus ({date}) gekündigt. Es werden keine weiteren Gebühren erhoben.",
+        "cancelSubscriptionDescription2": "Nach diesem Datum haben Sie keinen Zugang mehr zu folgenden BOYA Notra-Vorteilen:",
+        "cancelSubscriptionBenefits": {
+          "transcription140": "140 Transkriptionsminuten pro Monat",
+          "unlimitedStorage": "Unbegrenzter Cloud-Speicher",
+          "languages100": "100+ Transkriptionssprachen",
+          "latestAIModels": "Neueste KI-Modelle: ChatGPT, Gemini, Claude, Grok",
+          "exportFormats": "7 Datei-Exportformate",
+          "professionalTemplates": "20 Professionelle Vorlagen",
+          "customTemplates": "Benutzerdefinierte Vorlage",
+          "askAI": "KI fragen"
+        },
+        "cancelSubscriptionReasonPlaceholder": "Bitte wählen Sie einen Kündigungsgrund aus:",
+        "cancelSubscriptionReasons": {
+          "price": "Zu teuer",
+          "notUsing": "Nutze es selten",
+          "foundAlternative": "Alternative gefunden",
+          "tooExpensive": "Hohe Kosten",
+          "other": "Anderer Grund"
+        },
+        "keepSubscription": "Abonnement behalten",
+        "remainingUnlimited": "{remaining} Minuten verbleibend (unbegrenzt)",
+        "unlimitedDuration": "Unbegrenzte Dauer",
+        "transcriptionHistoryLoading": "Laden...",
+        "transcriptionHistoryEmpty": "Keine Transkriptionsaufzeichnungen",
+        "transcriptionHistoryError": "Transkriptionsaufzeichnungen konnten nicht geladen werden",
+        "transcriptionHistoryLoadComplete": "Alle Daten geladen",
+        "purchaseHistoryLoadComplete": "Alle Daten geladen",
+        "purchaseHistoryError": "Kaufaufzeichnungen konnten nicht geladen werden",
+        "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt",
+        "cancelSubscriptionError": {
+          "userNotLoggedIn": "Benutzer nicht angemeldet",
+          "failed": "Kündigung des Abos fehlgeschlagen, bitte später erneut versuchen"
+        }
+      },
+      "helpFeedbackTitle": "Hilfe & Feedback",
+      "about": "Über uns",
+      "aboutContent": {
+        "socialMedia": "Soziale Medien",
+        "officialWebsite": "Offizielle Website",
+        "x": "X",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "legalPrivacy": "Rechtliches & Datenschutz",
+        "userAgreement": "Nutzungsvereinbarung",
+        "privacyPolicy": "Datenschutzrichtlinie",
+        "cookiePolicy": "Cookie-Richtlinie",
+        "cookieSettings": "Cookie-Einstellungen",
+        "cookieSettingsContent": {
+          "categories": {
+            "necessary": "Notwendig",
+            "necessaryDesc": "Essentiell für den Betrieb der Website, immer aktiviert.",
+            "functional": "Funktionalität",
+            "functionalDesc": "Speichert Präferenzen und bietet erweiterte Funktionen.",
+            "analytics": "Analysen",
+            "analyticsDesc": "Wird zur Nutzungsmessung und Verbesserung Ihrer Erfahrung verwendet.",
+            "marketing": "Marketing",
+            "marketingDesc": "Wird für gezielte Werbung verwendet."
+          }
+        },
+        "youtube": "YouTube",
+        "linkedin": "LinkedIn",
+        "discord": "Discord"
+      },
+      "nickname": "Spitzname",
+      "nicknamePlaceholder": "Spitzname eingeben",
+      "editAvatar": "Avatar bearbeiten",
+      "displayLanguage": "Anzeigesprache",
+      "selectLanguage": "Sprache auswählen",
+      "languages": {
+        "zhCN": "简体中文",
+        "zhTW": "繁體中文（台灣）",
+        "zhHK": "繁體中文（香港）",
+        "enUS": "English",
+        "de": "Deutsch",
+        "fr": "Français",
+        "ja": "日本語",
+        "es": "Español",
+        "it": "Italiano",
+        "ru": "Русский"
+      },
+      "helpFeedback": {
+        "suggestionsFeedback": "Vorschläge und Feedback",
+        "submitFeedback": "Feedback senden",
+        "contactUs": "Kontaktieren Sie uns",
+        "operatingHours": "Montag bis Sonntag 9:00-12:00, 13:00-18:30 (GMT+8)",
+        "whatsapp": "WhatsApp",
+        "email": "E-Mail",
+        "onlineService": "Online-Kundenservice",
+        "phone": "Mobilnummer",
+        "copy": "Kopieren",
+        "copySuccess": "Kopieren erfolgreich",
+        "copyFailed": "Kopieren fehlgeschlagen",
+        "commonQuestions": "FAQ",
+        "feedbackModal": {
+          "title": "Vorschläge und Feedback",
+          "description": "Beschreibung",
+          "descriptionPlaceholder": "Bitte geben Sie Ihre Vorschläge an, mindestens 10 Zeichen",
+          "images": "Bild",
+          "submit": "Absenden",
+          "submitSuccess": "Übermittlung erfolgreich",
+          "submitSuccessMessage": "Vielen Dank für Ihr Feedback",
+          "descriptionMinLengthError": "Beschreibung muss mindestens 10 Zeichen lang sein"
+        },
+        "questions": {
+          "bindDevice": "Wie bindet man das Gerät an?",
+          "startRecording": "Wie startet man die Aufnahme?",
+          "generateTranscription": "Wie erstellt man eine Transkription?",
+          "generateSummary": "Wie erstellt man eine Zusammenfassung?",
+          "allQuestions": "Alle Fragen"
+        },
+        "emailCopyFallback": "E-Mail-Adresse kopiert, bitte E-Mail-Client öffnen und senden"
+      },
+      "nicknameMaxBytesExceeded": "Nickname darf 50 Bytes nicht überschreiten"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bei BOYA Notra anmelden",
+      "phoneNumber": "Bitte Mobilnummer eingeben",
+      "email": "Bitte E-Mail eingeben",
+      "verificationCode": "Saisir le code",
+      "password": "Bitte Passwort eingeben",
+      "getCode": "Senden",
+      "submit": "Anmelden",
+      "register": "Registrieren",
+      "forgotPassword": "Passwort vergessen?",
+      "passwordLogin": "Passwort-Anmeldung",
+      "verificationCodeLogin": "Bestätigungscode-Anmeldung",
+      "google": "Google",
+      "apple": "Apple ID",
+      "wechat": "WeChat",
+      "or": "Oder",
+      "autoRegister": "Nicht registrierte Mobilnummern werden nach der Anmeldung automatisch registriert",
+      "autoRegisterEmail": "Nicht registrierte E-Mails werden nach der Anmeldung automatisch registriert",
+      "agreement": "Durch Anklicken von \"Anmelden\" stimmen Sie der Nutzungsvereinbarung und Datenschutzrichtlinie zu",
+      "backToLogin": "Zurück zur Anmeldung",
+      "setPassword": "Passwort festlegen",
+      "registerSuccess": "Registrierung erfolgreich, bitte Passwort festlegen",
+      "loading": "Wird angemeldet...",
+      "codeSentCountdown": "Gesendet",
+      "resend": "Erneut senden",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort verbergen",
+      "loginBackground": "Login-Hintergrund",
+      "agreementPrefix": "Mit Klick auf Anmelden stimmen Sie zu",
+      "userAgreement": "Nutzungsbedingungen",
+      "agreementAnd": "und",
+      "privacyPolicy": "Datenschutzerklärung",
+      "wechatQRCodeTitle": "WeChat-QR-Login",
+      "wechatQRCodeTip": "Bitte WeChat verwenden, um den QR-Code zu scannen und sich anzumelden",
+      "wechatQRCodeHint": "Nach dem Scannen bitte die Anmeldung auf dem Handy bestätigen"
+    },
+    "setPassword": {
+      "title": "Passwort festlegen",
+      "hint": "Bitte legen Sie ein neues Passwort fest (8–20 Zeichen). Es muss mindestens 2 der folgenden Elemente enthalten: Buchstaben, Zahlen, Sonderzeichen.",
+      "confirm": "Bestätigen"
+    },
+    "register": {
+      "title": "Bei BOYA Notra registrieren",
+      "phoneNumber": "Bitte Mobilnummer eingeben",
+      "email": "Bitte E-Mail eingeben",
+      "verificationCode": "Saisir le code",
+      "password": "Bitte Passwort festlegen",
+      "confirmPassword": "Bitte Passwort bestätigen",
+      "getCode": "Bestätigungscode anfordern",
+      "submit": "Registrieren",
+      "backToLogin": "Bereits ein Konto? Zurück zur Anmeldung"
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen",
+      "hint1China": "Bitte bestätigen Sie Ihre Identität mit Ihrer registrierten Mobilnummer, um Ihr Passwort zurückzusetzen.",
+      "hint1NonChina": "Bitte bestätigen Sie Ihre Identität mit Ihrer registrierten E-Mail, um Ihr Passwort zurückzusetzen.",
+      "hint1": "Bitte bestätigen Sie Ihre Identität mit Ihrer registrierten Mobilnummer/E-Mail, um Ihr Passwort zurückzusetzen.",
+      "hint2": "Neues Passwort (8–20 Zeichen) muss mindestens 2 der folgenden Elemente enthalten: Buchstaben, Zahlen, Sonderzeichen.",
+      "phoneOrEmail": "Bitte geben Sie Ihre Mobilnummer oder E-Mail ein",
+      "phoneOrEmailChina": "Bitte Mobilnummer eingeben",
+      "phoneOrEmailNonChina": "Bitte E-Mail eingeben",
+      "email": "Bitte E-Mail eingeben",
+      "verificationCode": "Saisir le code",
+      "newPassword": "Bitte Passwort eingeben",
+      "confirmPassword": "Bitte geben Sie Ihr Passwort erneut ein",
+      "getCode": "Bestätigungscode anfordern",
+      "submit": "Passwort zurücksetzen",
+      "confirm": "Bestätigen",
+      "backToLogin": "Abbrechen"
+    },
+    "changePassword": {
+      "title": "Passwort ändern",
+      "hint1China": "Bitte bestätigen Sie Ihre Identität mit Ihrer registrierten Mobilnummer, um Ihr Passwort zurückzusetzen.",
+      "hint1NonChina": "Bitte bestätigen Sie Ihre Identität mit Ihrer registrierten E-Mail, um Ihr Passwort zurückzusetzen.",
+      "hint1": "Bitte bestätigen Sie Ihre Identität, bevor Sie Ihr Passwort zurücksetzen.",
+      "hint2": "Neues Passwort (8–20 Zeichen) muss mindestens 2 der folgenden Elemente enthalten: Buchstaben, Zahlen, Sonderzeichen.",
+      "phoneOrEmail": "Bitte geben Sie Ihre Mobilnummer oder E-Mail ein",
+      "phoneOrEmailChina": "Bitte Mobilnummer eingeben",
+      "phoneOrEmailNonChina": "Bitte E-Mail eingeben",
+      "newPassword": "Bitte Passwort eingeben",
+      "confirmPassword": "Bitte geben Sie Ihr Passwort erneut ein",
+      "confirm": "Bestätigen",
+      "backToSettings": "Abbrechen"
+    },
+    "errors": {
+      "phoneRequired": "Bitte Mobilnummer eingeben",
+      "phoneInvalid": "Mobilnummer hat ein falsches Format",
+      "emailRequired": "Bitte E-Mail eingeben",
+      "emailInvalid": "E-Mail hat ein falsches Format",
+      "codeRequired": "Saisir le code",
+      "codeInvalid": "Der Bestätigungscode muss 6-stellig sein",
+      "codeExpired": "Bestätigungscode abgelaufen. Bitte fordern Sie einen neuen an.",
+      "codeIncorrect": "Ungültiger Bestätigungscode",
+      "codeMismatch": "Falscher Bestätigungscode. Bitte erneut eingeben.",
+      "passwordRequired": "Bitte Passwort eingeben",
+      "passwordTooShort": "Passwortlänge muss zwischen 8 und 20 Zeichen liegen",
+      "passwordFormatInvalid": "Das Passwort muss 8–20 Zeichen lang sein und mindestens zwei der folgenden enthalten: Buchstaben, Zahlen, Sonderzeichen",
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "passwordResetFailed": "Passwort-Zurücksetzung fehlgeschlagen, bitte versuchen Sie es erneut",
+      "networkError": "Netzwerkfehler. Bitte versuchen Sie es später noch einmal.",
+      "sendCodeFailed": "Senden des Bestätigungscodes fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "codeSendFailed": "Senden des Bestätigungscodes fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "loginFailed": "Anmeldung fehlgeschlagen. Bitte überprüfen Sie Ihr Konto und Passwort.",
+      "thirdPartyNotImplemented": "Anmeldung über Drittanbieter ist in Entwicklung. Bitte versuchen Sie es später erneut.",
+      "wechatAuthFailed": "WeChat-Autorisierung fehlgeschlagen. Bitte erneut versuchen.",
+      "wechatAuthCancelled": "WeChat-Autorisierung abgebrochen.",
+      "googleAuthFailed": "Google-Autorisierung fehlgeschlagen, bitte erneut versuchen.",
+      "googleAuthCancelled": "Google-Autorisierung abgebrochen.",
+      "appleAuthFailed": "Apple-Autorisierung fehlgeschlagen, bitte erneut versuchen.",
+      "appleAuthCancelled": "Apple-Autorisierung abgebrochen.",
+      "setPasswordFailed": "Passwortfestlegung fehlgeschlagen, bitte erneut versuchen.",
+      "sessionExpired": "Sitzung abgelaufen. Bitte melden Sie sich erneut an.",
+      "tokenMissing": "Authentifizierungsinformationen fehlen. Bitte melden Sie sich erneut an.",
+      "userIdMissing": "Benutzer-ID fehlt.",
+      "updateNicknameFailed": "Spitzname-Einstellung fehlgeschlagen.",
+      "uploadAvatarFailed": "Avatar-Upload fehlgeschlagen.",
+      "invalidImageFile": "Bitte wählen Sie eine Bilddatei aus.",
+      "imageFileTooLarge": "Bilddatei zu groß. Bitte wählen Sie eine Datei kleiner als 5 MB aus.",
+      "phonePasswordError": "Telefonnummer oder Passwort falsch",
+      "emailPasswordError": "E-Mail oder Passwort falsch",
+      "phoneNotRegistered": "Telefonnummer nicht registriert, bitte mit Bestätigungscode anmelden",
+      "emailNotRegistered": "E-Mail nicht registriert, bitte mit Bestätigungscode anmelden",
+      "wechatQRCodeExpired": "QR-Code abgelaufen, bitte erneut scannen",
+      "googleAuthRejected": "Benutzer hat die Autorisierung abgelehnt oder sie ist fehlgeschlagen",
+      "googleStateValidationFailed": "State-Validierung fehlgeschlagen, mögliches Sicherheitsrisiko",
+      "googlePopupClosed": "Benutzer hat den Login abgebrochen",
+      "googlePopupBlocked": "Popup wurde vom Browser blockiert, bitte Pop-ups erlauben und erneut versuchen",
+      "googleAccountExistsWithDifferentCredential": "Diese E-Mail wird bereits mit einer anderen Anmeldemethode verwendet, bitte die ursprüngliche Methode verwenden",
+      "googleLoginFailed": "Google-Login fehlgeschlagen",
+      "firebaseConfigMissing": "Erforderliche Konfiguration fehlt",
+      "firebaseConfigMissingHint": "Bitte Firebase-Umgebungsvariablen in der .env-Datei konfigurieren",
+      "wechatSDKNotLoaded": "WeChat-Login-SDK nicht geladen, bitte Netzwerkverbindung prüfen",
+      "wechatAppIdNotConfigured": "WeChat AppID nicht konfiguriert, bitte VITE_WECHAT_APPID in den Umgebungsvariablen setzen",
+      "appleSDKNotLoaded": "Apple SDK nicht geladen, bitte sicherstellen, dass Apple JS SDK eingebunden ist",
+      "appleClientIdNotConfigured": "Apple Client ID nicht konfiguriert, bitte VITE_APPLE_CLIENT_ID in den Umgebungsvariablen setzen",
+      "appleSDKInitFailed": "Apple SDK-Initialisierung fehlgeschlagen",
+      "appleSDKLoadTimeout": "Laden des Apple SDK ist abgelaufen, bitte Seite aktualisieren und erneut versuchen",
+      "appleSignInFailed": "Apple-Login fehlgeschlagen",
+      "appleRedirectFailed": "Weiterleitung zur Apple-Autorisierung fehlgeschlagen",
+      "appleAuthRejected": "Benutzer hat die Autorisierung abgelehnt oder sie ist fehlgeschlagen",
+      "appleStateValidationFailed": "State-Validierung fehlgeschlagen, mögliches Sicherheitsrisiko"
+    },
+    "success": {
+      "codeSent": "Bestätigungscode wurde gesendet",
+      "loginSuccess": "Anmeldung erfolgreich.",
+      "registerSuccess": "Registrierung erfolgreich",
+      "passwordReset": "Passwort-Zurücksetzung erfolgreich",
+      "passwordSet": "Passwort-Festlegung erfolgreich",
+      "passwordChanged": "Passwort-Änderung erfolgreich",
+      "logoutSuccess": "Abmeldung erfolgreich",
+      "nicknameUpdated": "Spitzname erfolgreich festgelegt",
+      "avatarUpdated": "Avatar erfolgreich hochgeladen"
+    }
+  },
+  "richTextToolbar": {
+    "bold": "Fett",
+    "italic": "Kursiv",
+    "underline": "Unterstreichen",
+    "strikethrough": "Durchgestrichen",
+    "code": "Codeblock",
+    "link": "Link",
+    "linkInputPlaceholder": "Link einfügen oder eingeben",
+    "confirm": "Bestätigen",
+    "textStyle": {
+      "bodyText": "Textkörper",
+      "heading1": "Überschrift 1",
+      "heading2": "Überschrift 2",
+      "heading3": "Überschrift 3",
+      "heading4": "Überschrift 4",
+      "bulletList": "Aufzählungsliste",
+      "numberedList": "Nummerierte Liste",
+      "todoList": "To-do-Liste",
+      "quote": "Zitat",
+      "codeBlock": "Codeblock"
+    }
+  },
+  "share": {
+    "adText": "Informieren und Gerät kaufen, alle Funktionen genießen",
+    "buyNow": "Jetzt kaufen",
+    "createLinkSuccess": "Freigabelink erfolgreich erstellt",
+    "createLinkFailed": "Freigabelink konnte nicht erstellt werden",
+    "loadContentFailed": "Geteilte Inhalte konnten nicht geladen werden",
+    "linkExpired": "Freigabelink ist abgelaufen",
+    "loading": "Laden...",
+    "userInfoMissing": "Benutzerinformationen fehlen, bitte erneut anmelden",
+    "fileInfoMissing": "Dateiinformationen fehlen",
+    "noShareTypesSelected": "Bitte wählen Sie mindestens eine Freigabeart",
+    "shareIdMissing": "Freigabe-ID fehlt",
+    "defaultTitle": "Geteilte Inhalte",
+    "noContent": "Kein Inhalt",
+    "invalidOrExpired": "Link ungültig oder abgelaufen",
+    "reachLimit": "Aufruflimit erreicht",
+    "brand": "BOYA Notra",
+    "tabTranscription": "Transkript",
+    "tabSummary": "Zusammenfassung",
+    "tabMindmap": "Mindmap",
+    "speaker": "Sprecher",
+    "editSpeaker": "Sprecher bearbeiten",
+    "speakerNamePlaceholder": "Sprechername",
+    "applyToCurrent": "Auf aktuellen Absatz anwenden",
+    "applyToAll": "Auf alle Absätze dieses Sprechers anwenden",
+    "loginFirstToSave": "Bitte melden Sie sich an, um zu speichern",
+    "saveSuccess": "Gespeichert",
+    "saveFailed": "Speichern fehlgeschlagen"
+  },
+  "subscriptionTips": {
+    "title": "Upgrade, um alle Funktionen freizuschalten",
+    "viewAllPlans": "Alle Tarife anzeigen"
+  },
+  "bindingDevice": {
+    "title": "Binden Sie Ihr Gerät, starten Sie effizientes Aufzeichnen",
+    "existingDevice": {
+      "title": "Haben Sie bereits ein Gerät?",
+      "description": "Code scannen, App herunterladen, Gerät binden und sofort nutzen"
+    },
+    "noDevice": {
+      "title": "Kein Gerät?",
+      "description": "Informieren und Gerät kaufen, um alle Funktionen zu genießen"
+    },
+    "upgradeTitle": "Upgrade, um alle Funktionen freizuschalten",
+    "professional": {
+      "feature1": "1400 Transkriptionsminuten pro Monat",
+      "feature2": "Unbegrenzter Cloud-Speicher",
+      "feature3": "100+ Transkriptionssprachen",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "Und mehr"
+    },
+    "master": {
+      "feature1": "Unbegrenzte Transkriptionszeit",
+      "feature2": "Unbegrenzter Cloud-Speicher",
+      "feature3": "140+ Transkriptionssprachen",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "Und mehr"
+    },
+    "viewAllPlans": "Alle Tarife anzeigen",
+    "planCards": {
+      "professional": {
+        "name": "Professional",
+        "feature1": "1280 Min. Transkription / Monat",
+        "feature2": "Unbegrenzter Cloud-Speicher",
+        "feature3": "100+ Transkriptionssprachen",
+        "feature4": "Export in 7 Formaten",
+        "feature5": "Und mehr"
+      },
+      "master": {
+        "name": "Master",
+        "badge": "Am beliebtesten",
+        "feature1": "Unbegrenzte Transkriptionszeit",
+        "feature2": "Unbegrenzter Cloud-Speicher",
+        "feature3": "140+ Transkriptionssprachen",
+        "feature4": "Export in 7 Formaten",
+        "feature5": "Und mehr"
+      },
+      "subscribe": "Abonnieren",
+      "perYear": "/Jahr",
+      "buyNowArrow": "Jetzt kaufen →"
+    }
+  },
+  "dialogs": {
+    "audioEditor": {
+      "cropTitle": "Zuschneiden: nur den ausgewählten Bereich behalten",
+      "cropAlt": "Zuschneiden",
+      "deleteAlt": "Löschen",
+      "pauseAlt": "Pause",
+      "playAlt": "Wiedergabe",
+      "zoomOutAlt": "Verkleinern",
+      "zoomInAlt": "Vergrößern",
+      "loadingText": "Audio wird geladen... ({progress}%)",
+      "loadingHint": "Mit Zuschneiden und Löschen bearbeiten Sie die Aufnahme",
+      "saveAsNewTitle": "Als neue Datei speichern",
+      "saveHintEdited": "Die Aufnahme wurde bearbeitet. Als neue Datei speichern?<br />Nicht gespeicherte Änderungen gehen verloren.",
+      "saveHintPlain": "Als neue Datei speichern?<br />Nicht gespeicherte Änderungen gehen verloren.",
+      "fileNameLabel": "Dateiname",
+      "processingCut": "Zuschneiden...",
+      "preparing": "Vorbereiten...",
+      "uploadCredential": "Upload-Zugangsdaten werden abgerufen...",
+      "uploading": "Wird hochgeladen...",
+      "uploadSuccess": "Audio in die Cloud hochgeladen",
+      "uploadFailed": "Upload fehlgeschlagen",
+      "processFailed": "Audioverarbeitung fehlgeschlagen: {msg}",
+      "selectRegionFirst": "Bitte wählen Sie zuerst den zu behaltenden Bereich",
+      "ffmpegNotReady": "FFmpeg ist noch nicht bereit. Bitte versuchen Sie es später erneut.",
+      "loginFirst": "Bitte melden Sie sich zuerst an",
+      "networkError": "Netzwerkfehler",
+      "audioLoadFailed": "Audio konnte nicht geladen werden"
+    },
+    "exportAudio": {
+      "title": "Audio exportieren",
+      "exportAs": "Exportieren als",
+      "export": "Exportieren",
+      "noAudio": "Kein Audio verfügbar",
+      "exporting": "Audio wird exportiert...",
+      "downloadUrlFailed": "Download-Link konnte nicht abgerufen werden",
+      "fetchAudioFailed": "Audio konnte nicht abgerufen werden. Prüfen Sie Ihr Netzwerk und versuchen Sie es erneut.",
+      "exportDone": "Export abgeschlossen",
+      "exportFailed": "Audioexport fehlgeschlagen",
+      "filePickerMp3": "MP3-Audio",
+      "filePickerWav": "WAV-Audio",
+      "defaultFileName": "audio"
+    },
+    "exportSummary": {
+      "title": "Zusammenfassung exportieren",
+      "exportAs": "Exportieren als",
+      "export": "Exportieren",
+      "noContent": "Kein Zusammenfassungsinhalt",
+      "exporting": "Zusammenfassung wird exportiert...",
+      "exportDone": "Export abgeschlossen",
+      "exportFailed": "Export der Zusammenfassung fehlgeschlagen",
+      "defaultFileName": "Zusammenfassung",
+      "filePickerDesc": "Datei exportieren"
+    },
+    "exportMindMap": {
+      "title": "Mindmap exportieren",
+      "exportAs": "Exportieren als",
+      "export": "Exportieren",
+      "noContent": "Kein Mindmap-Inhalt",
+      "exporting": "Mindmap wird exportiert...",
+      "exportDone": "Export abgeschlossen",
+      "exportFailed": "Export der Mindmap fehlgeschlagen",
+      "defaultFileName": "Mindmap",
+      "filePickerDesc": "Datei exportieren"
+    },
+    "exportTranscription": {
+      "title": "Transkript exportieren",
+      "exportAs": "Exportieren als",
+      "export": "Exportieren",
+      "include": "Enthalten",
+      "timestamp": "Zeitstempel",
+      "speaker": "Sprecher",
+      "speakerLine": "Sprecher {id}",
+      "noContent": "Kein Transkriptinhalt",
+      "exporting": "Transkript wird exportiert...",
+      "exportDone": "Export abgeschlossen",
+      "exportFailed": "Export des Transkripts fehlgeschlagen",
+      "defaultFileName": "Transkript",
+      "filePickerDesc": "Datei exportieren"
+    },
+    "feedback": {
+      "title": "Erzählen Sie uns mehr",
+      "subtitle": "Ihr Feedback ist wertvoll. Wir verbessern uns weiterhin anhand Ihrer Vorschläge.",
+      "placeholderOther": "Sonstiges: Was sollten wir verbessern?",
+      "agreeShare": "Ich stimme zu, mein Transkript mit dem BOYA Notra-Team zu teilen",
+      "send": "Senden",
+      "tag1": "Wichtige Informationen fehlen",
+      "tag2": "Eigennamen sollten nicht übersetzt werden",
+      "tag3": "Jedes Segment ist zu lang",
+      "tag4": "Redundanter Inhalt"
+    },
+    "generateMethod": {
+      "title": "Erstellungsmethode wählen",
+      "autoName": "Automatisch",
+      "autoDesc": "Erstellt automatisch das passendste Transkript und die Zusammenfassung ohne manuelle Einstellungen.",
+      "customName": "Benutzerdefiniert",
+      "summaryTemplate": "Zusammenfassungsvorlage",
+      "aiModel": "KI-Modell",
+      "transcriptLanguage": "Transkriptionssprache",
+      "distinguishSpeakers": "Sprecher unterscheiden",
+      "generateNow": "Jetzt erstellen",
+      "auto": "Auto",
+      "defaultTemplateName": "Sitzungsprotokoll",
+      "zhCNFallback": "Chinesisch (vereinfacht)"
+    },
+    "shareLink": {
+      "title": "Link teilen",
+      "tip": "Der Link ist 7 Tage gültig. Jeder mit dem Link kann vor Ablauf darauf zugreifen.",
+      "copyLink": "Link kopieren",
+      "optionAudio": "Aufnahme-Audio",
+      "optionSummary": "Zusammenfassung",
+      "optionMindmap": "Mindmap",
+      "optionTranscription": "Transkript",
+      "atLeastOne": "Mindestens ein Element auswählen",
+      "loginFirst": "Bitte melden Sie sich zuerst an",
+      "missingTranscribeId": "Transkript-ID fehlt",
+      "linkCopied": "Link in die Zwischenablage kopiert",
+      "noLink": "Kein Freigabelink zurückgegeben",
+      "createFailed": "Freigabelink konnte nicht erstellt werden"
+    },
+    "summaryTemplate": {
+      "title": "Zusammenfassungsvorlagen",
+      "create": "Erstellen",
+      "noTemplates": "Keine Vorlagen",
+      "customTitle": "Benutzerdefinierte Vorlage",
+      "templateName": "Vorlagenname",
+      "prompt": "Prompt",
+      "placeholderName": "Vorlagenname eingeben",
+      "placeholderPrompt": "Prompt eingeben",
+      "previewTitle": "Vorlage",
+      "overview": "Übersicht",
+      "recordingLanguage": "Aufnahmesprache",
+      "aiModel": "KI-Modell",
+      "distinguishSpeakers": "Sprecher unterscheiden",
+      "generateNow": "Jetzt erstellen",
+      "auto": "Auto",
+      "zhCNFallback": "Chinesisch (vereinfacht)",
+      "enterName": "Bitte geben Sie einen Vorlagennamen ein",
+      "enterPrompt": "Bitte geben Sie einen Prompt ein",
+      "createSuccess": "Erfolgreich erstellt",
+      "createFailed": "Erstellung fehlgeschlagen"
+    },
+    "translate": {
+      "title": "Übersetzen in",
+      "searchPlaceholder": "Sprachen suchen"
+    }
+  }
+}

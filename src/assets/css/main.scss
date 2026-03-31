@@ -1,0 +1,269 @@
+@import '@/assets/css/sprite.css';
+
+:root {
+  --color-button-text: #ffffff;
+  --color-bg-primary: #ffffff;
+  --color-toc-bg: #ffffff;
+  --color-text-primary: #1a1a1a;
+  --color-text-tertiary: #909399;
+  --color-divider: #ebeef5;
+  --color-primary: #0075ff;
+  --color-transcription-play-btn-bg: rgba(0, 117, 255, 0.08);
+  --border-radius-2xl: 16px;
+  --spacing-5xl: 20px;
+  /** 通用弹窗内边距：顶略紧、左右 20px、底略紧；顶距可改为 10px 更贴顶 */
+  --spacing-modal-padding-y-tight: 12px;
+  --spacing-modal-padding-x: 20px;
+  --spacing-modal-padding-bottom: 16px;
+  --color-modal-shadow: rgba(0, 0, 0, 0.15);
+}
+
+/**
+ * 全局样式：重置、#app 与 body 高度/字体、表单继承、通用 flex/pointer 工具类。
+ */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#app {
+  font-family: PingFang SC, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  @extend .flex;
+  align-items: center;
+}
+
+.flex-vertical {
+  @extend .flex-center;
+  justify-content: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%
+}
+
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+// 隐藏滚动条
+.hide-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// 弹窗全局关闭按钮
+.el-dialog .el-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/** 通用弹窗外壳（命名发言人等）：固定尺寸与设计变量 */
+.common-modal.el-dialog {
+  display: flex;
+  flex-direction: column;
+  width: 600px !important;
+  max-width: 90vw;
+  height: min(850px, 90vh);
+  max-height: 90vh;
+  padding: var(--spacing-modal-padding-y-tight) var(--spacing-modal-padding-x)
+    var(--spacing-modal-padding-bottom);
+  box-sizing: border-box;
+  background-color: var(--color-bg-primary, #ffffff);
+  border-radius: var(--border-radius-2xl);
+  box-shadow: 0 4px 20px var(--color-modal-shadow, rgba(0, 0, 0, 0.15));
+  overflow: hidden;
+}
+
+.common-modal.el-dialog .el-dialog__header {
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.common-modal.el-dialog .el-dialog__body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+  margin-top: 0;
+}
+
+.common-modal.el-dialog .el-dialog__footer {
+  flex-shrink: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.common-modal.el-dialog .speaker-segments {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  max-height: none !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+/** 通用弹窗底部与主/次按钮（命名发言人等）：底部一行两钮均分铺满宽度 */
+.el-dialog__footer:has(> .common-modal-footer) {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0 !important;
+}
+
+.common-modal-footer {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+
+.common-modal-secondary-button.el-button {
+  flex: 1;
+  min-width: 0 !important;
+  width: auto !important;
+  height: 50px;
+  padding: 0 !important;
+  border-radius: 6px;
+  background-color: transparent !important;
+  border: 1px solid #979797 !important;
+  font-family:
+    PingFang SC,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000 !important;
+  cursor: pointer;
+  transition:
+    opacity 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.common-modal-secondary-button.el-button:hover,
+.common-modal-secondary-button.el-button:focus {
+  color: #000000 !important;
+  border-color: #979797 !important;
+  background-color: transparent !important;
+}
+
+.common-modal-button.el-button {
+  flex: 1;
+  min-width: 0 !important;
+  width: auto !important;
+  height: 50px;
+  padding: 0 !important;
+  border-radius: 6px;
+  background-color: #0075ff !important;
+  border: none !important;
+  font-family:
+    PingFang SC,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff !important;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.common-modal-button.el-button:hover,
+.common-modal-button.el-button:focus {
+  background-color: #0075ff !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+/* BlockNote 格式化工具栏：防止换行，避免 B 加粗等按钮跳到下一行 */
+/* Mantine Group 默认 wrap，需强制 nowrap */
+.bn-toolbar,
+.bn-toolbar .mantine-Group-root,
+.bn-toolbar .mantine-Flex-root,
+.bn-toolbar [class*="Group"],
+.bn-toolbar [class*="Flex"] {
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
+}
+
+.bn-toolbar {
+  min-width: max-content !important;
+  overflow-x: auto !important;
+}

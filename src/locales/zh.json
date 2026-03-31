@@ -1,0 +1,1503 @@
+{
+  "file": {
+    "fileNameNotEmpty": "文件名不能为空",
+    "askAIDelete": "清除成功"
+  },
+  "subscriptionTips": {
+    "title": "升级以解锁所有功能",
+    "viewAllPlans": "查看所有套餐"
+  },
+  "bindingDevice": {
+    "title": "绑定您的设备, 开始高效记录",
+    "existingDevice": {
+      "title": "已有设备?",
+      "description": "扫码下载App, 绑定设备, 马上使用"
+    },
+    "noDevice": {
+      "title": "没有设备?",
+      "description": "了解并选购设备, 畅享全部功能"
+    },
+    "upgradeTitle": "升级以解锁所有功能",
+    "professional": {
+      "feature1": "1400mins转写/月",
+      "feature2": "无限云存储空间",
+      "feature3": "转写语言100+",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "还有更多"
+    },
+    "master": {
+      "feature1": "无限转写时长",
+      "feature2": "无限云存储空间",
+      "feature3": "转写语言140+",
+      "feature4": "ChatGPT、Gemini、Claude、Grok",
+      "feature5": "还有更多"
+    },
+    "viewAllPlans": "查看所有套餐",
+    "planCards": {
+      "professional": {
+        "name": "专业版",
+        "feature1": "1280mins转写/月",
+        "feature2": "无限云存储空间",
+        "feature3": "转写语言100+",
+        "feature4": "导出文件7种格式",
+        "feature5": "还有更多"
+      },
+      "master": {
+        "name": "大师版",
+        "badge": "最受欢迎",
+        "feature1": "无限转写时长",
+        "feature2": "无限云存储空间",
+        "feature3": "转写语言140+",
+        "feature4": "导出文件7种格式",
+        "feature5": "还有更多"
+      },
+      "subscribe": "订阅",
+      "perYear": "/年",
+      "buyNowArrow": "立即购买 →"
+    }
+  },
+  "dialogs": {
+    "audioEditor": {
+      "cropTitle": "裁剪：保留选中区域的音频",
+      "cropAlt": "裁剪",
+      "deleteAlt": "删除",
+      "pauseAlt": "暂停",
+      "playAlt": "播放",
+      "zoomOutAlt": "缩小",
+      "zoomInAlt": "放大",
+      "loadingText": "音频加载中...({progress}%)",
+      "loadingHint": "您可以使用剪辑和删除来编辑音频",
+      "saveAsNewTitle": "另存为新文件",
+      "saveHintEdited": "音频已被编辑。是否另存为新文件？<br />未保存的更改将会丢失。",
+      "saveHintPlain": "是否另存为新文件？<br />未保存的更改将会丢失。",
+      "fileNameLabel": "文件名",
+      "processingCut": "正在剪辑...",
+      "preparing": "正在准备...",
+      "uploadCredential": "获取上传凭证...",
+      "uploading": "上传中...",
+      "uploadSuccess": "音频已上传至云端",
+      "uploadFailed": "上传失败",
+      "processFailed": "音频处理失败: {msg}",
+      "selectRegionFirst": "请先选择要保留的音频区域",
+      "ffmpegNotReady": "FFmpeg 未加载完成，请稍后重试",
+      "loginFirst": "请先登录",
+      "networkError": "网络错误",
+      "audioLoadFailed": "音频加载失败"
+    },
+    "exportAudio": {
+      "title": "导出音频",
+      "exportAs": "导出为",
+      "export": "导出",
+      "noAudio": "暂无音频",
+      "exporting": "导出音频中...",
+      "downloadUrlFailed": "获取下载链接失败",
+      "fetchAudioFailed": "获取音频文件失败，请检查网络或重试",
+      "exportDone": "导出完成",
+      "exportFailed": "导出音频失败",
+      "filePickerMp3": "MP3 音频",
+      "filePickerWav": "WAV 音频",
+      "defaultFileName": "audio"
+    },
+    "exportSummary": {
+      "title": "导出总结",
+      "exportAs": "导出为",
+      "export": "导出",
+      "noContent": "暂无纪要内容",
+      "exporting": "导出总结中...",
+      "exportDone": "导出完成",
+      "exportFailed": "导出总结失败",
+      "defaultFileName": "纪要",
+      "filePickerDesc": "导出文件"
+    },
+    "exportMindMap": {
+      "title": "导出思维导图",
+      "exportAs": "导出为",
+      "export": "导出",
+      "noContent": "暂无思维导图内容",
+      "exporting": "导出思维导图中...",
+      "exportDone": "导出完成",
+      "exportFailed": "导出思维导图失败",
+      "defaultFileName": "思维导图",
+      "filePickerDesc": "导出文件"
+    },
+    "exportTranscription": {
+      "title": "导出转写",
+      "exportAs": "导出为",
+      "export": "导出",
+      "include": "包含",
+      "timestamp": "时间戳",
+      "speaker": "发言人",
+      "speakerLine": "发言人{id}",
+      "noContent": "暂无转写内容",
+      "exporting": "导出转写中...",
+      "exportDone": "导出完成",
+      "exportFailed": "导出转写失败",
+      "defaultFileName": "转写",
+      "filePickerDesc": "导出文件"
+    },
+    "feedback": {
+      "title": "告诉我们更多",
+      "subtitle": "您的反馈非常宝贵，我们将继续根据您的建议进行优化和迭代。",
+      "placeholderOther": "其他：需要改进什么？",
+      "agreeShare": "我同意将我的转写分享给BOYA Notra团队",
+      "send": "发送",
+      "tag1": "丢失关键信息",
+      "tag2": "专有名词不应翻译",
+      "tag3": "每段内容过长",
+      "tag4": "内容冗余"
+    },
+    "generateMethod": {
+      "title": "选择生成方式",
+      "autoName": "自动生成",
+      "autoDesc": "自动生成最匹配的转写与纪要,无需手动设置",
+      "customName": "自定义生成",
+      "summaryTemplate": "纪要模板",
+      "aiModel": "AI模型",
+      "transcriptLanguage": "转写语言",
+      "distinguishSpeakers": "区分发言人",
+      "generateNow": "立即生成",
+      "auto": "自动",
+      "defaultTemplateName": "会议纪要",
+      "zhCNFallback": "中文 (简体)"
+    },
+    "shareLink": {
+      "title": "分享链接",
+      "tip": "链接分享有效期为7天，失效前，任何获得链接的人都可以访问",
+      "copyLink": "复制链接",
+      "optionAudio": "录音音频",
+      "optionSummary": "总结",
+      "optionMindmap": "思维导图",
+      "optionTranscription": "转写",
+      "atLeastOne": "至少需要选择一项",
+      "loginFirst": "请先登录",
+      "missingTranscribeId": "缺少转写ID",
+      "linkCopied": "链接已复制到剪贴板",
+      "noLink": "未获取到分享链接",
+      "createFailed": "创建分享链接失败"
+    },
+    "summaryTemplate": {
+      "title": "纪要模板",
+      "create": "创建",
+      "noTemplates": "暂无模板",
+      "customTitle": "自定义模板",
+      "templateName": "模板名称",
+      "prompt": "提示词",
+      "placeholderName": "请输入模板名称",
+      "placeholderPrompt": "请输入提示词",
+      "previewTitle": "模板",
+      "overview": "概览",
+      "recordingLanguage": "录音语言",
+      "aiModel": "AI模型",
+      "distinguishSpeakers": "区分发言人",
+      "generateNow": "立即生成",
+      "auto": "自动",
+      "zhCNFallback": "中文 (简体)",
+      "enterName": "请输入模板名称",
+      "enterPrompt": "请输入提示词",
+      "createSuccess": "创建成功",
+      "createFailed": "创建失败"
+    },
+    "translate": {
+      "title": "翻译为",
+      "searchPlaceholder": "搜索语言"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "noData": "暂无数据",
+    "copySuccess": "已复制到剪贴板",
+    "copyFailed": "复制失败",
+    "close": "关闭",
+    "select": "请选择",
+    "aiReply": "AI回复",
+    "aiReplyFile": "AI回复.txt",
+    "showDirectory": "显示目录",
+    "hideDirectory": "隐藏目录",
+    "deleteImage": "删除图片",
+    "closePreview": "关闭预览",
+    "audioLoadError": "音频加载失败",
+    "audioLoadAborted": "音频加载被中止",
+    "audioNetworkError": "网络错误，无法加载音频",
+    "audioDecodeError": "音频解码失败",
+    "audioFormatError": "不支持的音频格式",
+    "audioLoadErrorWithCode": "音频加载失败 (错误代码: {code})",
+    "crop": "裁剪",
+    "moreActions": "更多操作",
+    "cancel": "取消",
+    "saveAs": "另存为",
+    "delete": "删除",
+    "play": "播放",
+    "pause": "暂停",
+    "zoom": "缩放",
+    "zoomIn": "放大",
+    "zoomOut": "缩小",
+    "confirm": "确定",
+    "save": "保存",
+    "edit": "编辑",
+    "copy": "复制",
+    "praise": "表扬",
+    "criticize": "批评"
+  },
+  "share": {
+    "adText": "了解并选购设备,畅享全部功能",
+    "buyNow": "立即购买",
+    "createLinkSuccess": "分享链接创建成功",
+    "createLinkFailed": "创建分享链接失败",
+    "loadContentFailed": "加载分享内容失败",
+    "linkExpired": "分享链接已过期",
+    "loading": "加载中...",
+    "userInfoMissing": "用户信息缺失，请重新登录",
+    "fileInfoMissing": "文件信息缺失",
+    "noShareTypesSelected": "请至少选择一种分享类型",
+    "shareIdMissing": "分享ID缺失",
+    "defaultTitle": "分享内容",
+    "brand": "BOYA Notra",
+    "tabAudio": "录音",
+    "tabTranscription": "转写",
+    "tabSummary": "纪要",
+    "tabMindmap": "导图",
+    "dateTime": "日期和时间",
+    "location": "地点",
+    "participants": "与会人员",
+    "fullSummary": "全文摘要",
+    "chapterOverview": "章节速览",
+    "todoItems": "待办事项",
+    "locationPlaceholder": "【输入地点】",
+    "participantsPlaceholder": "【XXX】",
+    "expireAt": "有效期至 {time}",
+    "accessLimit": "剩余可访问次数：{n}",
+    "noContent": "暂无内容",
+    "invalidOrExpired": "链接无效或已失效",
+    "reachLimit": "访问次数已达上限",
+    "speaker": "发言人",
+    "editSpeaker": "编辑发言人",
+    "speakerNamePlaceholder": "发言人名称",
+    "applyToCurrent": "应用到当前段落",
+    "applyToAll": "应用到这个发言者的所有段落",
+    "loginFirstToSave": "请先登录后再保存",
+    "saveSuccess": "已保存",
+    "saveFailed": "保存失败"
+  },
+  "layout": {
+    "header": {
+      "showSidebar": "显示一级导航",
+      "hideSidebar": "隐藏一级导航",
+      "showSecondaryNav": "显示文件列表",
+      "hideSecondaryNav": "隐藏文件列表",
+      "allFiles": "全部文件",
+      "updateTime": "更新时间",
+      "sortOptions": {
+        "creationTime": "创建时间",
+        "updateTime": "更新时间",
+        "recentlyOpened": "最近打开"
+      }
+    },
+    "sidebar": {
+      "search": "搜索",
+      "allFiles": "全部文件",
+      "uncategorized": "未分类",
+      "recycleBin": "回收站",
+      "folders": "文件夹",
+      "folderName": "文件夹名称",
+      "addFolder": "新建文件夹",
+      "createFolder": {
+        "title": "创建新文件夹",
+        "nameLabel": "名称",
+        "namePlaceholder": "请输入",
+        "colorLabel": "颜色",
+        "iconLabel": "图标",
+        "iconSelectorTitle": "选择图标",
+        "createButton": "创建",
+        "success": "文件夹创建成功",
+        "error": "文件夹创建失败",
+        "nameRequired": "请输入文件夹名称",
+        "nameTooLong": "文件名字过长",
+        "userNotLoggedIn": "用户未登录，请先登录"
+      },
+      "editFolder": {
+        "title": "编辑文件夹",
+        "nameLabel": "名称",
+        "namePlaceholder": "请输入",
+        "colorLabel": "颜色",
+        "iconLabel": "图标",
+        "saveButton": "保存",
+        "deleteButton": "删除",
+        "saveSuccess": "文件夹已更新",
+        "saveError": "文件夹更新失败",
+        "nameTooLong": "文件名字过长",
+        "deleteSuccess": "文件夹已删除",
+        "deleteError": "文件夹删除失败",
+        "deleteConfirm": {
+          "title": "删除文件夹",
+          "message": "删除文件夹也会删除其中的所有文件。",
+          "question": "您确定要删除吗?",
+          "confirmButton": "删除",
+          "cancelButton": "取消"
+        }
+      },
+      "sources": "来自",
+      "import": "导入",
+      "callRecording": "通话录音",
+      "envRecording": "环境录音",
+      "headphoneRecording": "耳机录音",
+      "help": "帮助与客服",
+      "settings": "设置",
+      "importAudio": "导入音频",
+      "searchModal": {
+        "inputPlaceholder": "请输入",
+        "searchHistory": "搜索历史",
+        "recentBrowsing": "最近浏览",
+        "noResults": "暂无搜索结果",
+        "searching": "搜索中...",
+        "searchFailed": "搜索失败",
+        "deleteHistory": "删除搜索历史",
+        "deleteHistoryTitle": "删除搜索历史",
+        "deleteHistoryMessage": "确认删除全部搜索历史?",
+        "historyDeleted": "搜索历史已删除",
+        "clear": "清除",
+        "cancel": "取消",
+        "delete": "删除",
+        "close": "关闭",
+        "matchSource": {
+          "transcription": "转写文本",
+          "title": "标题",
+          "summary": "总结内容",
+          "mindmap": "思维导图"
+        }
+      },
+      "importAudioModal": {
+        "title": "导入音频",
+        "clickToUpload": "点击上传文件",
+        "or": "或者",
+        "dragFiles": "拖入文件",
+        "supportedFormats": "支持MP3、AAC、PCM、WAV、MP4、M4V、MOV、OGG、M4A格式",
+        "status": {
+          "uploading": "正在上传",
+          "transcoding": "正在转码",
+          "success": "导入成功",
+          "error": "导入失败"
+        },
+        "errors": {
+          "maxFilesExceeded": "最多只能同时上传5个文件",
+          "unsupportedFormat": "文件格式不支持",
+          "durationExceeded": "请上传少于5小时的音频",
+          "networkError": "网络异常",
+          "fileSizeExceeded": "文件大小超过限制",
+          "uploadFailed": "上传失败",
+          "serverError": "服务器错误，请稍后重试"
+        }
+      },
+      "askAI": "Ask AI",
+      "professional": "专业版",
+      "usage": "已用{used}/{total}分钟",
+      "usageUnlimited": "已用{used}分钟/无限时长"
+    },
+    "mainContent": {
+      "welcome": "欢迎来到BOYA Notra Web",
+      "tabs": {
+        "transcription": "转写",
+        "summary": "纪要",
+        "mindMap": "导图"
+      },
+      "transcription": {
+        "noTranscription": "暂无转写",
+        "willShowAfterGeneration": "转写将在生成后显示在此处",
+        "noTranscribableContent": "未检测到可转写内容",
+        "checkAudioFile": "请检查音频文件",
+        "noAudioFile": "该文件没有音频文件",
+        "noAudioFileDesc": "无法播放音频或生成转写",
+        "play": "播放",
+        "pause": "暂停",
+        "playSegment": "播放片段",
+        "rewind15s": "快退15秒",
+        "forward15s": "快进15秒",
+        "playbackRate": "播放速度",
+        "crop": "剪辑",
+        "generate": "生成",
+        "generating": "生成中...",
+        "generateNow": "立即生成",
+        "generateFailed": "生成转写失败，请重试",
+        "generatingView": {
+          "loading": "生成中...",
+          "hint": "请稍候，正在为您生成内容"
+        },
+        "errors": {
+          "userNotLoggedIn": "用户未登录",
+          "fileUrlEmpty": "文件 URL 不能为空",
+          "fileFetchFailed": "获取文件失败",
+          "languageCodeEmpty": "语言代码不能为空",
+          "fileDurationInvalid": "文件时长无效: {duration}秒，请确保音频文件已正确加载",
+          "modelConfigInvalid": "模型配置无效: platform={platform}, model={model}",
+          "modelNotFound": "未找到对应的模型",
+          "downloadUrlMissing": "文件缺少有效的下载 URL，无法进行批量转写。请确保文件已正确上传。",
+          "pollingFailed": "转写任务失败，请稍后重试",
+          "saveFailed": "保存失败，请重试"
+        },
+        "saveSuccess": "保存成功",
+        "paragraphEmpty": "段落内容不能为空",
+        "selectGenerateMethod": "选择生成方式",
+        "generateMethod": {
+          "auto": "自动生成",
+          "autoDescription": "自动生成最匹配的转写与纪要,无需手动设置",
+          "custom": "自定义生成",
+          "summaryTemplate": "纪要模板",
+          "aiModel": "AI模型",
+          "transcriptionLanguage": "转写语言",
+          "differentiateSpeakers": "区分发言人",
+          "recordingDesensitization": "录音脱敏",
+          "meetingSummary": "会议纪要",
+          "automatic": "自动",
+          "chineseSimplifiedMandarin": "中文简体—普通话",
+          "modelDisplayName": {
+            "Auto": "自动"
+          },
+          "aiModelOptions": {
+            "auto": "自动",
+            "gpt5": "GPT-5",
+            "gpt41": "GPT-4.1",
+            "grok4": "Grok 4",
+            "claudeSonnet4": "Claude Sonnet 4",
+            "deepseekChat": "Deepseek chat",
+            "doubao": "Doubao"
+          }
+        },
+        "summaryTemplate": {
+          "categories": {
+            "custom": "自定义",
+            "recentlyUsed": "最近使用",
+            "general": "通用",
+            "meeting": "会议",
+            "speech": "演讲",
+            "call": "通话",
+            "interview": "面试/采访",
+            "medical": "医疗",
+            "sales": "销售",
+            "consultation": "咨询",
+            "education": "教育",
+            "architecture": "建筑",
+            "it": "IT行业"
+          },
+          "templates": {
+            "meetingMinutes": "会议纪要",
+            "classNotes": "课堂笔记"
+          },
+          "create": "创建",
+          "lastUsed": "上次使用",
+          "loading": "加载中...",
+          "loadError": "加载模板分类失败",
+          "noTemplates": "该分类下暂无模板",
+          "customTemplate": {
+            "title": "自定义模板",
+            "templateName": "模板名称",
+            "templateNamePlaceholder": "请输入模板名称",
+            "prompt": "提示词",
+            "promptPlaceholder": "请输入提示词",
+            "save": "保存",
+            "saveSuccess": "模板保存成功",
+            "saveFailed": "模板保存失败",
+            "userInfoMissing": "用户信息不存在，无法保存模板"
+          },
+          "preview": {
+            "overview": "概览",
+            "taskLabel": "定义助理的任务",
+            "elementsLabel": "会议纪要的构成要素包括",
+            "constraintsLabel": "纪要编写的约束条件包括",
+            "meeting_minutes": {
+              "title": "会议纪要",
+              "task": "从会议音频转写中提取指定构成要素,并按约束条件生成简洁会议纪要。",
+              "elements": [
+                "会议名称与日期时间",
+                "出席者",
+                "议题",
+                "讨论内容",
+                "决议事项",
+                "未决事项",
+                "以及注明负责人、内容、期限的下一步行动与其他特别事项。"
+              ],
+              "constraints": [
+                "使用清晰的项目符号",
+                "全文不超过800字",
+                "使用敬体",
+                "聚焦重要要点",
+                "避免情绪化",
+                "仅记录客观事实。"
+              ],
+              "elements[0]": "会议名称与日期时间",
+              "elements[1]": "出席者",
+              "elements[2]": "议题",
+              "elements[3]": "讨论内容",
+              "elements[4]": "决议事项",
+              "elements[5]": "未决事项",
+              "elements[6]": "以及注明负责人、内容、期限的下一步行动与其他特别事项。",
+              "constraints[0]": "使用清晰的项目符号",
+              "constraints[1]": "全文不超过800字",
+              "constraints[2]": "使用敬体",
+              "constraints[3]": "聚焦重要要点",
+              "constraints[4]": "避免情绪化",
+              "constraints[5]": "仅记录客观事实。"
+            }
+          }
+        },
+        "markdownViewer": {
+          "feedbackModal": {
+            "title": "告诉我们更多",
+            "subtitle": "您的反馈非常宝贵,我们将继续根据您的建议进行优化和迭代。",
+            "feedback": {
+              "submitSuccess": "反馈提交成功",
+              "submitFailed": "提交反馈失败，请稍后重试"
+            },
+            "categories": {
+              "missingKeyInfo": "丢失关键信息",
+              "properNouns": "专有名词不应翻译",
+              "paragraphTooLong": "每段内容过长",
+              "redundantContent": "内容冗余"
+            },
+            "otherPlaceholder": "其他:需要改进什么?",
+            "agreeToShare": "我同意将我的转写分享给BOYA Notra团队",
+            "send": "发送"
+          },
+          "summaryVersionConflict": {
+            "title": "总结编辑冲突",
+            "message": "检测到版本冲突，后台内容已被其他操作更新。请选择保存方式：",
+            "localVersion": "本地版本",
+            "serverVersion": "后台版本",
+            "saveLocal": "保存本地",
+            "saveServer": "保存后台"
+          }
+        },
+        "audioLoading": "音频加载中...({progress}%)",
+        "cropHint": "您可以使用剪辑和删除来编辑音频",
+        "audioCropProcessing": "正在剪辑...",
+        "audioDeleteProcessing": "正在删除...",
+        "audioDeleteFailed": "删除音频片段失败，请重试",
+        "audioCropFailed": "剪辑音频失败，请重试",
+        "saveAsNewFile": "另存为新文件",
+        "audioEdited": "音频已被编辑。是否另存为新文件？",
+        "unsavedChanges": "未保存的更改将会丢失。",
+        "fileName": "文件名",
+        "save": "保存",
+        "saveAsSuccess": "文件已保存到本地",
+        "saveAsFailed": "保存文件失败，请重试",
+        "uploading": "正在上传",
+        "uploadSuccess": "文件上传成功",
+        "uploadError": {
+          "userNotLoggedIn": "用户未登录，请先登录",
+          "failed": "文件上传失败"
+        }
+      },
+      "summary": {
+        "noSummary": "暂无纪要",
+        "willShowAfterGeneration": "纪要将在生成后显示在此处"
+      },
+      "mindMap": {
+        "noMindmap": "暂无导图",
+        "willShowAfterGeneration": "导图将在生成后显示在此处"
+      }
+    },
+    "headerRight": {
+      "share": "分享",
+      "more": "更多",
+      "shareMenu": {
+        "shareLink": "分享链接",
+        "copyTranscribe": "复制转写",
+        "copySummary": "复制纪要",
+        "copying": "复制中…",
+        "copySuccess": "已复制到剪切板",
+        "copyFailed": "复制失败，请重试",
+        "exportAudio": "导出音频",
+        "exportTranscribe": "导出转写",
+        "exportSummary": "导出总结",
+        "exportMindMap": "导出思维导图",
+        "speaker": "发言人",
+        "keywords": "关键词",
+        "errors": {
+          "fileObjectRequired": "文件对象不能为空",
+          "fileIdRequired": "文件ID不能为空",
+          "transcriptionDataEmpty": "转写数据为空",
+          "summaryDataEmpty": "纪要数据为空",
+          "transcriptionTextEmpty": "转写文本为空",
+          "summaryTextEmpty": "纪要文本为空",
+          "mindMapDataEmpty": "思维导图数据为空",
+          "mindMapDataInvalid": "思维导图数据格式无效",
+          "mindMapElementNotFound": "思维导图元素未找到",
+          "mindMapTextEmpty": "思维导图文本为空",
+          "mindMapTabNotActive": "请先切换到\"导图\"标签页",
+          "imageConversionFailed": "图片转换失败",
+          "fileNotGenerated": "文件未生成"
+        }
+      },
+      "exportModal": {
+        "title": "导出",
+        "exportAs": "导出为",
+        "include": "包含",
+        "export": "导出",
+        "exporting": "正在导出...",
+        "audio": {
+          "title": "导出音频"
+        },
+        "transcribe": {
+          "title": "导出转写"
+        },
+        "summary": {
+          "title": "导出总结"
+        },
+        "mindMap": {
+          "title": "导出思维导图"
+        },
+        "formats": {
+          "mp3": "MP3",
+          "wav": "WAV",
+          "txt": "TXT",
+          "srt": "SRT",
+          "docx": "DOCX",
+          "pdf": "PDF",
+          "markdown": "Markdown",
+          "jpeg": "JPEG"
+        },
+        "includes": {
+          "timestamp": "时间戳",
+          "speaker": "发言人"
+        },
+        "errors": {
+          "invalidFileType": "文件类型无效",
+          "missingFileKey": "文件缺少必要的标识信息",
+          "failedToGetDownloadUrl": "获取下载地址失败",
+          "failedToDownload": "下载文件失败",
+          "exportFailed": "导出失败，请重试",
+          "notImplemented": "该导出功能暂未实现",
+          "canvasRenderFailed": "PDF 渲染失败，内容为空"
+        },
+        "exportSuccess": "导出成功"
+      },
+      "shareLinkModal": {
+        "title": "分享链接",
+        "audio": "录音音频",
+        "summary": "总结",
+        "mindMap": "思维导图",
+        "transcribe": "转写",
+        "copyLink": "复制链接",
+        "info": "链接分享有效期为7天,失效前,任何获得链接的人都可以访问",
+        "copySuccess": "已复制到剪切板",
+        "copyFailed": "复制失败，请重试",
+        "atLeastOneRequired": "分享链接至少需要选择一项"
+      },
+      "moreMenu": {
+        "moveToFolder": "移动到文件夹",
+        "regenerate": "重新生成",
+        "nameSpeaker": "命名发言人",
+        "translate": "翻译",
+        "findAndReplace": "查找和替换",
+        "moveToRecycleBin": "移至回收站"
+      },
+      "keywordAdd": "添加",
+      "speakerNameDialog": {
+        "title": "命名发言人",
+        "speakerNamePlaceholder": "发言人名称",
+        "duration": "时长",
+        "totalDuration": "总时长",
+        "noSpeakerData": "暂无发言人数据"
+      },
+      "editSpeakerDialog": {
+        "title": "编辑发言人"
+      },
+      "messages": {
+        "selectFileFirst": "请先选择文件",
+        "noTranscriptionContent": "暂无转写内容",
+        "noSummaryContent": "暂无纪要内容",
+        "noAudio": "暂无音频",
+        "noMindmapContent": "暂无思维导图内容",
+        "templateMemberMismatch": "模版模型与会员等级不匹配",
+        "transcriptionFailed": "转写失败",
+        "queryTranscriptionFailed": "查询转写结果失败",
+        "fastTranscribeFailed": "快速转写失败",
+        "feedbackSubmitSuccess": "反馈提交成功",
+        "showL2Nav": "显示文件列表"
+      },
+      "keywordsLabel": "关键词：",
+      "keywordJoiner": "、",
+      "translate": {
+        "loading": "正在翻译...",
+        "success": "翻译成功",
+        "error": {
+          "userNotLoggedIn": "用户未登录",
+          "fileNotGenerated": "文件未生成，无法翻译",
+          "noResult": "翻译结果为空",
+          "failed": "翻译失败，请重试"
+        }
+      },
+      "findAndReplaceModal": {
+        "title": "查找和替换",
+        "find": "查找",
+        "replaceWith": "替换为",
+        "searchPlaceholder": "输入要查找的文本",
+        "replacePlaceholder": "输入替换文本",
+        "previousMatch": "上一个匹配项",
+        "nextMatch": "下一个匹配项",
+        "replace": "替换",
+        "replaceAll": "全部替换",
+        "replaceSuccess": "替换完成",
+        "replaceAllSuccess": "全部替换完成",
+        "replaceError": "替换失败，请重试"
+      },
+      "nameSpeakerModal": {
+        "title": "命名发言人",
+        "save": "保存",
+        "cancel": "取消",
+        "speakerPlaceholder": "请输入发言人名称",
+        "totalDuration": "总时长",
+        "noSpeakers": "暂无发言人数据",
+        "loading": "正在加载转写数据...",
+        "noSegments": "没有转写片段",
+        "loadError": "加载转写数据失败，请重试",
+        "saveSuccess": "保存成功",
+        "speakerNameEmpty": "发言人名称不能为空"
+      },
+      "speakerEditBox": {
+        "title": "编辑发言人",
+        "applyToCurrentParagraph": "应用到当前段落",
+        "applyToAllParagraphs": "应用到这个发言者到所有段落",
+        "save": "保存"
+      },
+      "translateModal": {
+        "title": "翻译为",
+        "searchPlaceholder": "搜索语言",
+        "clear": "清空",
+        "noResults": "未找到匹配的语言",
+        "exit": "退出"
+      }
+    },
+    "askAI": {
+      "deleteConfirm": {
+        "title": "确认永久删除记录吗？",
+        "subtitle": "此记录将被永久删除，且无法恢复。",
+        "confirm": "删除",
+        "cancel": "取消"
+      },
+      "clearConfirm": {
+        "title": "清除所有对话记录？",
+        "message": "所有记录将会被永久清空且无法恢复。确认要继续吗？",
+        "confirm": "删除",
+        "cancel": "取消"
+      },
+      "greeting": "嗨，{name}。",
+      "subtitle": "今天我能帮您做点什么呢?",
+      "inputPlaceholder": "向AI提问...",
+      "followUpPlaceholder": "追问...",
+      "reading": "正在阅读...",
+      "responses": {
+        "greeting": "您好！我是您的 AI 助手，很高兴为您服务。我可以帮助您解答问题、提供建议或协助您完成各种任务。有什么我可以帮您的吗？",
+        "help": "我可以为您提供以下帮助：\n\n1. 回答问题：我可以回答各种知识性问题\n2. 文本处理：帮助您编辑、总结或翻译文本\n3. 创意建议：提供创意想法和建议\n4. 技术支持：解答技术相关问题\n\n请告诉我您需要什么帮助？",
+        "features": "我的主要功能包括：\n\n• 智能问答：回答各种问题\n• 文本分析：分析、总结和提取关键信息\n• 内容生成：生成文章、摘要等\n• 多语言支持：支持多种语言的交流\n• 上下文理解：理解对话上下文，提供连贯回复\n\n您想了解哪个功能的详细信息？",
+        "default": "根据您的问题\"{question}\"，我为您整理了以下内容：\n\n这是一个示例回复，展示了 AI 回复的格式。在实际应用中，我会根据您的具体问题提供更详细和准确的回答。\n\n如果您还有其他问题，欢迎继续提问。我会尽力为您提供帮助。"
+      },
+      "moreMenu": {
+        "insertSummary": "插入总结",
+        "concise": "更简洁",
+        "detailed": "更详细",
+        "useful": "有用",
+        "useless": "无用"
+      },
+      "actions": {
+        "copySuccess": "已复制在剪贴版",
+        "copyFailed": "复制失败",
+        "shareFailed": "分享失败",
+        "exporting": "导出中",
+        "exportFailed": "导出失败",
+        "insertSuccess": "插入成功",
+        "feedbackThanks": "感谢你的反馈"
+      },
+      "suggestedQuestions": {
+        "title": "继续提问",
+        "more": "更多...",
+        "collapse": "收起"
+      },
+      "quickActions": {
+        "insights": "获取洞察",
+        "todo": "生成待办",
+        "email": "写邮件",
+        "summary": "总结重点"
+      },
+      "sidebarSuggestedQuestions": {
+        "question1": "除了华盛项目,还有哪些项目在进行中?",
+        "question2": "是否有其他沟通方式比邮件更有效?",
+        "question3": "设备参数调整的具体中间位置如何确定?",
+        "question4": "项目进度如何跟踪和管理?",
+        "question5": "团队协作的最佳实践是什么?",
+        "question6": "如何提高工作效率?"
+      },
+      "error": {
+        "userInfoMissing": "用户信息不存在，无法发送消息",
+        "fileInfoMissing": "文件信息不存在，无法发送消息",
+        "requestFailed": "请求失败，请稍后重试",
+        "networkError": "网络错误，请检查网络连接后重试"
+      }
+    },
+    "secondaryNav": {
+      "recordingFile": "录音文件",
+      "contextMenu": {
+        "select": "选择",
+        "rename": "重命名",
+        "move": "移动",
+        "moveToRecycleBin": "移至回收站",
+        "restore": "恢复",
+        "permanentDelete": "永久删除"
+      },
+      "selection": {
+        "selected": "已选择",
+        "done": "完成",
+        "merge": "合并",
+        "moveToFolder": "移至文件夹",
+        "delete": "删除",
+        "restore": "恢复",
+        "permanentDelete": "永久删除"
+      },
+      "merge": {
+        "mergeFile": "合并文件",
+        "merging": "正在合并",
+        "mergeSuccess": "合并成功",
+        "view": "查看",
+        "onlyTwoFiles": "合并操作仅支持选择2个音频文件",
+        "mergeProgress": "正在合并({progress}%)"
+      },
+      "move": {
+        "moveSuccess": "将 {fileName} 移动到了 {folderName}",
+        "alreadyInFolder": "{fileName} 已经在 {folderName} 中，不需要移动",
+        "etc": "等"
+      },
+      "rename": {
+        "renameSuccess": "重命名成功",
+        "renameFailed": "重命名失败，请稍后重试"
+      },
+      "delete": {
+        "deleteSuccess": "已完成，可随时从回收站还原"
+      },
+      "restore": {
+        "restoreSuccess": "{fileName}已恢复",
+        "restoreFailed": "恢复失败，请稍后重试"
+      },
+      "permanentDelete": {
+        "confirmTitle": "确认永久删除文件?",
+        "confirmMessage": "此文件将被永久删除, 且无法恢复。",
+        "confirmButton": "删除",
+        "cancelButton": "取消",
+        "deleteSuccess": "{fileName}文件已删除"
+      }
+    },
+    "membership": {
+      "title": "会员中心",
+      "memberType": {
+        "notMember": "不是会员",
+        "trial": "体验会员",
+        "monthly": "包月会员",
+        "annual": "包年会员",
+        "masterMonthly": "大师版包月会员",
+        "masterAnnual": "大师版包年会员"
+      },
+      "currentSubscription": {
+        "title": "当前订阅",
+        "professional": "专业版",
+        "usage": "已用{used}/{total}分钟",
+        "usageUnlimited": "已用{used}分钟/无限时长",
+        "expiration": "到期: {date}",
+        "details": "详情"
+      },
+      "subscriptionPlans": {
+        "title": "选择最适合你的方案",
+        "monthly": "月订阅",
+        "annual": "年订阅",
+        "month": "月",
+        "year": "年",
+        "includes": "包括：",
+        "mostPopular": "最受欢迎",
+        "currentPlan": "当前方案",
+        "unavailable": "不可订阅",
+        "upgrade": "升级",
+        "switch": "切换",
+        "pendingPlan": "即将生效的会员",
+        "pendingPlanTip": "当前购买会员的订阅周期结束后，下一个订阅周期将生效新会员套餐。",
+        "pendingPlanAlreadyTip": "您已有即将生效的套餐，当前周期结束后生效。",
+        "switchScheduledTip": "已预约下一周期生效，当前订阅周期结束后将自动切换为新套餐。",
+        "loading": "加载中...",
+        "explorer": {
+          "name": "探索版",
+          "button": "免费",
+          "features": {
+            "transcription": "{value}mins转写/月",
+            "storage": "无限云存储空间",
+            "languages": "转写语言{value}+",
+            "speaker": "区分说话人",
+            "multimodal": "多模态输入",
+            "tagging": "一键标记",
+            "editing": "文本编辑",
+            "import": "音频导入",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "translation": "纪要翻译",
+            "mindmap": "思维导图",
+            "export": "导出文件{value}种格式",
+            "templates": "专业模板{value}款"
+          }
+        },
+        "professional": {
+          "name": "专业版",
+          "button": "订阅",
+          "features": {
+            "transcription": "{value}mins转写/月",
+            "storage": "无限云存储空间",
+            "languages": "转写语言{value}+",
+            "speaker": "区分说话人",
+            "multimodal": "多模态输入",
+            "tagging": "一键标记",
+            "editing": "文本编辑",
+            "import": "音频导入",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "通义千问",
+            "translation": "纪要翻译",
+            "mindmap": "思维导图",
+            "export": "导出文件{value}种格式",
+            "templates": "专业模板{value}款",
+            "customTemplates": "自定义模板",
+            "askAI": "ASK AI"
+          }
+        },
+        "master": {
+          "name": "大师版",
+          "button": "订阅",
+          "features": {
+            "transcription": "无限转写时长",
+            "storage": "无限云存储空间",
+            "languages": "转写语言{value}+",
+            "speaker": "区分说话人",
+            "multimodal": "多模态输入",
+            "tagging": "一键标记",
+            "editing": "文本编辑",
+            "import": "音频导入",
+            "chatgpt": "ChatGPT",
+            "gemini": "Gemini",
+            "claude": "Claude",
+            "grok": "Grok",
+            "deepseek": "DeepSeek",
+            "doubao": "Doubao",
+            "tongyiQianwen": "通义千问",
+            "translation": "纪要翻译",
+            "mindmap": "思维导图",
+            "export": "导出文件{value}种格式",
+            "templates": "专业模板{value}+款",
+            "customTemplates": "自定义模板",
+            "askAI": "ASK AI"
+          }
+        }
+      },
+      "moreTranscriptionTime": {
+        "title": "更多转写时长",
+        "minutes": "分钟",
+        "perMinute": "分钟",
+        "buy": "购买"
+      },
+      "footer": {
+        "note": "*购买后立即生效,有效期一年",
+        "userAgreement": "用户协议",
+        "privacyPolicy": "隐私协议"
+      },
+      "payment": {
+        "orderInfo": "订单信息",
+        "annualSubscription": "连续包年",
+        "monthlySubscription": "连续包月",
+        "paymentMethod": "支付方式",
+        "bankCard": "银行卡",
+        "applePay": "Apple Pay",
+        "googlePay": "Google Pay",
+        "alipay": "支付宝",
+        "wechat": "微信",
+        "cardNumber": "卡号",
+        "cardNumberPlaceholder": "请输入",
+        "expiryDate": "有效期",
+        "securityCode": "安全码",
+        "country": "国家",
+        "selectCountry": "选择国家",
+        "cancel": "取消",
+        "pay": "支付",
+        "countries": {
+          "US": "美国",
+          "CN": "中国",
+          "GB": "英国",
+          "JP": "日本"
+        },
+        "error": {
+          "userNotLoggedIn": "请先登录",
+          "productIdRequired": "产品ID不能为空",
+          "regionDetecting": "正在检测区域信息，请稍候",
+          "createOrderFailed": "创建支付订单失败",
+          "pollingTimeout": "支付结果查询超时，请稍后查看订单状态",
+          "paymentFailed": "支付失败"
+        }
+      },
+      "paymentSuccess": {
+        "title": "恭喜你解锁大师版会员",
+        "titleProfessional": "恭喜你解锁专业版会员",
+        "benefitsTitle": "大师版权益包含",
+        "benefitsTitleProfessional": "专业版权益包含",
+        "benefits": {
+          "unlimitedTranscription": "无限转写",
+          "unlimitedStorage": "无限云存储空间",
+          "transcriptionLanguages": "转写语言140+",
+          "latestAIModels": "最新AI大模型:ChatGPT、Gemini、Claude、Grok",
+          "exportFormats": "导出文件7种格式",
+          "professionalTemplates": "专业模板60+款",
+          "customTemplates": "自定义模板",
+          "askAI": "ASK AI",
+          "more": "还有更多"
+        },
+        "enterApp": "进入 BOYA Notra",
+        "purchaseSuccess": "购买成功"
+      },
+      "paymentFailure": {
+        "title": "支付失败",
+        "subtitle": "请更换其他支付方式",
+        "returnToCheckout": "返回收银台"
+      }
+    },
+    "settings": {
+      "title": "设置",
+      "profile": "个人资料",
+      "accountSecurity": "账号与安全",
+      "accountSafety": {
+        "loginMethods": {
+          "title": "登录方式",
+          "email": "邮箱",
+          "phone": "手机号",
+          "changePassword": "更改密码",
+          "wechat": "微信",
+          "add": "添加",
+          "remove": "移除",
+          "verify": "验证",
+          "notBound": "未绑定",
+          "alreadyRegistered": "账号已被注册",
+          "Registered": "此账号已被注册。如果您希望将其关联至当前账号，请注销或移除账号后重试。",
+          "loginMethodWarning": "账号至少支持一个登录方式，如果想修改登录方式，请先添加1个其他登录方式。",
+            "thirdAccountTypes": {
+              "google": "Google",
+              "apple": "Apple",
+              "wechat": "微信"
+            }
+        },
+        "devices": {
+          "title": "登录设备",
+          "device": "设备",
+          "loginMethod": "登录方式",
+          "lastActiveTime": "上次活跃时间",
+          "operation": "操作",
+          "currentDevice": "当前设备",
+          "loggedIn": "登录中",
+          "delete": "删除",
+          "fetchFailed": "获取设备列表失败",
+          "noDevices": "暂无设备",
+          "unknownDevice": "未知设备",
+          "unknown": "未知",
+          "deleteSuccess": "设备已下线",
+          "deleteFailed": "删除设备失败",
+          "deleteConfirm": {
+            "title": "删除设备",
+            "message": "确定要删除设备\"{deviceName}\"吗？",
+            "messageDefault": "确定要删除该设备吗？",
+            "confirm": "确定",
+            "cancel": "取消"
+          }
+        },
+        "logout": "退出登录",
+        "changeEmail": {
+          "confirmTitle": "注意",
+          "confirmQuestion": "是否要更换邮箱?",
+          "currentEmail": "当前绑定邮箱为{email}",
+          "change": "更换",
+          "verifyTitle": "账号验证",
+          "verifyOldEmailText": "为了保证您的账号安全,需验证你的身份,已向邮箱 {email}发送验证码",
+          "changeTitle": "变更邮箱",
+          "enterNewEmail": "请输入新邮箱",
+          "codeSent": "验证码已发送",
+          "success": "邮箱修改成功",
+          "cancel": "取消",
+          "confirm": "确定"
+        },
+        "changePhone": {
+          "confirmTitle": "注意",
+          "confirmQuestion": "是否要更换手机号?",
+          "currentPhone": "当前绑定手机号为{phone}",
+          "change": "更换",
+          "verifyTitle": "账号验证",
+          "verifyOldPhoneText": "为了保证您的账号安全,需验证你的身份,已向手机号 {phone}发送验证码",
+          "changeTitle": "变更手机号",
+          "enterNewPhone": "请输入新手机号",
+          "codeSent": "验证码已发送",
+          "success": "手机号修改成功",
+          "cancel": "取消",
+          "confirm": "确定"
+        },
+        "resetPassword": {
+          "title": "重置密码",
+          "message": "请先进行身份验证后重置密码,是否要继续重置?",
+          "cancel": "取消",
+          "confirm": "确定"
+        },
+        "logoutConfirm": {
+          "title": "退出登录",
+          "message": "确认退出吗？\n退出时请确认所有文件已完成上传、转写、同步，否则可能会造成数据丢失。",
+          "cancel": "取消",
+          "confirm": "退出"
+        },
+        "bindThirdAccountSuccess": "{type} 账号绑定成功",
+        "bindThirdAccountError": {
+          "userNotLoggedIn": "用户未登录，无法绑定第三方账号",
+          "failed": "绑定失败，请稍后重试",
+          "invalidType": "不支持的第三方账号类型",
+          "googleAuthFailed": "Google 授权失败，请重试",
+          "appleAuthFailed": "Apple 授权失败，请重试",
+          "wechatAuthFailed": "微信授权失败，请重试",
+          "authCancelled": "已取消授权"
+        },
+        "unbindThirdAccountSuccess": "{type} 账号解绑成功",
+        "unbindThirdAccountError": {
+          "userNotLoggedIn": "用户未登录，无法解绑第三方账号",
+          "failed": "解绑失败，请稍后重试"
+        },
+        "unbindThirdAccountConfirm": {
+          "title": "确定解绑？",
+          "message": "确定要解除{type}账号的绑定吗？",
+          "messageDefault": "确定要解除该账号的绑定吗？",
+          "confirm": "确定",
+          "cancel": "取消"
+        }
+      },
+      "general": "通用",
+      "membership": "会员",
+      "membershipContent": {
+        "currentPlan": "当前方案",
+        "cancelSubscription": "取消订阅",
+        "transcriptionDuration": "转写时长",
+        "remaining": "剩余{remaining}分钟 (共{total}分钟)",
+        "remainingUnlimited": "剩余{remaining}分钟 (无限时长)",
+        "unlimitedDuration": "无限时长",
+        "startEndDate": "开始/到期日期: {start}~{end}",
+        "nextResetDate": "下次重置日期: {date}",
+        "nextPaymentDate": "下次付款日期: {date}",
+        "purchaseHistory": "购买记录",
+        "purchaseHistorySwipeHint": "上下滑动切换页面",
+        "transcriptionHistory": "转写记录",
+        "purchaseHistoryTable": {
+          "product": "商品",
+          "paymentTime": "支付时间",
+          "actualPayment": "实付款"
+        },
+        "purchaseHistoryData": {
+          "professionalMonthly": "专业版-月订阅",
+          "transcription300": "300分钟转写时长"
+        },
+        "transcriptionHistoryTable": {
+          "product": "商品",
+          "transcriptionTime": "转写时间",
+          "consumedQuota": "消耗额度"
+        },
+        "transcriptionHistoryData": {
+          "aiSummary": "AI 总结",
+          "realTimeTranscription": "实时转写",
+          "minutes": "分钟",
+          "seconds": "秒"
+        },
+        "transcriptionHistoryLoading": "加载中...",
+        "transcriptionHistoryEmpty": "暂无转写记录",
+        "transcriptionHistoryError": "加载转写记录失败",
+        "transcriptionHistoryLoadComplete": "已加载全部数据",
+        "purchaseHistoryLoadComplete": "已加载全部数据",
+        "purchaseHistoryError": "加载购买记录失败",
+        "cancelSubscriptionSuccess": "取消订阅成功",
+        "cancelSubscriptionError": {
+          "userNotLoggedIn": "用户未登录",
+          "failed": "取消订阅失败，请稍后重试"
+        },
+        "cancelSubscriptionDescription1": "您的订阅将在结算周期结束当天({date})取消,我们不会再向您收取费用。",
+        "cancelSubscriptionDescription2": "在该日期之后,您将无法再享受BOYA Notra提供的以下福利:",
+        "cancelSubscriptionBenefits": {
+          "transcription140": "140mins转写/月",
+          "unlimitedStorage": "无限云存储空间",
+          "languages100": "转写语言100+",
+          "latestAIModels": "最新AI大模型:ChatGPT、Gemini、Claude、Grok",
+          "exportFormats": "导出文件7种格式",
+          "professionalTemplates": "专业模板20款",
+          "customTemplates": "自定义模板",
+          "askAI": "ASK AI"
+        },
+        "cancelSubscriptionReasonPlaceholder": "请选择取消订阅的原因",
+        "cancelSubscriptionReasons": {
+          "price": "价格太贵",
+          "notUsing": "不常使用",
+          "foundAlternative": "找到了替代方案",
+          "tooExpensive": "费用过高",
+          "other": "其他原因"
+        },
+        "keepSubscription": "保留订阅"
+      },
+      "helpFeedbackTitle": "帮助与反馈",
+      "about": "关于",
+      "aboutContent": {
+        "socialMedia": "社交媒体",
+        "officialWebsite": "官方网站",
+        "x": "X",
+        "facebook": "Facebook",
+        "youtube": "YouTube",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "discord": "Discord",
+        "legalPrivacy": "法律与隐私",
+        "userAgreement": "用户协议",
+        "privacyPolicy": "隐私政策",
+        "cookiePolicy": "cookie 政策",
+        "cookieSettings": "cookie 设置",
+        "cookieSettingsContent": {
+          "categories": {
+            "necessary": "必要",
+            "necessaryDesc": "对网站的运作至关重要,始终启动。",
+            "functional": "功能",
+            "functionalDesc": "用于记忆偏好选择并提供增强功能。",
+            "analytics": "分析",
+            "analyticsDesc": "用于衡量使用情况和改善你的体验。",
+            "marketing": "市场推广",
+            "marketingDesc": "用于定向广告。"
+          }
+        }
+      },
+      "nickname": "昵称",
+      "nicknamePlaceholder": "请输入昵称",
+      "nicknameMaxBytesExceeded": "昵称不能超过50字节",
+      "editAvatar": "编辑头像",
+      "displayLanguage": "显示语言",
+      "selectLanguage": "请选择语言",
+      "languages": {
+        "zhCN": "简体中文",
+        "zhTW": "繁體中文（台灣）",
+        "zhHK": "繁體中文（香港）",
+        "enUS": "English",
+        "de": "Deutsch",
+        "fr": "Français",
+        "ja": "日本語",
+        "es": "Español",
+        "it": "Italiano",
+        "ru": "Русский"
+      },
+      "helpFeedback": {
+        "suggestionsFeedback": "建议反馈",
+        "submitFeedback": "提交反馈",
+        "contactUs": "联系我们",
+        "operatingHours": "周一到周日 9:00-12:00,13:00-18:30 (GMT+8)",
+        "whatsapp": "WhatsApp",
+        "email": "邮件",
+        "onlineService": "在线客服",
+        "phone": "电话",
+        "copy": "复制",
+        "copySuccess": "复制成功",
+        "copyFailed": "复制失败",
+        "emailCopyFallback": "已复制邮箱地址，请手动打开邮件客户端发送",
+        "commonQuestions": "常见问题",
+        "feedbackModal": {
+          "title": "建议反馈",
+          "description": "描述",
+          "descriptionPlaceholder": "请告诉我们您的建议，最少输入10个字",
+          "images": "图片",
+          "submit": "提交",
+          "submitSuccess": "提交成功",
+          "submitSuccessMessage": "感谢您的反馈",
+          "descriptionMinLengthError": "描述至少需要输入10个字"
+        },
+        "questions": {
+          "bindDevice": "如何绑定设备?",
+          "startRecording": "如何开始录音?",
+          "generateTranscription": "如何生成转写?",
+          "generateSummary": "如何生成总结?",
+          "allQuestions": "全部问题"
+        }
+      }
+    }
+  },
+  "richTextToolbar": {
+    "bold": "加粗",
+    "italic": "斜体",
+    "underline": "下划线",
+    "strikethrough": "删除线",
+    "code": "代码块",
+    "link": "链接",
+    "linkInputPlaceholder": "粘贴或输入链接",
+    "confirm": "确认",
+    "textStyle": {
+      "bodyText": "正文",
+      "heading1": "标题1",
+      "heading2": "标题2",
+      "heading3": "标题3",
+      "heading4": "标题4",
+      "bulletList": "项目列表",
+      "numberedList": "列表编号",
+      "todoList": "待办事项列表",
+      "quote": "引用",
+      "codeBlock": "代码块"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "登录BOYA Notra",
+      "phoneNumber": "请输入手机号",
+      "email": "请输入邮箱",
+      "verificationCode": "请输入验证码",
+      "password": "请输入密码",
+      "getCode": "发送",
+      "codeSentCountdown": "已发送",
+      "resend": "重新发送",
+      "showPassword": "显示密码",
+      "hidePassword": "隐藏密码",
+      "loginBackground": "登录背景",
+      "submit": "登录",
+      "register": "注册",
+      "forgotPassword": "忘记密码？",
+      "passwordLogin": "密码登录",
+      "verificationCodeLogin": "验证码登录",
+      "google": "Google账号登录",
+      "apple": "Apple ID登录",
+      "wechat": "微信登录",
+      "or": "或",
+      "autoRegister": "未注册手机号登录后自动注册",
+      "autoRegisterEmail": "未注册邮箱登录后自动注册",
+      "agreement": "点击登录即同意《用户协议》和《隐私协议》",
+      "agreementPrefix": "点击登录即同意",
+      "userAgreement": "《用户协议》",
+      "agreementAnd": "和",
+      "privacyPolicy": "《隐私协议》",
+      "backToLogin": "返回登录",
+      "setPassword": "设置密码",
+      "registerSuccess": "注册成功，请设置密码",
+      "loading": "登录中...",
+      "wechatQRCodeTitle": "微信扫码登录",
+      "wechatQRCodeTip": "请使用微信扫描二维码登录",
+      "wechatQRCodeHint": "扫码后请在手机上确认登录"
+    },
+    "setPassword": {
+      "title": "设置密码",
+      "hint": "请设置新密码，8-20位密码，至少包括英文字母、数字，特殊符号中的2种",
+      "confirm": "确定"
+    },
+    "register": {
+      "title": "注册BOYA Notra",
+      "phoneNumber": "请输入手机号",
+      "email": "请输入邮箱",
+      "verificationCode": "请输入验证码",
+      "password": "请设置密码",
+      "confirmPassword": "请确认密码",
+      "getCode": "获取验证码",
+      "submit": "注册",
+      "backToLogin": "已有账号？返回登录"
+    },
+    "forgotPassword": {
+      "title": "忘记密码",
+      "hint1China": "请使用已注册手机号进行身份验证，验证后可修改密码",
+      "hint1NonChina": "请使用已注册邮箱进行身份验证，验证后可修改密码",
+      "hint1": "请使用已注册手机号/邮箱进行身份验证，验证后可修改密码",
+      "hint2": "新密码为8-20位，至少包括英文字母、数字、特殊符号中的2种",
+      "phoneOrEmail": "请输入手机号或邮箱",
+      "phoneOrEmailChina": "请输入手机号",
+      "phoneOrEmailNonChina": "请输入邮箱",
+      "email": "请输入邮箱",
+      "verificationCode": "请输入验证码",
+      "newPassword": "请输入密码",
+      "confirmPassword": "再次输入密码",
+      "getCode": "获取验证码",
+      "submit": "重置密码",
+      "confirm": "确定",
+      "backToLogin": "取消"
+    },
+    "changePassword": {
+      "title": "修改密码",
+      "hint1China": "请使用已注册手机号进行身份验证，验证后可修改密码",
+      "hint1NonChina": "请使用已注册邮箱进行身份验证，验证后可修改密码",
+      "hint1": "请进行身份验证后重置密码",
+      "hint2": "新密码为8-20位，至少包括英文字母、数字、特殊符号中的2种",
+      "phoneOrEmail": "请输入手机号或邮箱",
+      "phoneOrEmailChina": "请输入手机号",
+      "phoneOrEmailNonChina": "请输入邮箱",
+      "newPassword": "请输入密码",
+      "confirmPassword": "再次输入密码",
+      "confirm": "确定",
+      "backToSettings": "取消"
+    },
+    "errors": {
+      "phoneRequired": "请输入手机号",
+      "phoneInvalid": "手机号格式不正确",
+      "emailRequired": "请输入邮箱",
+      "emailInvalid": "邮箱格式不正确",
+      "codeRequired": "请输入验证码",
+      "codeInvalid": "验证码为6位数字",
+      "codeExpired": "验证码已过期，请重新获取",
+      "codeIncorrect": "验证码错误",
+      "codeMismatch": "验证码不正确，请重新输入",
+      "passwordRequired": "请输入密码",
+      "passwordTooShort": "密码长度需在8-20位之间",
+      "passwordFormatInvalid": "密码需包含8-20位，至少包括英文字母、数字，特殊符号中的2种",
+      "passwordMismatch": "两次输入的密码不一致",
+      "passwordResetFailed": "密码重置失败，请重试",
+      "networkError": "网络错误，请稍后重试",
+      "sendCodeFailed": "验证码发送失败，请重试",
+      "codeSendFailed": "验证码发送失败，请重试",
+      "loginFailed": "登录失败，请检查账号和密码",
+      "phonePasswordError": "手机号或密码错误",
+      "emailPasswordError": "邮箱或密码错误",
+      "phoneNotRegistered": "手机号未注册，请使用验证码登录",
+      "emailNotRegistered": "邮箱未注册，请使用验证码登录",
+      "thirdPartyNotImplemented": "第三方登录功能正在开发中，请稍后再试",
+      "wechatAuthFailed": "微信授权失败，请重试",
+      "wechatQRCodeExpired": "二维码已过期，请重新扫描",
+      "wechatAuthCancelled": "已取消微信授权",
+      "googleAuthFailed": "Google 授权失败，请重试",
+      "googleAuthCancelled": "已取消 Google 授权",
+      "googleAuthRejected": "用户拒绝授权或授权失败",
+      "googleStateValidationFailed": "State 验证失败，可能存在安全风险",
+      "googlePopupClosed": "用户取消了登录",
+      "googlePopupBlocked": "弹窗被浏览器阻止，请允许弹窗后重试",
+      "googleAccountExistsWithDifferentCredential": "该邮箱已被其他登录方式使用，请使用原登录方式登录",
+      "googleLoginFailed": "Google 登录失败",
+      "firebaseConfigMissing": "缺少必需的配置项",
+      "firebaseConfigMissingHint": "请在 .env 文件中配置 Firebase 相关环境变量",
+      "wechatSDKNotLoaded": "微信登录 SDK 未加载，请检查网络连接",
+      "wechatAppIdNotConfigured": "微信 AppID 未配置，请在环境变量中设置 VITE_WECHAT_APPID",
+      "appleAuthFailed": "Apple 授权失败，请重试",
+      "appleAuthCancelled": "已取消 Apple 授权",
+      "appleSDKNotLoaded": "Apple SDK 未加载，请确保已引入 Apple JS SDK",
+      "appleClientIdNotConfigured": "Apple Client ID 未配置，请在环境变量中设置 VITE_APPLE_CLIENT_ID",
+      "appleSDKInitFailed": "Apple SDK 初始化失败",
+      "appleSDKLoadTimeout": "Apple SDK 加载超时，请刷新页面重试",
+      "appleSignInFailed": "Apple 登录失败",
+      "appleRedirectFailed": "跳转 Apple 授权失败",
+      "appleAuthRejected": "用户拒绝授权或授权失败",
+      "appleStateValidationFailed": "State 验证失败，可能存在安全风险",
+      "setPasswordFailed": "设置密码失败，请重试",
+      "sessionExpired": "会话已过期，请重新登录",
+      "tokenMissing": "认证信息缺失，请重新登录",
+      "userIdMissing": "用户 ID 缺失",
+      "updateNicknameFailed": "昵称设置失败",
+      "uploadAvatarFailed": "头像上传失败",
+      "invalidImageFile": "请选择图片文件",
+      "imageFileTooLarge": "图片文件过大，请选择小于 5MB 的图片"
+    },
+    "success": {
+      "codeSent": "验证码已发送",
+      "loginSuccess": "登录成功",
+      "registerSuccess": "注册成功",
+      "passwordReset": "密码重置成功",
+      "passwordSet": "密码设置成功",
+      "passwordChanged": "密码修改成功",
+      "logoutSuccess": "退出成功",
+      "nicknameUpdated": "昵称设置成功",
+      "avatarUpdated": "头像上传成功"
+    }
+  }
+}
